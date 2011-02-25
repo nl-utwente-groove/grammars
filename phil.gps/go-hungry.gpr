@@ -1,21 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="go-hungry">
         <attr name="remark">
             <string>Changes a philosopher from thinking to hungry</string>
         </attr>
-        <node id="n0"/>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new:hungry</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>90 84 16 14</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
+        </node>
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>del:think</string>
             </attr>
+            <attr name="layout">
+                <string>500 0 104 93 172 118 172 70 104 93 12</string>
+            </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:hungry</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 104 93 43 120 40 74 104 93 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>Phil</string>
             </attr>

@@ -1,217 +1,303 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n16"/>
-        <node id="n15"/>
-        <node id="n10"/>
-        <node id="n6"/>
-        <node id="n8"/>
-        <node id="n19"/>
-        <node id="n2"/>
-        <node id="n7"/>
-        <node id="n9"/>
-        <node id="n13"/>
-        <node id="n1"/>
-        <node id="n17"/>
-        <node id="n18"/>
-        <node id="n12"/>
-        <node id="n4"/>
-        <node id="n5"/>
-        <node id="n14"/>
-        <node id="n11"/>
-        <node id="n3"/>
-        <node id="n0"/>
-        <edge from="n11" to="n17">
-            <attr name="label">
-                <string>val</string>
+    <graph edgemode="directed" edgeids="false" role="graph" id="append-3-list-7">
+        <node id="n2">
+            <attr name="layout">
+                <string>89 157 23 15</string>
             </attr>
-        </edge>
-        <edge from="n18" to="n14">
-            <attr name="label">
-                <string>next</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>728 216 14 15</string>
             </attr>
-        </edge>
-        <edge from="n18" to="n3">
-            <attr name="label">
-                <string>val</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>267 155 15 15</string>
             </attr>
-        </edge>
-        <edge from="n16" to="n16">
-            <attr name="label">
-                <string>1</string>
+        </node>
+        <node id="n19">
+            <attr name="layout">
+                <string>59 226 41 30</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n2">
-            <attr name="label">
-                <string>caller</string>
+        </node>
+        <node id="n15">
+            <attr name="layout">
+                <string>653 213 17 15</string>
             </attr>
-        </edge>
-        <edge from="n9" to="n5">
-            <attr name="label">
-                <string>x</string>
+        </node>
+        <node id="n12">
+            <attr name="layout">
+                <string>399 212 7 15</string>
             </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>11</string>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>456 154 15 15</string>
             </attr>
-        </edge>
-        <edge from="n19" to="n2">
-            <attr name="label">
-                <string>caller</string>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>561 211 14 15</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n4">
-            <attr name="label">
-                <string>next</string>
+        </node>
+        <node id="n16">
+            <attr name="layout">
+                <string>236 233 7 15</string>
             </attr>
-        </edge>
-        <edge from="n19" to="n19">
-            <attr name="label">
-                <string>control</string>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>153 235 7 15</string>
             </attr>
-        </edge>
-        <edge from="n8" to="n12">
-            <attr name="label">
-                <string>val</string>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>51 66 41 30</string>
             </attr>
-        </edge>
-        <edge from="n19" to="n6">
-            <attr name="label">
-                <string>x</string>
+        </node>
+        <node id="n13">
+            <attr name="layout">
+                <string>702 154 15 15</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n16">
-            <attr name="label">
-                <string>val</string>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>144 75 7 15</string>
             </attr>
-        </edge>
-        <edge from="n8" to="n11">
-            <attr name="label">
-                <string>next</string>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>195 66 41 30</string>
             </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>5</string>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>307 216 7 15</string>
             </attr>
-        </edge>
-        <edge from="n13" to="n0">
-            <attr name="label">
-                <string>val</string>
+        </node>
+        <node id="n18">
+            <attr name="layout">
+                <string>537 155 15 15</string>
             </attr>
-        </edge>
-        <edge from="n19" to="n19">
-            <attr name="label">
-                <string>append</string>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>184 157 15 15</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n1">
-            <attr name="label">
-                <string>this</string>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>367 156 15 15</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n5">
-            <attr name="label">
-                <string>x</string>
+        </node>
+        <node id="n17">
+            <attr name="layout">
+                <string>480 209 14 15</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n1">
-            <attr name="label">
-                <string>list</string>
+        </node>
+        <node id="n14">
+            <attr name="layout">
+                <string>623 153 15 15</string>
             </attr>
-        </edge>
-        <edge from="n9" to="n9">
+        </node>
+        <edge to="n19" from="n19">
             <attr name="label">
                 <string>append</string>
             </attr>
         </edge>
-        <edge from="n11" to="n18">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>control</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>append</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>4</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n10">
-            <attr name="label">
-                <string>val</string>
-            </attr>
-        </edge>
-        <edge from="n19" to="n1">
-            <attr name="label">
-                <string>this</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n1">
-            <attr name="label">
-                <string>this</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n8">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n12" to="n12">
-            <attr name="label">
-                <string>3</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n2">
-            <attr name="label">
-                <string>caller</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>control</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>15</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n10">
-            <attr name="label">
-                <string>2</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>root</string>
             </attr>
         </edge>
-        <edge from="n14" to="n13">
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>control</string>
+            </attr>
+        </edge>
+        <edge to="n14" from="n18">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n17" to="n17">
+        <edge to="n11" from="n8">
             <attr name="label">
-                <string>10</string>
+                <string>next</string>
             </attr>
         </edge>
-        <edge from="n14" to="n15">
+        <edge to="n15" from="n14">
             <attr name="label">
                 <string>val</string>
             </attr>
         </edge>
-        <edge from="n15" to="n15">
+        <edge to="n16" from="n1">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n10">
+            <attr name="label">
+                <string>2</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>15</string>
+            </attr>
+        </edge>
+        <edge to="n16" from="n16">
+            <attr name="label">
+                <string>1</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n8">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>5</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n12">
+            <attr name="label">
+                <string>3</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n7">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n9">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+            <attr name="layout">
+                <string>356 0 77 77 193 166 11</string>
+            </attr>
+        </edge>
+        <edge to="n19" from="n19">
+            <attr name="label">
+                <string>control</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>append</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n19">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n11">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n4">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n7">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+            <attr name="layout">
+                <string>330 -2 226 89 103 166 11</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n9">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n19">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>4</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n9">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>append</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n14">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n18" from="n11">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n18">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>11</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n4">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n19">
+            <attr name="label">
+                <string>this</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n2">
+            <attr name="label">
+                <string>list</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n17">
+            <attr name="label">
+                <string>10</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n7">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>control</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n13">
+            <attr name="label">
+                <string>val</string>
+            </attr>
+        </edge>
+        <edge to="n15" from="n15">
             <attr name="label">
                 <string>'-1'</string>
             </attr>

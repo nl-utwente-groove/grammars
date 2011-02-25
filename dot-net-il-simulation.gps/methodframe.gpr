@@ -1,138 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n8"/>
-        <node id="n1"/>
-        <node id="n6"/>
-        <node id="n4"/>
-        <node id="n2"/>
-        <node id="n5"/>
-        <node id="n0"/>
-        <node id="n3"/>
-        <node id="n7"/>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>MethodFrame</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="methodframe">
+        <node id="n6">
+            <attr name="layout">
+                <string>477 127 18 18</string>
             </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>MethodFrame</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>298 204 18 18</string>
             </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>Frame</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>434 290 18 18</string>
             </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>new:</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>301 289 18 18</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n6">
-            <attr name="label">
-                <string>directive</string>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>131 280 18 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>new:</string>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>273 135 18 18</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n7">
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>269 30 18 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>131 195 18 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>131 133 18 18</string>
+            </attr>
+        </node>
+        <edge to="n7" from="n7">
             <attr name="label">
                 <string>MethodBody</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n4">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>Stack</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>initLocals</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n0">
-            <attr name="label">
-                <string>top</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n2">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
+        <edge to="n5" from="n5">
             <attr name="label">
                 <string>MethodFrame</string>
             </attr>
         </edge>
-        <edge from="n3" to="n7">
+        <edge to="n6" from="n7">
             <attr name="label">
-                <string>executes</string>
+                <string>directive</string>
             </attr>
         </edge>
-        <edge from="n8" to="n7">
-            <attr name="label">
-                <string>executes</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
+        <edge to="n4" from="n4">
             <attr name="label">
                 <string>Stack</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n2" from="n8">
             <attr name="label">
-                <string>Cell</string>
+                <string>has</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>entrypoint</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n0">
-            <attr name="label">
-                <string>top</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
+        <edge to="n3" from="n3">
             <attr name="label">
                 <string>Frame</string>
             </attr>
         </edge>
-        <edge from="n1" to="n7">
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n8">
             <attr name="label">
                 <string>executes</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>top</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Stack</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n5">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n3">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>top</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n1">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>initLocals</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
             <attr name="label">
                 <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>Frame</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Frame</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>entrypoint</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>Frame</string>
             </attr>
         </edge>
     </graph>

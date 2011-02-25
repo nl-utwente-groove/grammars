@@ -1,61 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="kick">
         <attr name="priority">
             <string>5</string>
         </attr>
-        <node id="n1"/>
-        <node id="n3"/>
-        <node id="n2"/>
-        <node id="n0"/>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>not:myPawn</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
+            <attr name="layout">
+                <string>225 111 22 14</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Pawn</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>221 48 26 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n3">
-            <attr name="label">
-                <string>myPawn</string>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>119 115 30 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n1">
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>224 167 26 14</string>
+            </attr>
+        </node>
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>Player</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:done</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>del:kick</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n2">
+        <edge to="n2" from="n3">
             <attr name="label">
                 <string>at</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge to="n3" from="n1">
+            <attr name="label">
+                <string>myPawn</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>not:myPawn</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
             <attr name="label">
                 <string>Pawn</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
+        <edge to="n2" from="n0">
             <attr name="label">
                 <string>del:at</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>Field</string>
+                <string>del:kick</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 143 115 158 78 116 80 133 115 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:done</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 143 135 160 168 120 172 134 135 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Pawn</string>
             </attr>
         </edge>
     </graph>

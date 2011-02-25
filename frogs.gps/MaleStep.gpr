@@ -1,48 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n56"/>
-        <node id="n58"/>
-        <node id="n55"/>
-        <node id="n57"/>
-        <edge from="n56" to="n56">
+    <graph edgemode="directed" edgeids="false" role="rule" id="MaleStep">
+        <node id="n55">
+            <attr name="layout">
+                <string>21 133 18 18</string>
+            </attr>
+        </node>
+        <node id="n58">
+            <attr name="layout">
+                <string>112 135 18 18</string>
+            </attr>
+        </node>
+        <node id="n56">
+            <attr name="layout">
+                <string>19 55 18 18</string>
+            </attr>
+        </node>
+        <node id="n57">
+            <attr name="layout">
+                <string>117 59 18 18</string>
+            </attr>
+        </node>
+        <edge to="n58" from="n58">
             <attr name="label">
-                <string>Male</string>
+                <string>Stone</string>
             </attr>
         </edge>
-        <edge from="n56" to="n58">
+        <edge to="n55" from="n55">
             <attr name="label">
-                <string>new:on</string>
+                <string>Stone</string>
             </attr>
         </edge>
-        <edge from="n56" to="n55">
+        <edge to="n57" from="n57">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n55" from="n56">
             <attr name="label">
                 <string>del:on</string>
             </attr>
         </edge>
-        <edge from="n58" to="n58">
+        <edge to="n58" from="n56">
             <attr name="label">
-                <string>Stone</string>
+                <string>new:on</string>
             </attr>
         </edge>
-        <edge from="n55" to="n58">
+        <edge to="n56" from="n56">
+            <attr name="label">
+                <string>Male</string>
+            </attr>
+        </edge>
+        <edge to="n58" from="n55">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n55" to="n55">
-            <attr name="label">
-                <string>Stone</string>
-            </attr>
-        </edge>
-        <edge from="n57" to="n58">
+        <edge to="n58" from="n57">
             <attr name="label">
                 <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n57" to="n57">
-            <attr name="label">
-                <string>not:</string>
             </attr>
         </edge>
     </graph>

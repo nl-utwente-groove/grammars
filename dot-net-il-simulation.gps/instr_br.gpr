@@ -1,53 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n1"/>
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n3"/>
-        <edge from="n1" to="n3">
+    <graph edgemode="directed" edgeids="false" role="rule" id="instr_br">
+        <node id="n2">
+            <attr name="layout">
+                <string>235 250 69 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>402 206 39 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>27 166 86 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>234 161 69 32</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n1">
             <attr name="label">
                 <string>del:ip</string>
             </attr>
         </edge>
-        <edge from="n3" to="n0">
-            <attr name="label">
-                <string>target</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>Label</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>new:ip</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n0">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
+        <edge to="n3" from="n3">
             <attr name="label">
                 <string>br</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n1">
+            <attr name="label">
+                <string>new:ip</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n3">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>Instruction</string>
             </attr>
         </edge>
     </graph>

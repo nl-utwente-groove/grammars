@@ -1,24 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="Leader" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="Leader">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0"/>
-        <node id="n1"/>
-        <edge from="n1" to="n0">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>178 163 37 14</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>180 62 33 14</string>
+            </attr>
+        </node>
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>leader</string>
+                <string>Leader</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>Process</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n0" from="n1">
             <attr name="label">
-                <string>Leader</string>
+                <string>leader</string>
             </attr>
         </edge>
     </graph>

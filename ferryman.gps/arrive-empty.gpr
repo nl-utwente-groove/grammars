@@ -1,35 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n329"/>
-        <node id="n331"/>
-        <node id="n330"/>
-        <edge from="n331" to="n331">
-            <attr name="label">
-                <string>not:</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="arrive-empty">
+        <node id="n330">
+            <attr name="layout">
+                <string>131 87 18 18</string>
             </attr>
-        </edge>
-        <edge from="n330" to="n329">
-            <attr name="label">
-                <string>del:go</string>
+        </node>
+        <node id="n331">
+            <attr name="layout">
+                <string>36 84 18 18</string>
             </attr>
-        </edge>
-        <edge from="n330" to="n330">
-            <attr name="label">
-                <string>boat</string>
+        </node>
+        <node id="n329">
+            <attr name="layout">
+                <string>185 184 18 18</string>
             </attr>
-        </edge>
-        <edge from="n330" to="n329">
+        </node>
+        <edge to="n329" from="n330">
             <attr name="label">
                 <string>new:moored</string>
             </attr>
+            <attr name="layout">
+                <string>282 -35 147 96 222 127 203 193 12</string>
+            </attr>
         </edge>
-        <edge from="n329" to="n329">
+        <edge to="n329" from="n329">
             <attr name="label">
                 <string>bank</string>
             </attr>
         </edge>
-        <edge from="n331" to="n330">
+        <edge to="n331" from="n331">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n329" from="n330">
+            <attr name="label">
+                <string>del:go</string>
+            </attr>
+        </edge>
+        <edge to="n330" from="n330">
+            <attr name="label">
+                <string>boat</string>
+            </attr>
+        </edge>
+        <edge to="n330" from="n331">
             <attr name="label">
                 <string>in</string>
             </attr>

@@ -1,24 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="next" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="next">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n16937"/>
-        <node id="n16938"/>
-        <edge from="n16938" to="n16938">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16938">
+            <attr name="layout">
+                <string>142 97 15 15</string>
+            </attr>
+        </node>
+        <node id="n16937">
+            <attr name="layout">
+                <string>235 96 15 15</string>
+            </attr>
+        </node>
+        <edge to="n16937" from="n16938">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n16938" from="n16938">
             <attr name="label">
                 <string>del:current</string>
             </attr>
+            <attr name="layout">
+                <string>1549 -12 153 97 163 75 134 74 146 97 12</string>
+            </attr>
         </edge>
-        <edge from="n16937" to="n16937">
+        <edge to="n16937" from="n16937">
             <attr name="label">
                 <string>new:current</string>
             </attr>
-        </edge>
-        <edge from="n16938" to="n16937">
-            <attr name="label">
-                <string>next</string>
+            <attr name="layout">
+                <string>1368 26 239 96 230 74 262 76 249 96 12</string>
             </attr>
         </edge>
     </graph>

@@ -1,35 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="return">
         <attr name="remark">
             <string>Ends an append invocation and returns control to caller</string>
         </attr>
-        <node id="n2"/>
-        <node id="n1"/>
-        <node id="n0"/>
-        <edge from="n0" to="n2">
-            <attr name="label">
-                <string>return</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
+            <attr name="layout">
+                <string>96 54 18 18</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>187 135 53 50</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>82 144 18 18</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>append</string>
             </attr>
         </edge>
-        <edge from="n1" to="n2">
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n1">
             <attr name="label">
                 <string>new:return</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n2" from="n0">
             <attr name="label">
-                <string>del:</string>
+                <string>return</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>caller</string>
+                <string>del:</string>
             </attr>
         </edge>
     </graph>

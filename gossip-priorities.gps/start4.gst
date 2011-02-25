@@ -1,72 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n1"/>
-        <node id="n3"/>
-        <node id="n6"/>
-        <node id="n2"/>
-        <node id="n4"/>
-        <node id="n5"/>
-        <node id="n7"/>
-        <node id="n0"/>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>Girl</string>
+    <graph edgemode="directed" edgeids="false" role="graph" id="start4">
+        <node id="n6">
+            <attr name="layout">
+                <string>73 154 15 14</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Girl</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>270 156 15 14</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Girl</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>136 155 15 14</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n5">
-            <attr name="label">
-                <string>knows</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>131 234 31 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n1">
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>260 236 31 14</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>194 237 31 14</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>69 234 31 14</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>205 158 15 14</string>
+            </attr>
+        </node>
+        <edge to="n7" from="n7">
             <attr name="label">
                 <string>Secret</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
+        <edge to="n4" from="n0">
             <attr name="label">
                 <string>knows</string>
             </attr>
         </edge>
-        <edge from="n6" to="n1">
-            <attr name="label">
-                <string>knows</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n7">
-            <attr name="label">
-                <string>knows</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
+        <edge to="n4" from="n4">
             <attr name="label">
                 <string>Secret</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>Secret</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>Girl</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
+        <edge to="n5" from="n2">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>Secret</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>Secret</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n3">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n6">
+            <attr name="label">
+                <string>knows</string>
             </attr>
         </edge>
     </graph>

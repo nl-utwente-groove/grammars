@@ -1,117 +1,179 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n5"/>
-        <node id="n6"/>
-        <node id="n1"/>
-        <node id="n3"/>
-        <node id="n7"/>
-        <node id="n2"/>
-        <node id="n0"/>
-        <node id="n4"/>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Class</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="init_fields_last">
+        <node id="n6">
+            <attr name="layout">
+                <string>209 127 35 32</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>new:</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>217 262 34 32</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n5">
-            <attr name="label">
-                <string>type</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>322 238 40 18</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n4">
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>104 128 18 21</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>302 128 18 21</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>45 53 73 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>197 55 63 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>216 197 34 18</string>
+            </attr>
+        </node>
+        <edge to="n4" from="n3">
             <attr name="label">
                 <string>name</string>
             </attr>
+            <attr name="layout">
+                <string>571 -28 233 206 114 200 113 138 11</string>
+            </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>init</string>
+            </attr>
+            <attr name="layout">
+                <string>977 7 219 159 213 175 238 176 232 159 12</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n7">
+            <attr name="label">
+                <string>del:init</string>
+            </attr>
+            <attr name="layout">
+                <string>700 65 81 62 96 211 233 206 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
             <attr name="label">
                 <string>Field</string>
             </attr>
         </edge>
-        <edge from="n7" to="n1">
-            <attr name="label">
-                <string>self</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n3">
-            <attr name="label">
-                <string>del:init</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n5">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n6">
+        <edge to="n6" from="n1">
             <attr name="label">
                 <string>has</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>init</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>Field</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n5" from="n6">
             <attr name="label">
-                <string>not:</string>
+                <string>type</string>
             </attr>
         </edge>
-        <edge from="n3" to="n2">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>next</string>
+                <string>Class</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>new:descend</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n0">
-            <attr name="label">
-                <string>class</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
+        <edge to="n4" from="n6">
             <attr name="label">
                 <string>name</string>
             </attr>
         </edge>
-        <edge from="n0" to="n3">
+        <edge to="n1" from="n7">
             <attr name="label">
-                <string>fields</string>
+                <string>self</string>
+            </attr>
+            <attr name="layout">
+                <string>377 0 81 62 230 64 11</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge to="n7" from="n7">
             <attr name="label">
                 <string>Instantiator</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>fields</string>
+            </attr>
+            <attr name="layout">
+                <string>482 -18 342 247 259 251 233 206 11</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n3">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+            <attr name="layout">
+                <string>733 26 233 206 315 206 311 138 11</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
             <attr name="label">
                 <string>Field</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n6" from="n6">
             <attr name="label">
-                <string>ObjectVal</string>
+                <string>new:</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n7">
+            <attr name="label">
+                <string>class</string>
+            </attr>
+            <attr name="layout">
+                <string>662 -145 81 62 89 34 344 33 342 247 11</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
             <attr name="label">
                 <string>del:initFields</string>
+            </attr>
+            <attr name="layout">
+                <string>883 -6 81 62 62 119 29 87 81 62 12</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n3">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+            <attr name="layout">
+                <string>361 2 237 215 237 260 237 262 11</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>new:descend</string>
+            </attr>
+            <attr name="layout">
+                <string>1341 -7 81 62 48 50 50 11 81 62 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>ObjectVal</string>
             </attr>
         </edge>
     </graph>

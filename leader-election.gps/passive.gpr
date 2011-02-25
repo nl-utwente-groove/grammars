@@ -1,48 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="passive" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="passive">
         <attr name="priority">
             <string>5</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0"/>
-        <node id="n1"/>
-        <node id="n2"/>
-        <edge from="n0" to="n1">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
+            <attr name="layout">
+                <string>202 224 42 14</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>198 116 37 28</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>312 118 37 14</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n1">
             <attr name="label">
-                <string>next</string>
+                <string>new:message</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>passive</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Message</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>Process</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Process</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n2">
+        <edge to="n2" from="n0">
             <attr name="label">
                 <string>del:message</string>
             </attr>
         </edge>
-        <edge from="n1" to="n2">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>new:message</string>
+                <string>Message</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>passive</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Process</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Process</string>
             </attr>
         </edge>
     </graph>

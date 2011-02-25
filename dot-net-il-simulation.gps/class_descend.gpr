@@ -1,84 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n1"/>
-        <node id="n4"/>
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n3"/>
-        <edge from="n3" to="n3">
+    <graph edgemode="directed" edgeids="false" role="rule" id="class_descend">
+        <node id="n2">
+            <attr name="layout">
+                <string>13 58 40 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>128 58 73 32</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>128 167 73 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>243 167 63 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>16 167 40 18</string>
+            </attr>
+        </node>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>Instantiator</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>descend</string>
+            </attr>
+            <attr name="layout">
+                <string>908 6 163 71 183 14 138 25 163 71 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Instantiator</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>ascendedFrom</string>
+            </attr>
+            <attr name="layout">
+                <string>382 5 153 73 46 167 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>Class</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>descend</string>
+                <string>Class</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n1" from="n4">
+            <attr name="label">
+                <string>self</string>
+            </attr>
+            <attr name="layout">
+                <string>433 -1 201 175 238 174 11</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n0">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+            <attr name="layout">
+                <string>554 -4 163 73 164 167 11</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>self</string>
+            </attr>
+            <attr name="layout">
+                <string>140 -25 163 71 266 70 269 174 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n4">
+            <attr name="label">
+                <string>class</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 164 176 36 176 12</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>new:locateField</string>
+            </attr>
+            <attr name="layout">
+                <string>887 -12 164 176 195 212 132 210 164 176 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>ObjectVal</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
+            <attr name="label">
+                <string>class</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 163 71 67 70 35 70 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>self</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>Instantiator</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n2">
-            <attr name="label">
-                <string>class</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n2">
+        <edge to="n2" from="n3">
             <attr name="label">
                 <string>extends</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>new:locateField</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Instantiator</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n4">
-            <attr name="label">
-                <string>caller</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n1">
-            <attr name="label">
-                <string>self</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
-            <attr name="label">
-                <string>class</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n3">
-            <attr name="label">
-                <string>ascendedFrom</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>ObjectVal</string>
+            <attr name="layout">
+                <string>500 0 36 176 35 112 35 70 11</string>
             </attr>
         </edge>
     </graph>

@@ -1,84 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="next-turn">
         <attr name="priority">
             <string>5</string>
         </attr>
-        <node id="n1"/>
-        <node id="n3"/>
-        <node id="n6"/>
-        <node id="n2"/>
-        <node id="n4"/>
-        <node id="n5"/>
-        <node id="n0"/>
-        <edge from="n6" to="n1">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n6">
+            <attr name="layout">
+                <string>58 38 30 14</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>408 56 22 14</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>112 109 22 14</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>25 107 15 14</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>339 163 44 14</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>161 38 30 14</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>176 93 26 14</string>
+            </attr>
+        </node>
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>next</string>
+                <string>Player</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>Player</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n3" to="n2">
+        <edge to="n1" from="n6">
             <attr name="label">
-                <string>arg:1</string>
+                <string>next</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>Player</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n5">
+        <edge to="n5" from="n3">
             <attr name="label">
                 <string>int:lt</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>Player</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:turn</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>bool:true</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n0">
+        <edge to="n0" from="n4">
             <attr name="label">
                 <string>del:dots</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:turn</string>
+            </attr>
+            <attr name="layout">
+                <string>884 -17 201 54 234 65 233 21 200 38 12</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>int:6</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
             <attr name="label">
                 <string>del:done</string>
             </attr>
-        </edge>
-        <edge from="n3" to="n0">
-            <attr name="label">
-                <string>arg:0</string>
+            <attr name="layout">
+                <string>982 15 58 54 26 64 27 27 58 39 12</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
+        <edge to="n4" from="n4">
             <attr name="label">
                 <string>Die</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>int:6</string>
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n3">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n3">
+            <attr name="label">
+                <string>arg:1</string>
             </attr>
         </edge>
     </graph>

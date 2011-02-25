@@ -1,175 +1,259 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="s62"/>
-        <node id="s68"/>
-        <node id="s75"/>
-        <node id="s58"/>
-        <node id="s72"/>
-        <node id="s67"/>
-        <node id="s63"/>
-        <node id="s66"/>
-        <node id="s76"/>
-        <node id="s71"/>
-        <node id="s59"/>
-        <node id="s64"/>
-        <node id="s73"/>
-        <node id="s77"/>
-        <node id="s65"/>
-        <node id="s70"/>
-        <node id="s60"/>
-        <node id="s74"/>
-        <node id="s61"/>
-        <node id="s57"/>
-        <node id="s69"/>
-        <edge from="s63" to="s64">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
+    <graph edgemode="directed" edgeids="false" role="graph" id="lts">
+        <node id="n67">
+            <attr name="layout">
+                <string>88 300 28 18</string>
             </attr>
-        </edge>
-        <edge from="s60" to="s62">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
+        </node>
+        <node id="n73">
+            <attr name="layout">
+                <string>44 480 28 18</string>
             </attr>
-        </edge>
-        <edge from="s57" to="s58">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
+        </node>
+        <node id="n74">
+            <attr name="layout">
+                <string>132 540 28 18</string>
             </attr>
-        </edge>
-        <edge from="s67" to="s68">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
+        </node>
+        <node id="n69">
+            <attr name="layout">
+                <string>44 360 28 18</string>
             </attr>
-        </edge>
-        <edge from="s57" to="s59">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
+        </node>
+        <node id="n62">
+            <attr name="layout">
+                <string>88 180 28 18</string>
             </attr>
-        </edge>
-        <edge from="s75" to="s76">
-            <attr name="label">
-                <string>&lt;return&gt;</string>
+        </node>
+        <node id="n76">
+            <attr name="layout">
+                <string>132 660 28 18</string>
             </attr>
-        </edge>
-        <edge from="s58" to="s58">
+        </node>
+        <node id="n64">
+            <attr name="layout">
+                <string>132 240 28 18</string>
+            </attr>
+        </node>
+        <node id="n77">
+            <attr name="layout">
+                <string>130 720 32 22</string>
+            </attr>
+        </node>
+        <node id="n68">
+            <attr name="layout">
+                <string>132 360 28 18</string>
+            </attr>
+        </node>
+        <node id="n75">
+            <attr name="layout">
+                <string>132 600 28 18</string>
+            </attr>
+        </node>
+        <node id="n65">
+            <attr name="layout">
+                <string>220 240 28 18</string>
+            </attr>
+        </node>
+        <node id="n71">
+            <attr name="layout">
+                <string>176 420 28 18</string>
+            </attr>
+        </node>
+        <node id="n66">
+            <attr name="layout">
+                <string>176 300 28 18</string>
+            </attr>
+        </node>
+        <node id="n61">
+            <attr name="layout">
+                <string>44 120 28 18</string>
+            </attr>
+        </node>
+        <node id="n59">
+            <attr name="layout">
+                <string>88 60 28 18</string>
+            </attr>
+        </node>
+        <node id="n63">
+            <attr name="layout">
+                <string>176 180 28 18</string>
+            </attr>
+        </node>
+        <node id="n72">
+            <attr name="layout">
+                <string>132 480 28 18</string>
+            </attr>
+        </node>
+        <node id="n70">
+            <attr name="layout">
+                <string>88 420 28 18</string>
+            </attr>
+        </node>
+        <node id="n58">
+            <attr name="layout">
+                <string>0 60 28 18</string>
+            </attr>
+        </node>
+        <node id="n60">
+            <attr name="layout">
+                <string>132 120 28 18</string>
+            </attr>
+        </node>
+        <node id="n57">
+            <attr name="layout">
+                <string>44 0 28 18</string>
+            </attr>
+        </node>
+        <edge to="n71" from="n71">
             <attr name="label">
                 <string>open</string>
             </attr>
         </edge>
-        <edge from="s72" to="s74">
-            <attr name="label">
-                <string>&lt;append&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s76" to="s77">
+        <edge to="n72" from="n70">
             <attr name="label">
                 <string>&lt;return&gt;</string>
             </attr>
         </edge>
-        <edge from="s64" to="s66">
-            <attr name="label">
-                <string>&lt;append&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s62" to="s62">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s65" to="s65">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s68" to="s70">
-            <attr name="label">
-                <string>&lt;return&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s74" to="s75">
-            <attr name="label">
-                <string>&lt;return&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s61" to="s61">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s70" to="s73">
-            <attr name="label">
-                <string>&lt;append&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s63" to="s65">
-            <attr name="label">
-                <string>&lt;append&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s59" to="s60">
+        <edge to="n59" from="n57">
             <attr name="label">
                 <string>&lt;next&gt;</string>
             </attr>
         </edge>
-        <edge from="s57" to="s57">
+        <edge to="n58" from="n58">
             <attr name="label">
-                <string>start</string>
+                <string>open</string>
             </attr>
         </edge>
-        <edge from="s70" to="s72">
-            <attr name="label">
-                <string>&lt;return&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s64" to="s67">
-            <attr name="label">
-                <string>&lt;append&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s60" to="s63">
-            <attr name="label">
-                <string>&lt;next&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s77" to="s77">
+        <edge to="n77" from="n77">
             <attr name="label">
                 <string>final</string>
             </attr>
         </edge>
-        <edge from="s73" to="s73">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s71" to="s71">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s66" to="s66">
-            <attr name="label">
-                <string>open</string>
-            </attr>
-        </edge>
-        <edge from="s59" to="s61">
+        <edge to="n63" from="n60">
             <attr name="label">
                 <string>&lt;next&gt;</string>
             </attr>
         </edge>
-        <edge from="s67" to="s69">
-            <attr name="label">
-                <string>&lt;return&gt;</string>
-            </attr>
-        </edge>
-        <edge from="s69" to="s69">
+        <edge to="n69" from="n69">
             <attr name="label">
                 <string>open</string>
             </attr>
         </edge>
-        <edge from="s68" to="s71">
+        <edge to="n65" from="n63">
             <attr name="label">
                 <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n66" from="n64">
+            <attr name="label">
+                <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n73" from="n70">
+            <attr name="label">
+                <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n66" from="n66">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge to="n75" from="n74">
+            <attr name="label">
+                <string>&lt;return&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n62" from="n60">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n68" from="n67">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n70" from="n68">
+            <attr name="label">
+                <string>&lt;return&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n73" from="n73">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge to="n61" from="n61">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge to="n62" from="n62">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n59">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n64" from="n63">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n71" from="n68">
+            <attr name="label">
+                <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n67" from="n64">
+            <attr name="label">
+                <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n61" from="n59">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n74" from="n72">
+            <attr name="label">
+                <string>&lt;append&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n76" from="n75">
+            <attr name="label">
+                <string>&lt;return&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n65" from="n65">
+            <attr name="label">
+                <string>open</string>
+            </attr>
+        </edge>
+        <edge to="n77" from="n76">
+            <attr name="label">
+                <string>&lt;return&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n69" from="n67">
+            <attr name="label">
+                <string>&lt;return&gt;</string>
+            </attr>
+        </edge>
+        <edge to="n57" from="n57">
+            <attr name="label">
+                <string>start</string>
+            </attr>
+        </edge>
+        <edge to="n58" from="n57">
+            <attr name="label">
+                <string>&lt;next&gt;</string>
             </attr>
         </edge>
     </graph>

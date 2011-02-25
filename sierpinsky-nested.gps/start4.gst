@@ -1,72 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n1"/>
-        <node id="n3"/>
-        <node id="n6"/>
-        <node id="n2"/>
-        <node id="n4"/>
-        <node id="n5"/>
-        <node id="n7"/>
-        <node id="n0"/>
-        <edge from="n2" to="n1">
+    <graph edgemode="directed" edgeids="false" role="graph" id="start4">
+        <node id="n6">
+            <attr name="layout">
+                <string>240 27 6 14</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>342 30 6 14</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>141 29 35 14</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>498 29 6 14</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>153 135 15 15</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>205 237 15 15</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>425 30 6 14</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>105 237 15 15</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n6">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>4</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>current</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n5">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n2">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
+        <edge to="n6" from="n6">
             <attr name="label">
                 <string>1</string>
             </attr>
         </edge>
-        <edge from="n7" to="n5">
+        <edge to="n5" from="n7">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n1" from="n2">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>4</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>current</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>3</string>
             </attr>
         </edge>
-        <edge from="n0" to="n6">
+        <edge to="n6" from="n0">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge from="n1" to="n4">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>2</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n7">
+        <edge to="n7" from="n3">
             <attr name="label">
                 <string>h</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n3">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>2</string>
             </attr>
         </edge>
     </graph>

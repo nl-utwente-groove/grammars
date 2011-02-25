@@ -1,460 +1,595 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n11"/>
-        <node id="n28"/>
-        <node id="n9"/>
-        <node id="n14"/>
-        <node id="n10"/>
-        <node id="n24"/>
-        <node id="n35"/>
-        <node id="n20"/>
-        <node id="n34"/>
-        <node id="n6"/>
-        <node id="n7"/>
-        <node id="n17"/>
-        <node id="n30"/>
-        <node id="n19"/>
-        <node id="n12"/>
-        <node id="n27"/>
-        <node id="n18"/>
-        <node id="n33"/>
-        <node id="n22"/>
-        <node id="n25"/>
-        <node id="n26"/>
-        <node id="n5"/>
-        <node id="n21"/>
-        <node id="n31"/>
-        <node id="n8"/>
-        <node id="n32"/>
-        <node id="n15"/>
-        <node id="n36"/>
-        <node id="n37"/>
-        <node id="n23"/>
-        <node id="n29"/>
-        <node id="n13"/>
-        <node id="n16"/>
-        <edge from="n11" to="n12">
+    <graph edgemode="directed" edgeids="false" role="graph" id="board">
+        <node id="n15">
+            <attr name="layout">
+                <string>312 279 18 18</string>
+            </attr>
+        </node>
+        <node id="n12">
+            <attr name="layout">
+                <string>312 222 18 18</string>
+            </attr>
+        </node>
+        <node id="n16">
+            <attr name="layout">
+                <string>372 279 18 18</string>
+            </attr>
+        </node>
+        <node id="n28">
+            <attr name="layout">
+                <string>35 218 18 18</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>238 150 18 18</string>
+            </attr>
+        </node>
+        <node id="n13">
+            <attr name="layout">
+                <string>372 222 18 18</string>
+            </attr>
+        </node>
+        <node id="n27">
+            <attr name="layout">
+                <string>314 465 18 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>178 93 18 18</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>314 150 18 18</string>
+            </attr>
+        </node>
+        <node id="n25">
+            <attr name="layout">
+                <string>178 465 18 18</string>
+            </attr>
+        </node>
+        <node id="n22">
+            <attr name="layout">
+                <string>178 400 18 18</string>
+            </attr>
+        </node>
+        <node id="n23">
+            <attr name="layout">
+                <string>238 400 18 18</string>
+            </attr>
+        </node>
+        <node id="n29">
+            <attr name="layout">
+                <string>95 218 18 18</string>
+            </attr>
+        </node>
+        <node id="n32">
+            <attr name="layout">
+                <string>95 275 18 18</string>
+            </attr>
+        </node>
+        <node id="n30">
+            <attr name="layout">
+                <string>171 218 18 18</string>
+            </attr>
+        </node>
+        <node id="n35">
+            <attr name="layout">
+                <string>95 340 18 18</string>
+            </attr>
+        </node>
+        <node id="n19">
+            <attr name="layout">
+                <string>372 344 18 18</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>238 215 18 18</string>
+            </attr>
+        </node>
+        <node id="n26">
+            <attr name="layout">
+                <string>238 465 18 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>238 93 18 18</string>
+            </attr>
+        </node>
+        <node id="n36">
+            <attr name="layout">
+                <string>171 340 18 18</string>
+            </attr>
+        </node>
+        <node id="n24">
+            <attr name="layout">
+                <string>314 400 18 18</string>
+            </attr>
+        </node>
+        <node id="n31">
+            <attr name="layout">
+                <string>35 275 18 18</string>
+            </attr>
+        </node>
+        <node id="n20">
+            <attr name="layout">
+                <string>448 344 18 18</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>314 93 18 18</string>
+            </attr>
+        </node>
+        <node id="n33">
+            <attr name="layout">
+                <string>171 275 18 18</string>
+            </attr>
+        </node>
+        <node id="n34">
+            <attr name="layout">
+                <string>35 340 18 18</string>
+            </attr>
+        </node>
+        <node id="n18">
+            <attr name="layout">
+                <string>312 344 18 18</string>
+            </attr>
+        </node>
+        <node id="n37">
+            <attr name="layout">
+                <string>241 285 18 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>178 150 18 18</string>
+            </attr>
+        </node>
+        <node id="n21">
+            <attr name="layout">
+                <string>238 343 18 18</string>
+            </attr>
+        </node>
+        <node id="n14">
+            <attr name="layout">
+                <string>448 222 18 18</string>
+            </attr>
+        </node>
+        <node id="n17">
+            <attr name="layout">
+                <string>448 279 18 18</string>
+            </attr>
+        </node>
+        <edge to="n26" from="n25">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n11" to="n37">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n11" to="n11">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n28" to="n29">
+        <edge to="n36" from="n35">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n28" to="n28">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n28" to="n31">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n11">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n10">
+        <edge to="n19" from="n18">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n14" to="n14">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n14" to="n17">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n12">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n10" to="n10">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n24" to="n24">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n24" to="n27">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n35" to="n35">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n35" to="n36">
+        <edge to="n7" from="n6">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n20" to="n20">
+        <edge to="n25" from="n25">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n34" to="n34">
+        <edge to="n22" from="n22">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n34" to="n35">
+        <edge to="n15" from="n37">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge to="n7" from="n7">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n6" to="n7">
+        <edge to="n12" from="n11">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n6" to="n9">
+        <edge to="n29" from="n29">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n20" from="n17">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n7" to="n7">
+        <edge to="n21" from="n21">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n7" to="n10">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n17" to="n20">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n17" to="n17">
+        <edge to="n6" from="n6">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n30" to="n33">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n30" to="n11">
+        <edge to="n9" from="n8">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n30" to="n30">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n19" to="n19">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n19" to="n20">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n12" to="n13">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n12" to="n15">
+        <edge to="n31" from="n28">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n12" to="n12">
+        <edge to="n24" from="n24">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n27" to="n27">
+        <edge to="n14" from="n13">
             <attr name="label">
-                <string>F</string>
+                <string>right</string>
             </attr>
         </edge>
-        <edge from="n18" to="n24">
+        <edge to="n12" from="n10">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n18" to="n18">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n18" to="n19">
+        <edge to="n16" from="n15">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n33" to="n33">
+        <edge to="n14" from="n14">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n33" to="n37">
+        <edge to="n8" from="n8">
             <attr name="label">
-                <string>right</string>
+                <string>F</string>
             </attr>
         </edge>
-        <edge from="n33" to="n36">
+        <edge to="n19" from="n19">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n7">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n22" to="n25">
+        <edge to="n26" from="n26">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n35" from="n35">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n26" from="n23">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n22" to="n23">
+        <edge to="n23" from="n22">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n22" to="n22">
+        <edge to="n33" from="n32">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge to="n30" from="n30">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n25" to="n26">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n25" to="n25">
+        <edge to="n31" from="n31">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n26" to="n26">
+        <edge to="n11" from="n11">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n26" to="n27">
+        <edge to="n35" from="n34">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n5" to="n6">
+        <edge to="n18" from="n18">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n28" from="n28">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n32" from="n32">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n29" from="n28">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n5" to="n8">
+        <edge to="n16" from="n16">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n16">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n21">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n21" to="n23">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n21" to="n18">
+        <edge to="n6" from="n5">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n21" to="n21">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n31" to="n34">
+        <edge to="n22" from="n36">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n31" to="n31">
+        <edge to="n30" from="n8">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n21" from="n36">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+            <attr name="layout">
+                <string>504 0 162 349 240 383 11</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n37">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n31" to="n32">
+        <edge to="n11" from="n30">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n8" to="n9">
+        <edge to="n12" from="n12">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n13">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n15" from="n12">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n9">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n30">
+        <edge to="n21" from="n37">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n32" to="n33">
+        <edge to="n10" from="n10">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n15" from="n15">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n12">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n32" to="n32">
+        <edge to="n27" from="n27">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n32" to="n35">
+        <edge to="n16" from="n13">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n15" to="n18">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n15" to="n16">
+        <edge to="n37" from="n33">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n15" to="n15">
+        <edge to="n18" from="n15">
             <attr name="label">
-                <string>F</string>
+                <string>down</string>
             </attr>
         </edge>
-        <edge from="n36" to="n21">
+        <edge to="n27" from="n26">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n36" to="n36">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n36" to="n22">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n21">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n37">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n37" to="n15">
+        <edge to="n32" from="n31">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n23" to="n23">
+        <edge to="n33" from="n33">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n23" to="n26">
+        <edge to="n17" from="n14">
             <attr name="label">
                 <string>down</string>
             </attr>
         </edge>
-        <edge from="n23" to="n24">
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n17">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n31">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n18" from="n21">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n29" to="n29">
+        <edge to="n19" from="n16">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n29" to="n30">
+        <edge to="n24" from="n18">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n35" from="n32">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n33" from="n30">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n27" from="n24">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n20" from="n20">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n6">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n11">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n24" from="n23">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n29" to="n32">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n13" to="n16">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n13" to="n13">
-            <attr name="label">
-                <string>F</string>
-            </attr>
-        </edge>
-        <edge from="n13" to="n14">
+        <edge to="n30" from="n29">
             <attr name="label">
                 <string>right</string>
             </attr>
         </edge>
-        <edge from="n16" to="n19">
-            <attr name="label">
-                <string>down</string>
-            </attr>
-        </edge>
-        <edge from="n16" to="n16">
+        <edge to="n34" from="n34">
             <attr name="label">
                 <string>F</string>
             </attr>
         </edge>
-        <edge from="n16" to="n17">
+        <edge to="n36" from="n36">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n32" from="n29">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n36" from="n33">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n5">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n23">
+            <attr name="label">
+                <string>F</string>
+            </attr>
+        </edge>
+        <edge to="n11" from="n9">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n25" from="n22">
+            <attr name="label">
+                <string>down</string>
+            </attr>
+        </edge>
+        <edge to="n20" from="n19">
             <attr name="label">
                 <string>right</string>
             </attr>

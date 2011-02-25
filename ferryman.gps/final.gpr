@@ -1,48 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n25"/>
-        <node id="n23"/>
-        <node id="n22"/>
-        <node id="n24"/>
-        <edge from="n25" to="n25">
+    <graph edgemode="directed" edgeids="false" role="rule" id="final">
+        <node id="n24">
+            <attr name="layout">
+                <string>66 126 32 18</string>
+            </attr>
+        </node>
+        <node id="n25">
+            <attr name="layout">
+                <string>58 33 56 18</string>
+            </attr>
+        </node>
+        <node id="n22">
+            <attr name="layout">
+                <string>68 227 30 18</string>
+            </attr>
+        </node>
+        <node id="n23">
+            <attr name="layout">
+                <string>168 121 38 34</string>
+            </attr>
+        </node>
+        <edge to="n23" from="n22">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge to="n25" from="n25">
             <attr name="label">
                 <string>cabbage</string>
             </attr>
         </edge>
-        <edge from="n22" to="n23">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n23" to="n23">
+        <edge to="n23" from="n23">
             <attr name="label">
                 <string>bank</string>
             </attr>
         </edge>
-        <edge from="n23" to="n23">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge from="n25" to="n23">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge from="n22" to="n22">
+        <edge to="n22" from="n22">
             <attr name="label">
                 <string>wolf</string>
             </attr>
         </edge>
-        <edge from="n24" to="n24">
-            <attr name="label">
-                <string>goat</string>
-            </attr>
-        </edge>
-        <edge from="n24" to="n23">
+        <edge to="n23" from="n25">
             <attr name="label">
                 <string>on</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n24">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n23">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge to="n24" from="n24">
+            <attr name="label">
+                <string>goat</string>
             </attr>
         </edge>
     </graph>

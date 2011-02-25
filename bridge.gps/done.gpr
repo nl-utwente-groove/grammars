@@ -1,139 +1,178 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="done" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="done">
         <attr name="priority">
             <string>100</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n16687"/>
-        <node id="n16690"/>
-        <node id="n16694"/>
-        <node id="n16692"/>
-        <node id="n16693"/>
-        <node id="n16691"/>
-        <node id="n16695"/>
-        <node id="n16688"/>
-        <node id="n16689"/>
-        <edge from="n16695" to="n16693">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16691">
+            <attr name="layout">
+                <string>140 254 42 30</string>
+            </attr>
+        </node>
+        <node id="n16689">
+            <attr name="layout">
+                <string>543 243 31 15</string>
+            </attr>
+        </node>
+        <node id="n16692">
+            <attr name="layout">
+                <string>442 160 57 30</string>
+            </attr>
+        </node>
+        <node id="n16693">
+            <attr name="layout">
+                <string>652 279 7 15</string>
+            </attr>
+        </node>
+        <node id="n16687">
+            <attr name="layout">
+                <string>711 175 7 15</string>
+            </attr>
+        </node>
+        <node id="n16688">
+            <attr name="layout">
+                <string>709 363 7 15</string>
+            </attr>
+        </node>
+        <node id="n16690">
+            <attr name="layout">
+                <string>330 288 20 30</string>
+            </attr>
+        </node>
+        <node id="n16694">
+            <attr name="layout">
+                <string>158 113 24 15</string>
+            </attr>
+        </node>
+        <node id="n16695">
+            <attr name="layout">
+                <string>657 229 7 15</string>
+            </attr>
+        </node>
+        <edge to="n16693" from="n16695">
             <attr name="label">
                 <string>not:=</string>
             </attr>
         </edge>
-        <edge from="n16691" to="n16691">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge from="n16695" to="n16689">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n16690" to="n16690">
-            <attr name="label">
-                <string>fl</string>
-            </attr>
-        </edge>
-        <edge from="n16693" to="n16689">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n16687" to="n16693">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-        </edge>
-        <edge from="n16687" to="n16695">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-        </edge>
-        <edge from="n16688" to="n16688">
+        <edge to="n16695" from="n16695">
             <attr name="label">
                 <string>p</string>
             </attr>
         </edge>
-        <edge from="n16692" to="n16692">
-            <attr name="label">
-                <string>string:right</string>
-            </attr>
-        </edge>
-        <edge from="n16689" to="n16689">
-            <attr name="label">
-                <string>shore</string>
-            </attr>
-        </edge>
-        <edge from="n16692" to="n16692">
+        <edge to="n16691" from="n16691">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n16687" to="n16688">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-        </edge>
-        <edge from="n16688" to="n16689">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge from="n16693" to="n16693">
-            <attr name="label">
-                <string>p</string>
-            </attr>
-        </edge>
-        <edge from="n16695" to="n16688">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-        </edge>
-        <edge from="n16694" to="n16694">
+        <edge to="n16694" from="n16694">
             <attr name="label">
                 <string>time</string>
             </attr>
         </edge>
-        <edge from="n16687" to="n16687">
+        <edge to="n16691" from="n16694">
             <attr name="label">
-                <string>p</string>
+                <string>elapsed</string>
             </attr>
         </edge>
-        <edge from="n16693" to="n16688">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-        </edge>
-        <edge from="n16689" to="n16692">
-            <attr name="label">
-                <string>side</string>
-            </attr>
-        </edge>
-        <edge from="n16695" to="n16695">
-            <attr name="label">
-                <string>p</string>
-            </attr>
-        </edge>
-        <edge from="n16687" to="n16689">
+        <edge to="n16689" from="n16688">
             <attr name="label">
                 <string>at</string>
             </attr>
         </edge>
-        <edge from="n16691" to="n16691">
+        <edge to="n16688" from="n16687">
             <attr name="label">
-                <string>par=$1:</string>
+                <string>not:=</string>
             </attr>
         </edge>
-        <edge from="n16690" to="n16690">
+        <edge to="n16688" from="n16693">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge to="n16688" from="n16688">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge to="n16690" from="n16690">
+            <attr name="label">
+                <string>fl</string>
+            </attr>
+        </edge>
+        <edge to="n16689" from="n16689">
+            <attr name="label">
+                <string>shore</string>
+            </attr>
+        </edge>
+        <edge to="n16687" from="n16687">
+            <attr name="label">
+                <string>p</string>
+            </attr>
+        </edge>
+        <edge to="n16692" from="n16692">
+            <attr name="label">
+                <string></string>
+            </attr>
+        </edge>
+        <edge to="n16689" from="n16693">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge to="n16691" from="n16691">
+            <attr name="label">
+                <string>par:0</string>
+            </attr>
+        </edge>
+        <edge to="n16692" from="n16689">
+            <attr name="label">
+                <string>side</string>
+            </attr>
+        </edge>
+        <edge to="n16695" from="n16687">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge to="n16692" from="n16692">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n16693" from="n16687">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge to="n16688" from="n16695">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge to="n16690" from="n16690">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n16694" to="n16691">
+        <edge to="n16689" from="n16695">
             <attr name="label">
-                <string>elapsed</string>
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge to="n16689" from="n16687">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge to="n16693" from="n16693">
+            <attr name="label">
+                <string>p</string>
             </attr>
         </edge>
     </graph>

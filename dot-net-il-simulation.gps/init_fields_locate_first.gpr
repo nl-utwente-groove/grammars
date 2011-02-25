@@ -1,52 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n1"/>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>del:locateField</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="init_fields_locate_first">
+        <node id="n2">
+            <attr name="layout">
+                <string>245 132 34 18</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Field</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>244 46 40 18</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>new:init</string>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>66 45 73 18</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>Instantiator</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:initFields</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n2">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n0">
+        </node>
+        <edge to="n0" from="n1">
             <attr name="label">
                 <string>class</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Instantiator</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 264 55 262 78 262 141 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n1">
+            <attr name="label">
+                <string>new:init</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:initFields</string>
+            </attr>
+            <attr name="layout">
+                <string>606 9 102 54 32 17 31 53 102 54 12</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
             <attr name="label">
                 <string>fields</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 264 55 262 78 262 141 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Field</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Class</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>del:locateField</string>
+            </attr>
+            <attr name="layout">
+                <string>599 -16 102 54 27 76 43 120 102 54 12</string>
             </attr>
         </edge>
     </graph>

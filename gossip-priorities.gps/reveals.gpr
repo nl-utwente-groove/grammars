@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="reveals" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="reveals">
         <attr name="priority">
             <string>3</string>
         </attr>
@@ -10,40 +10,58 @@
         <attr name="remark">
             <string>Reveals a secret in one direction</string>
         </attr>
-        <node id="n16906"/>
-        <node id="n16907"/>
-        <node id="n16908"/>
-        <edge from="n16907" to="n16906">
-            <attr name="label">
-                <string>knows</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16907">
+            <attr name="layout">
+                <string>107 81 15 14</string>
             </attr>
-        </edge>
-        <edge from="n16908" to="n16906">
-            <attr name="label">
-                <string>new:knows</string>
+        </node>
+        <node id="n16906">
+            <attr name="layout">
+                <string>166 169 31 14</string>
             </attr>
-        </edge>
-        <edge from="n16908" to="n16906">
-            <attr name="label">
-                <string>not:knows</string>
+        </node>
+        <node id="n16908">
+            <attr name="layout">
+                <string>272 83 15 14</string>
             </attr>
-        </edge>
-        <edge from="n16907" to="n16907">
-            <attr name="label">
-                <string>Girl</string>
-            </attr>
-        </edge>
-        <edge from="n16907" to="n16908">
+        </node>
+        <edge to="n16908" from="n16907">
             <attr name="label">
                 <string>phones</string>
             </attr>
         </edge>
-        <edge from="n16906" to="n16906">
+        <edge to="n16906" from="n16908">
+            <attr name="label">
+                <string>not:knows</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 294 92 288 173 191 178 11</string>
+            </attr>
+        </edge>
+        <edge to="n16906" from="n16908">
+            <attr name="label">
+                <string>new:knows</string>
+            </attr>
+        </edge>
+        <edge to="n16906" from="n16907">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n16906" from="n16906">
             <attr name="label">
                 <string>Secret</string>
             </attr>
         </edge>
-        <edge from="n16908" to="n16908">
+        <edge to="n16907" from="n16907">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16908" from="n16908">
             <attr name="label">
                 <string>Girl</string>
             </attr>

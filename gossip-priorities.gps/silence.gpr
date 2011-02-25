@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="silence" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="silence">
         <attr name="priority">
             <string>1</string>
         </attr>
@@ -10,24 +10,38 @@
         <attr name="remark">
             <string>Breaks the connection</string>
         </attr>
-        <node id="n16909"/>
-        <node id="n16910"/>
-        <edge from="n16909" to="n16909">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16909">
+            <attr name="layout">
+                <string>143 111 15 14</string>
+            </attr>
+        </node>
+        <node id="n16910">
+            <attr name="layout">
+                <string>296 112 15 14</string>
+            </attr>
+        </node>
+        <edge to="n16910" from="n16910">
             <attr name="label">
                 <string>Girl</string>
             </attr>
         </edge>
-        <edge from="n16910" to="n16909">
+        <edge to="n16910" from="n16909">
             <attr name="label">
                 <string>del:phones</string>
             </attr>
         </edge>
-        <edge from="n16909" to="n16910">
+        <edge to="n16909" from="n16910">
             <attr name="label">
                 <string>del:phones</string>
             </attr>
+            <attr name="layout">
+                <string>500 0 316 122 239 79 163 121 12</string>
+            </attr>
         </edge>
-        <edge from="n16910" to="n16910">
+        <edge to="n16909" from="n16909">
             <attr name="label">
                 <string>Girl</string>
             </attr>

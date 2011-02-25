@@ -1,60 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="dead" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="dead">
         <attr name="priority">
             <string>101</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n5555"/>
-        <node id="n5553"/>
-        <node id="n5554"/>
-        <node id="n5557"/>
-        <node id="n5556"/>
-        <edge from="n5554" to="n5554">
-            <attr name="label">
-                <string>attr:</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n5555">
+            <attr name="layout">
+                <string>122 399 30 15</string>
             </attr>
-        </edge>
-        <edge from="n5553" to="n5556">
+        </node>
+        <node id="n5554">
+            <attr name="layout">
+                <string>285 367 20 15</string>
+            </attr>
+        </node>
+        <node id="n5553">
+            <attr name="layout">
+                <string>172 315 28 15</string>
+            </attr>
+        </node>
+        <node id="n5557">
+            <attr name="layout">
+                <string>277 273 24 15</string>
+            </attr>
+        </node>
+        <node id="n5556">
+            <attr name="layout">
+                <string>114 206 48 15</string>
+            </attr>
+        </node>
+        <edge to="n5556" from="n5553">
             <attr name="label">
                 <string>int:gt</string>
             </attr>
         </edge>
-        <edge from="n5556" to="n5556">
-            <attr name="label">
-                <string>bool:true</string>
-            </attr>
-        </edge>
-        <edge from="n5553" to="n5554">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n5553" to="n5555">
+        <edge to="n5555" from="n5553">
             <attr name="label">
                 <string>arg:1</string>
             </attr>
         </edge>
-        <edge from="n5553" to="n5553">
+        <edge to="n5553" from="n5553">
             <attr name="label">
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n5557" to="n5557">
+        <edge to="n5554" from="n5557">
+            <attr name="label">
+                <string>elapsed</string>
+            </attr>
+        </edge>
+        <edge to="n5557" from="n5557">
             <attr name="label">
                 <string>time</string>
             </attr>
         </edge>
-        <edge from="n5555" to="n5555">
+        <edge to="n5556" from="n5556">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge to="n5555" from="n5555">
             <attr name="label">
                 <string>int:30</string>
             </attr>
         </edge>
-        <edge from="n5557" to="n5554">
+        <edge to="n5554" from="n5553">
             <attr name="label">
-                <string>elapsed</string>
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n5554" from="n5554">
+            <attr name="label">
+                <string>attr:</string>
             </attr>
         </edge>
     </graph>

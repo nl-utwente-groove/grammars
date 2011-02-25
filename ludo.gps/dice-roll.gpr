@@ -1,45 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
-        <attr name="priority">
-            <string>0</string>
-        </attr>
-        <node id="n1"/>
-        <node id="n2"/>
-        <node id="n0"/>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>Player</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="dice-roll">
+        <node id="n2">
+            <attr name="layout">
+                <string>191 75 15 14</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>Die</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>80 77 30 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>attr:</string>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>260 75 22 14</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>new:move</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>del:turn</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n1">
+        </node>
+        <edge to="n1" from="n2">
             <attr name="label">
                 <string>value</string>
             </attr>
         </edge>
-        <edge from="n2" to="n1">
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Player</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Die</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n2">
             <attr name="label">
                 <string>new:dots</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 199 85 238 109 276 85 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>del:turn</string>
+            </attr>
+            <attr name="layout">
+                <string>928 22 120 77 148 63 147 109 120 96 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:move</string>
+            </attr>
+            <attr name="layout">
+                <string>946 -22 80 78 47 64 44 112 80 95 12</string>
             </attr>
         </edge>
     </graph>

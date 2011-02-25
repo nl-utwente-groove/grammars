@@ -1,113 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="go-2-2b" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="go-2-2b">
         <attr name="priority">
             <string>2</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0"/>
-        <node id="n1"/>
-        <node id="n4"/>
-        <node id="n3"/>
-        <node id="n6"/>
-        <node id="n2"/>
-        <node id="n7"/>
-        <node id="n5"/>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>del:active</string>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n6">
+            <attr name="layout">
+                <string>133 134 37 14</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n5">
-            <attr name="label">
-                <string>arg:1</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>85 344 22 14</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n0">
-            <attr name="label">
-                <string>left</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>316 322 22 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>del:</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>174 421 26 14</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n5">
-            <attr name="label">
-                <string>second</string>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>190 335 22 14</string>
             </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>bool:false</string>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>131 15 47 14</string>
             </attr>
-        </edge>
-        <edge from="n7" to="n6">
-            <attr name="label">
-                <string>del:go</string>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>132 270 42 28</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>attr:</string>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>167 481 47 14</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>new:passive</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>int:2</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n0">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
+        </node>
+        <edge to="n3" from="n4">
             <attr name="label">
                 <string>int:gt</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>Process</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>Message</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n1">
-            <attr name="label">
-                <string>message</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>Scheduler</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
+        <edge to="n0" from="n0">
             <attr name="label">
                 <string>attr:</string>
             </attr>
         </edge>
-        <edge from="n1" to="n2">
+        <edge to="n5" from="n1">
+            <attr name="label">
+                <string>second</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Message</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>del:active</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 150 134 131 99 101 110 140 134 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n6">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>new:passive</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 149 154 131 183 95 169 133 153 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>Process</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>Scheduler</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n4">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>int:2</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n1">
             <attr name="label">
                 <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n6">
+            <attr name="label">
+                <string>message</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n7">
+            <attr name="label">
+                <string>del:go</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>bool:false</string>
             </attr>
         </edge>
     </graph>

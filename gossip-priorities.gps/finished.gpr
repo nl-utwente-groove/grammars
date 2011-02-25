@@ -1,37 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="finished" role="rule" edgeids="false" edgemode="directed">
+    <graph edgemode="directed" edgeids="false" role="rule" id="finished">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <attr name="remark">
             <string>Detects that all secrets are public</string>
         </attr>
-        <node id="n16900"/>
-        <node id="n16901"/>
-        <edge from="n16900" to="n16900">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16900">
+            <attr name="layout">
+                <string>132 195 31 28</string>
+            </attr>
+        </node>
+        <node id="n16901">
+            <attr name="layout">
+                <string>136 83 20 28</string>
+            </attr>
+        </node>
+        <edge to="n16901" from="n16901">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge from="n16901" to="n16901">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n16901" to="n16900">
+        <edge to="n16900" from="n16901">
             <attr name="label">
                 <string>!knows</string>
             </attr>
         </edge>
-        <edge from="n16900" to="n16900">
-            <attr name="label">
-                <string>Secret</string>
-            </attr>
-        </edge>
-        <edge from="n16901" to="n16901">
+        <edge to="n16901" from="n16901">
             <attr name="label">
                 <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16900" from="n16900">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n16900" from="n16900">
+            <attr name="label">
+                <string>Secret</string>
             </attr>
         </edge>
     </graph>

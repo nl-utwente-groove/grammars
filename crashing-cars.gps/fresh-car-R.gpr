@@ -1,47 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="rule" edgeids="false" edgemode="directed">
-        <node id="n0"/>
-        <node id="n2"/>
-        <node id="n1"/>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>del:free</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="fresh-car-R">
+        <node id="n2">
+            <attr name="layout">
+                <string>99 21 28 30</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n1">
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>103 90 14 15</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>24 86 23 30</string>
+            </attr>
+        </node>
+        <edge to="n1" from="n0">
             <attr name="label">
                 <string>r</string>
             </attr>
         </edge>
-        <edge from="n2" to="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>at</string>
+                <string>RS</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>new:</string>
+                <string>del:free</string>
+            </attr>
+            <attr name="layout">
+                <string>943 -17 127 103 169 115 168 80 127 95 12</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>RCar</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>RS</string>
+                <string>new:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge to="n0" from="n2">
             <attr name="label">
-                <string>RS</string>
+                <string>at</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>RS</string>
             </attr>
         </edge>
     </graph>

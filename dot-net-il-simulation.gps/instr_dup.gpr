@@ -1,96 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph id="graph" role="graph" edgeids="false" edgemode="directed">
-        <node id="n0"/>
-        <node id="n3"/>
-        <node id="n1"/>
-        <node id="n4"/>
-        <node id="n5"/>
-        <node id="n6"/>
-        <node id="n2"/>
-        <edge from="n0" to="n6">
-            <attr name="label">
-                <string>has</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="instr_dup">
+        <node id="n6">
+            <attr name="layout">
+                <string>50 297 41 18</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n4">
-            <attr name="label">
-                <string>top</string>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>235 250 69 18</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>MethodFrame</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>27 166 86 18</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n4">
-            <attr name="label">
-                <string>next</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>195 296 35 32</string>
             </attr>
-        </edge>
-        <edge from="n4" to="n4">
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>234 161 69 32</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>195 379 29 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>303 379 18 21</string>
+            </attr>
+        </node>
+        <edge to="n4" from="n4">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge from="n1" to="n3">
+        <edge to="n4" from="n6">
             <attr name="label">
-                <string>value</string>
+                <string>top</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 70 306 116 307 209 312 11</string>
             </attr>
         </edge>
-        <edge from="n6" to="n1">
-            <attr name="label">
-                <string>del:top</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n2">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>dup</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n5">
+        <edge to="n5" from="n0">
             <attr name="label">
                 <string>del:ip</string>
             </attr>
         </edge>
-        <edge from="n1" to="n1">
+        <edge to="n2" from="n5">
             <attr name="label">
-                <string>Cell</string>
+                <string>next</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
+        <edge to="n5" from="n5">
             <attr name="label">
-                <string>Instruction</string>
+                <string>dup</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
+        <edge to="n5" from="n5">
             <attr name="label">
                 <string>Instruction</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
+        <edge to="n6" from="n0">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Cell</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>Stack</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
             <attr name="label">
                 <string>new:ip</string>
             </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge to="n1" from="n6">
             <attr name="label">
-                <string>Stack</string>
+                <string>del:top</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 211 388 209 365 209 312 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n4">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 230 309 285 309 303 379 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n1">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+            <attr name="layout">
+                <string>467 -1 226 389 260 389 303 389 11</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>Cell</string>
             </attr>
         </edge>
     </graph>
