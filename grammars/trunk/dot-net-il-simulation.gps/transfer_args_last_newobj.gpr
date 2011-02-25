@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="transfer_args_last_newobj">
+        <node id="n2">
+            <attr name="layout">
+                <string>385 157 63 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>116 87 86 18</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>288 221 78 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>383 86 64 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>497 33 32 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>301 131 50 18</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>del:transferArgs</string>
+            </attr>
+            <attr name="layout">
+                <string>718 4 159 96 54 115 56 76 159 96 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:locateLocals</string>
+            </attr>
+            <attr name="layout">
+                <string>975 0 141 105 49 154 84 183 151 105 12</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n0">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+            <attr name="layout">
+                <string>473 0 159 96 346 93 415 95 11</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>Argument</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n5">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 447 92 513 92 513 51 11</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>del:targetIndex</string>
+            </attr>
+            <attr name="layout">
+                <string>265 -30 155 87 155 44 497 44 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>Method</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n5">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 420 104 420 117 420 158 11</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n0">
+            <attr name="label">
+                <string>new:executes</string>
+            </attr>
+            <attr name="layout">
+                <string>781 38 180 105 180 230 288 230 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>method</string>
+            </attr>
+            <attr name="layout">
+                <string>519 15 190 105 190 140 301 140 11</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n3">
+            <attr name="label">
+                <string>body</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 326 140 327 166 327 230 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>ObjectVal</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

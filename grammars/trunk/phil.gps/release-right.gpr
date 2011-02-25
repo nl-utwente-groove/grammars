@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="release-right">
+        <attr name="remark">
+            <string>Makes a philosopher release his right hand side fork</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>197 74 21 14</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>108 162 16 14</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>right</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>del:hasRight</string>
+            </attr>
+            <attr name="layout">
+                <string>953 -11 134 176 191 195 191 145 134 166 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Phil</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:think</string>
+            </attr>
+            <attr name="layout">
+                <string>1028 16 108 178 65 198 66 139 108 164 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Fork</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>del:hold</string>
+            </attr>
+            <attr name="layout">
+                <string>275 -19 122 171 141 107 213 83 12</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

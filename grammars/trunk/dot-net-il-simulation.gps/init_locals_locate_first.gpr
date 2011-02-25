@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="init_locals_locate_first">
+        <node id="n2">
+            <attr name="layout">
+                <string>137 20 86 18</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>293 21 78 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>267 57 32 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>398 103 39 18</string>
+            </attr>
+        </node>
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+            <attr name="layout">
+                <string>960 -30 371 31 422 31 422 75 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>del:locateLocals</string>
+            </attr>
+            <attr name="layout">
+                <string>662 8 162 20 165 9 148 12 153 20 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n0">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+            <attr name="layout">
+                <string>960 -30 371 31 422 31 422 75 11</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+            <attr name="layout">
+                <string>487 0 157 29 324 30 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>Local</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>new:initLocals</string>
+            </attr>
+            <attr name="layout">
+                <string>903 0 158 29 68 17 69 61 158 29 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n2">
+            <attr name="label">
+                <string>new:nextIndex</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n2">
+            <attr name="label">
+                <string>new:init</string>
+            </attr>
+            <attr name="layout">
+                <string>419 40 158 38 158 109 398 109 11</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

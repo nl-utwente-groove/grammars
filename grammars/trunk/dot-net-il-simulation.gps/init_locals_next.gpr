@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="init_locals_next">
+        <node id="n9">
+            <attr name="layout">
+                <string>258 159 32 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>214 107 37 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>441 194 18 21</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>280 310 39 18</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>290 11 78 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>281 254 39 18</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>261 57 31 18</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>87 20 86 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>295 193 39 32</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>180 159 31 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>158 195 18 21</string>
+            </attr>
+        </node>
+        <edge to="n10" from="n7">
+            <attr name="label">
+                <string>del:nextIndex</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 188 40 188 65 267 65 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n2">
+            <attr name="label">
+                <string>int:add</string>
+            </attr>
+            <attr name="layout">
+                <string>569 5 214 120 196 120 196 159 11</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n1">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>initLocals</string>
+            </attr>
+            <attr name="layout">
+                <string>872 -5 149 31 42 31 43 66 149 31 12</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n1">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+            <attr name="layout">
+                <string>341 3 314 187 314 65 292 65 11</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n5">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+            <attr name="layout">
+                <string>315 1 301 272 301 279 301 310 11</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n5">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+            <attr name="layout">
+                <string>695 43 320 254 449 254 449 132 11</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n1">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>Local</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n7">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+            <attr name="layout">
+                <string>732 -49 194 37 328 37 328 187 11</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n4">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+            <attr name="layout">
+                <string>30 -114 368 24 478 24 479 260 320 260 11</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n2">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+            <attr name="layout">
+                <string>606 -8 251 119 276 119 276 159 11</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>Local</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+            <attr name="layout">
+                <string>1002 -89 368 17 497 17 498 317 319 317 11</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n10">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n7">
+            <attr name="label">
+                <string>new:init</string>
+            </attr>
+            <attr name="layout">
+                <string>618 134 151 31 136 318 317 318 11</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n7">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+            <attr name="layout">
+                <string>488 0 151 31 273 23 329 20 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>attr:</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n2">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 251 113 268 113 268 75 11</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n5">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+            <attr name="layout">
+                <string>340 -42 281 256 170 256 170 133 11</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>Local</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n7">
+            <attr name="label">
+                <string>del:init</string>
+            </attr>
+            <attr name="layout">
+                <string>663 106 150 40 150 263 281 263 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n7">
+            <attr name="label">
+                <string>new:nextIndex</string>
+            </attr>
+            <attr name="layout">
+                <string>370 -3 165 40 165 168 180 168 11</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

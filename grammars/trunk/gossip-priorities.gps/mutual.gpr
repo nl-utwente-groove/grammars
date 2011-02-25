@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph edgemode="directed" edgeids="false" role="rule" id="mutual">
+        <attr name="priority">
+            <string>4</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <attr name="remark">
+            <string>Reveals mutual secrets between two connected girls</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n16902">
+            <attr name="layout">
+                <string>182 233 31 14</string>
+            </attr>
+        </node>
+        <node id="n16904">
+            <attr name="layout">
+                <string>288 147 15 14</string>
+            </attr>
+        </node>
+        <node id="n16903">
+            <attr name="layout">
+                <string>123 145 15 14</string>
+            </attr>
+        </node>
+        <node id="n16905">
+            <attr name="layout">
+                <string>185 51 31 14</string>
+            </attr>
+        </node>
+        <edge to="n16904" from="n16903">
+            <attr name="label">
+                <string>phones</string>
+            </attr>
+        </edge>
+        <edge to="n16905" from="n16903">
+            <attr name="label">
+                <string>not:knows</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 145 154 136 66 210 60 11</string>
+            </attr>
+        </edge>
+        <edge to="n16905" from="n16904">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n16902" from="n16904">
+            <attr name="label">
+                <string>new:knows</string>
+            </attr>
+        </edge>
+        <edge to="n16905" from="n16905">
+            <attr name="label">
+                <string>Secret</string>
+            </attr>
+        </edge>
+        <edge to="n16903" from="n16903">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16905" from="n16903">
+            <attr name="label">
+                <string>new:knows</string>
+            </attr>
+        </edge>
+        <edge to="n16904" from="n16904">
+            <attr name="label">
+                <string>Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16902" from="n16903">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n16902" from="n16902">
+            <attr name="label">
+                <string>Secret</string>
+            </attr>
+        </edge>
+        <edge to="n16902" from="n16904">
+            <attr name="label">
+                <string>not:knows</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 310 156 304 237 207 242 11</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
