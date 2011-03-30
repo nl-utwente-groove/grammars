@@ -7,14 +7,14 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n16915">
+        <node id="n16921">
             <attr name="layout">
-                <string>69 234 31 14</string>
+                <string>383 236 31 14</string>
             </attr>
         </node>
-        <node id="n16916">
+        <node id="n16924">
             <attr name="layout">
-                <string>271 158 15 14</string>
+                <string>73 154 15 14</string>
             </attr>
         </node>
         <node id="n16919">
@@ -27,29 +27,9 @@
                 <string>194 237 31 14</string>
             </attr>
         </node>
-        <node id="n16913">
+        <node id="n16914">
             <attr name="layout">
-                <string>131 234 31 14</string>
-            </attr>
-        </node>
-        <node id="n16923">
-            <attr name="layout">
-                <string>337 158 15 14</string>
-            </attr>
-        </node>
-        <node id="n16917">
-            <attr name="layout">
-                <string>136 155 15 14</string>
-            </attr>
-        </node>
-        <node id="n16921">
-            <attr name="layout">
-                <string>383 236 31 14</string>
-            </attr>
-        </node>
-        <node id="n16924">
-            <attr name="layout">
-                <string>73 154 15 14</string>
+                <string>393 156 15 14</string>
             </attr>
         </node>
         <node id="n16918">
@@ -57,39 +37,59 @@
                 <string>261 238 31 14</string>
             </attr>
         </node>
-        <node id="n16914">
-            <attr name="layout">
-                <string>393 156 15 14</string>
-            </attr>
-        </node>
         <node id="n16922">
             <attr name="layout">
                 <string>205 158 15 14</string>
             </attr>
         </node>
-        <edge to="n16918" from="n16918">
+        <node id="n16917">
+            <attr name="layout">
+                <string>136 155 15 14</string>
+            </attr>
+        </node>
+        <node id="n16913">
+            <attr name="layout">
+                <string>131 234 31 14</string>
+            </attr>
+        </node>
+        <node id="n16915">
+            <attr name="layout">
+                <string>69 234 31 14</string>
+            </attr>
+        </node>
+        <node id="n16923">
+            <attr name="layout">
+                <string>337 158 15 14</string>
+            </attr>
+        </node>
+        <node id="n16916">
+            <attr name="layout">
+                <string>271 158 15 14</string>
+            </attr>
+        </node>
+        <edge to="n16921" from="n16921">
             <attr name="label">
-                <string>Secret</string>
+                <string>type:Secret</string>
             </attr>
         </edge>
-        <edge to="n16920" from="n16922">
+        <edge to="n16917" from="n16917">
+            <attr name="label">
+                <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16915" from="n16924">
             <attr name="label">
                 <string>knows</string>
-            </attr>
-        </edge>
-        <edge to="n16913" from="n16917">
-            <attr name="label">
-                <string>knows</string>
-            </attr>
-        </edge>
-        <edge to="n16913" from="n16913">
-            <attr name="label">
-                <string>Secret</string>
             </attr>
         </edge>
         <edge to="n16924" from="n16924">
             <attr name="label">
-                <string>Girl</string>
+                <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16914" from="n16914">
+            <attr name="label">
+                <string>type:Girl</string>
             </attr>
         </edge>
         <edge to="n16921" from="n16914">
@@ -97,9 +97,14 @@
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n16914" from="n16914">
+        <edge to="n16915" from="n16915">
             <attr name="label">
-                <string>Girl</string>
+                <string>type:Secret</string>
+            </attr>
+        </edge>
+        <edge to="n16922" from="n16922">
+            <attr name="label">
+                <string>type:Girl</string>
             </attr>
         </edge>
         <edge to="n16918" from="n16916">
@@ -107,29 +112,24 @@
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n16917" from="n16917">
+        <edge to="n16913" from="n16913">
             <attr name="label">
-                <string>Girl</string>
-            </attr>
-        </edge>
-        <edge to="n16921" from="n16921">
-            <attr name="label">
-                <string>Secret</string>
-            </attr>
-        </edge>
-        <edge to="n16916" from="n16916">
-            <attr name="label">
-                <string>Girl</string>
+                <string>type:Secret</string>
             </attr>
         </edge>
         <edge to="n16920" from="n16920">
             <attr name="label">
-                <string>Secret</string>
+                <string>type:Secret</string>
             </attr>
         </edge>
-        <edge to="n16923" from="n16923">
+        <edge to="n16916" from="n16916">
             <attr name="label">
-                <string>Girl</string>
+                <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16920" from="n16922">
+            <attr name="label">
+                <string>knows</string>
             </attr>
         </edge>
         <edge to="n16919" from="n16923">
@@ -137,24 +137,24 @@
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n16919" from="n16919">
+        <edge to="n16923" from="n16923">
             <attr name="label">
-                <string>Secret</string>
+                <string>type:Girl</string>
             </attr>
         </edge>
-        <edge to="n16922" from="n16922">
-            <attr name="label">
-                <string>Girl</string>
-            </attr>
-        </edge>
-        <edge to="n16915" from="n16915">
-            <attr name="label">
-                <string>Secret</string>
-            </attr>
-        </edge>
-        <edge to="n16915" from="n16924">
+        <edge to="n16913" from="n16917">
             <attr name="label">
                 <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n16919" from="n16919">
+            <attr name="label">
+                <string>type:Secret</string>
+            </attr>
+        </edge>
+        <edge to="n16918" from="n16918">
+            <attr name="label">
+                <string>type:Secret</string>
             </attr>
         </edge>
     </graph>
