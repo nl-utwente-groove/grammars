@@ -1,57 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="graph" id="start5">
+    <graph edgemode="directed" edgeids="false" role="graph" id="start6">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>69 234 31 14</string>
+                <string>69 234 59 31</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>327 239 31 14</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>337 159 15 14</string>
+                <string>327 239 59 31</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>131 234 31 14</string>
+                <string>131 234 59 31</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>337 159 39 31</string>
             </attr>
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>271 158 15 14</string>
+                <string>271 158 39 31</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>73 154 15 14</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>136 155 15 14</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>194 237 31 14</string>
+                <string>73 154 39 31</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>205 158 15 14</string>
+                <string>205 158 39 31</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>194 237 59 31</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>136 155 39 31</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>397 238 59 31</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>261 238 31 14</string>
+                <string>261 238 59 31</string>
+            </attr>
+        </node>
+        <node id="n11">
+            <attr name="layout">
+                <string>407 158 39 31</string>
             </attr>
         </node>
         <edge to="n7" from="n7">
+            <attr name="label">
+                <string>type:Secret</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n10">
             <attr name="label">
                 <string>type:Secret</string>
             </attr>
@@ -74,6 +92,11 @@
         <edge to="n5" from="n8">
             <attr name="label">
                 <string>knows</string>
+            </attr>
+        </edge>
+        <edge to="n11" from="n11">
+            <attr name="label">
+                <string>type:Girl</string>
             </attr>
         </edge>
         <edge to="n9" from="n9">
@@ -101,6 +124,11 @@
                 <string>type:Secret</string>
             </attr>
         </edge>
+        <edge to="n10" from="n11">
+            <attr name="label">
+                <string>knows</string>
+            </attr>
+        </edge>
         <edge to="n8" from="n8">
             <attr name="label">
                 <string>type:Girl</string>
@@ -116,12 +144,12 @@
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n0" from="n6">
+        <edge to="n4" from="n1">
             <attr name="label">
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n4" from="n1">
+        <edge to="n0" from="n6">
             <attr name="label">
                 <string>knows</string>
             </attr>

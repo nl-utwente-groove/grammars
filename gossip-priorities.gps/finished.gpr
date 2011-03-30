@@ -10,39 +10,39 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n16900">
-            <attr name="layout">
-                <string>132 195 31 28</string>
-            </attr>
-        </node>
         <node id="n16901">
             <attr name="layout">
                 <string>136 83 20 28</string>
             </attr>
         </node>
+        <node id="n16900">
+            <attr name="layout">
+                <string>132 195 31 28</string>
+            </attr>
+        </node>
         <edge to="n16901" from="n16901">
             <attr name="label">
                 <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n16900" from="n16900">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n16900" from="n16900">
+            <attr name="label">
+                <string>type:Secret</string>
+            </attr>
+        </edge>
+        <edge to="n16901" from="n16901">
+            <attr name="label">
+                <string>type:Girl</string>
             </attr>
         </edge>
         <edge to="n16900" from="n16901">
             <attr name="label">
                 <string>!knows</string>
-            </attr>
-        </edge>
-        <edge to="n16901" from="n16901">
-            <attr name="label">
-                <string>Girl</string>
-            </attr>
-        </edge>
-        <edge to="n16900" from="n16900">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n16900" from="n16900">
-            <attr name="label">
-                <string>Secret</string>
             </attr>
         </edge>
     </graph>

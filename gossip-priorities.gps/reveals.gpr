@@ -18,19 +18,39 @@
                 <string>107 81 15 14</string>
             </attr>
         </node>
-        <node id="n16906">
-            <attr name="layout">
-                <string>166 169 31 14</string>
-            </attr>
-        </node>
         <node id="n16908">
             <attr name="layout">
                 <string>272 83 15 14</string>
             </attr>
         </node>
+        <node id="n16906">
+            <attr name="layout">
+                <string>166 169 31 14</string>
+            </attr>
+        </node>
         <edge to="n16908" from="n16907">
             <attr name="label">
                 <string>phones</string>
+            </attr>
+        </edge>
+        <edge to="n16908" from="n16908">
+            <attr name="label">
+                <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16906" from="n16908">
+            <attr name="label">
+                <string>new:knows</string>
+            </attr>
+        </edge>
+        <edge to="n16907" from="n16907">
+            <attr name="label">
+                <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n16906" from="n16906">
+            <attr name="label">
+                <string>type:Secret</string>
             </attr>
         </edge>
         <edge to="n16906" from="n16908">
@@ -41,29 +61,9 @@
                 <string>500 0 294 92 288 173 191 178 11</string>
             </attr>
         </edge>
-        <edge to="n16906" from="n16908">
-            <attr name="label">
-                <string>new:knows</string>
-            </attr>
-        </edge>
         <edge to="n16906" from="n16907">
             <attr name="label">
                 <string>knows</string>
-            </attr>
-        </edge>
-        <edge to="n16906" from="n16906">
-            <attr name="label">
-                <string>Secret</string>
-            </attr>
-        </edge>
-        <edge to="n16907" from="n16907">
-            <attr name="label">
-                <string>Girl</string>
-            </attr>
-        </edge>
-        <edge to="n16908" from="n16908">
-            <attr name="label">
-                <string>Girl</string>
             </attr>
         </edge>
     </graph>
