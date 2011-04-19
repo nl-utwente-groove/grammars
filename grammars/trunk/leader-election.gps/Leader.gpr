@@ -17,14 +17,14 @@
                 <string>180 62 33 14</string>
             </attr>
         </node>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Leader</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Process</string>
+                <string>type:Process</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Leader</string>
             </attr>
         </edge>
         <edge to="n0" from="n1">

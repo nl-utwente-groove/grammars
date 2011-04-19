@@ -7,11 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>130 238 18 18</string>
-            </attr>
-        </node>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
                 <string>281 235 18 18</string>
@@ -22,17 +20,14 @@
                 <string>210 148 18 18</string>
             </attr>
         </node>
-        <edge to="n1" from="n2">
-            <attr name="label">
-                <string>not:hold</string>
-            </attr>
+        <node id="n2">
             <attr name="layout">
-                <string>298 -16 144 247 150 186 226 157 12</string>
+                <string>130 238 18 18</string>
             </attr>
-        </edge>
+        </node>
         <edge to="n1" from="n1">
             <attr name="label">
-                <string>Fork</string>
+                <string>type:Fork</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -41,6 +36,27 @@
             </attr>
             <attr name="layout">
                 <string>500 0 295 244 226 157 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>del:flag:hungry</string>
+            </attr>
+            <attr name="layout">
+                <string>869 -3 295 244 229 276 226 224 295 244 12</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:flag:hasLeft</string>
+            </attr>
+            <attr name="layout">
+                <string>173 1 295 244 368 270 369 214 295 244 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n2">
+            <attr name="label">
+                <string>right</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -53,33 +69,20 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Phil</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>new:hasLeft</string>
-            </attr>
-            <attr name="layout">
-                <string>173 1 295 244 368 270 369 214 295 244 12</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Phil</string>
+                <string>type:Phil</string>
             </attr>
         </edge>
         <edge to="n1" from="n2">
             <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>del:hungry</string>
+                <string>not:hold</string>
             </attr>
             <attr name="layout">
-                <string>869 -3 295 244 229 276 226 224 295 244 12</string>
+                <string>298 -16 144 247 150 186 226 157 12</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Phil</string>
             </attr>
         </edge>
     </graph>

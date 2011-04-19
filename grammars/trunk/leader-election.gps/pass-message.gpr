@@ -10,11 +10,6 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>312 154 34 14</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
                 <string>162 206 42 14</string>
@@ -25,7 +20,35 @@
                 <string>168 110 37 14</string>
             </attr>
         </node>
-        <edge to="n2" from="n0">
+        <node id="n2">
+            <attr name="layout">
+                <string>312 154 34 14</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>forallx:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>new:message</string>
+            </attr>
+            <attr name="layout">
+                <string>427 0 185 130 161 167 182 206 12</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Process</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Message</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n1">
             <attr name="label">
                 <string>at</string>
             </attr>
@@ -38,30 +61,7 @@
                 <string>500 0 195 206 222 168 197 130 12</string>
             </attr>
         </edge>
-        <edge to="n0" from="n1">
-            <attr name="label">
-                <string>new:message</string>
-            </attr>
-            <attr name="layout">
-                <string>427 0 185 130 161 167 182 206 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Message</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>forallx:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Process</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n1">
+        <edge to="n2" from="n0">
             <attr name="label">
                 <string>at</string>
             </attr>

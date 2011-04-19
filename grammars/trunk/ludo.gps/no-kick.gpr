@@ -7,9 +7,12 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n3">
             <attr name="layout">
-                <string>219 77 26 28</string>
+                <string>304 111 22 14</string>
             </attr>
         </node>
         <node id="n0">
@@ -22,14 +25,14 @@
                 <string>224 167 26 14</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n2">
             <attr name="layout">
-                <string>304 111 22 14</string>
+                <string>219 77 26 28</string>
             </attr>
         </node>
-        <edge to="n3" from="n3">
+        <edge to="n3" from="n2">
             <attr name="label">
-                <string>Field</string>
+                <string>at</string>
             </attr>
         </edge>
         <edge to="n3" from="n1">
@@ -37,37 +40,45 @@
                 <string>at</string>
             </attr>
         </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:flag:done</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 143 135 160 168 120 172 134 135 12</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Pawn</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>type:Field</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Pawn</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n2">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>myPawn</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Pawn</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:kick</string>
+                <string>del:flag:kick</string>
             </attr>
             <attr name="layout">
                 <string>500 0 143 115 158 78 116 80 133 115 12</string>
             </attr>
         </edge>
-        <edge to="n3" from="n2">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Player</string>
+                <string>type:Player</string>
             </attr>
         </edge>
         <edge to="n1" from="n2">
@@ -75,17 +86,9 @@
                 <string>!=</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n1" from="n0">
             <attr name="label">
-                <string>new:done</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 143 135 160 168 120 172 134 135 12</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Pawn</string>
+                <string>myPawn</string>
             </attr>
         </edge>
     </graph>

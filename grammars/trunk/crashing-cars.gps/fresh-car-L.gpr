@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="fresh-car-L">
-        <node id="n2">
-            <attr name="layout">
-                <string>187 87 23 30</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
                 <string>103 90 14 15</string>
@@ -16,9 +11,19 @@
                 <string>98 19 28 30</string>
             </attr>
         </node>
-        <edge to="n2" from="n2">
+        <node id="n2">
+            <attr name="layout">
+                <string>187 87 23 30</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>not:</string>
+                <string>type:RS</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
+            <attr name="label">
+                <string>l</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -26,22 +31,19 @@
                 <string>new:</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>del:free</string>
-            </attr>
-            <attr name="layout">
-                <string>976 -18 103 96 56 80 53 115 103 103 12</string>
-            </attr>
-        </edge>
         <edge to="n1" from="n1">
             <attr name="label">
-                <string>LCar</string>
+                <string>type:LCar</string>
             </attr>
         </edge>
-        <edge to="n2" from="n0">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>l</string>
+                <string>type:RS</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>not:</string>
             </attr>
         </edge>
         <edge to="n0" from="n1">
@@ -51,12 +53,10 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>RS</string>
+                <string>del:flag:free</string>
             </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>RS</string>
+            <attr name="layout">
+                <string>976 -18 103 96 56 80 53 115 103 103 12</string>
             </attr>
         </edge>
     </graph>

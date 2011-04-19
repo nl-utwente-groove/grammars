@@ -22,20 +22,20 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n16938" from="n16938">
-            <attr name="label">
-                <string>del:current</string>
-            </attr>
-            <attr name="layout">
-                <string>1549 -12 153 97 163 75 134 74 146 97 12</string>
-            </attr>
-        </edge>
         <edge to="n16937" from="n16937">
             <attr name="label">
-                <string>new:current</string>
+                <string>new:flag:current</string>
             </attr>
             <attr name="layout">
                 <string>1368 26 239 96 230 74 262 76 249 96 12</string>
+            </attr>
+        </edge>
+        <edge to="n16938" from="n16938">
+            <attr name="label">
+                <string>del:flag:current</string>
+            </attr>
+            <attr name="layout">
+                <string>1549 -12 153 97 163 75 134 74 146 97 12</string>
             </attr>
         </edge>
     </graph>

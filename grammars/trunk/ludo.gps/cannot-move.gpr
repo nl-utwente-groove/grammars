@@ -8,7 +8,7 @@
         </node>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:move</string>
+                <string>del:flag:move</string>
             </attr>
             <attr name="layout">
                 <string>1123 17 130 126 95 136 92 99 130 113 12</string>
@@ -16,15 +16,15 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Player</string>
+                <string>new:flag:done</string>
+            </attr>
+            <attr name="layout">
+                <string>1045 -20 170 125 203 134 203 98 170 112 12</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>new:done</string>
-            </attr>
-            <attr name="layout">
-                <string>1045 -20 170 125 203 134 203 98 170 112 12</string>
+                <string>type:Player</string>
             </attr>
         </edge>
     </graph>

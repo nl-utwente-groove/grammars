@@ -6,6 +6,11 @@
                 <string>96 202 18 18</string>
             </attr>
         </node>
+        <node id="n90">
+            <attr name="layout">
+                <string>317 199 18 18</string>
+            </attr>
+        </node>
         <node id="n88">
             <attr name="layout">
                 <string>213 136 18 18</string>
@@ -16,14 +21,9 @@
                 <string>102 95 18 18</string>
             </attr>
         </node>
-        <node id="n90">
-            <attr name="layout">
-                <string>317 199 18 18</string>
-            </attr>
-        </node>
-        <edge to="n90" from="n90">
+        <edge to="n87" from="n90">
             <attr name="label">
-                <string>bank</string>
+                <string>!=</string>
             </attr>
         </edge>
         <edge to="n90" from="n88">
@@ -31,24 +31,14 @@
                 <string>new:go</string>
             </attr>
         </edge>
+        <edge to="n90" from="n90">
+            <attr name="label">
+                <string>type:Bank</string>
+            </attr>
+        </edge>
         <edge to="n87" from="n89">
             <attr name="label">
                 <string>del:on</string>
-            </attr>
-        </edge>
-        <edge to="n87" from="n88">
-            <attr name="label">
-                <string>del:moored</string>
-            </attr>
-        </edge>
-        <edge to="n87" from="n90">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
-        <edge to="n88" from="n88">
-            <attr name="label">
-                <string>boat</string>
             </attr>
         </edge>
         <edge to="n88" from="n89">
@@ -56,9 +46,19 @@
                 <string>new:in</string>
             </attr>
         </edge>
+        <edge to="n88" from="n88">
+            <attr name="label">
+                <string>type:Boat</string>
+            </attr>
+        </edge>
         <edge to="n87" from="n87">
             <attr name="label">
-                <string>bank</string>
+                <string>type:Bank</string>
+            </attr>
+        </edge>
+        <edge to="n87" from="n88">
+            <attr name="label">
+                <string>del:moored</string>
             </attr>
         </edge>
     </graph>

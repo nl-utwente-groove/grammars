@@ -26,9 +26,9 @@
                 <string>112 135 18 18</string>
             </attr>
         </node>
-        <edge to="n86" from="n86">
+        <edge to="n83" from="n86">
             <attr name="label">
-                <string>Stone</string>
+                <string>next</string>
             </attr>
         </edge>
         <edge to="n83" from="n85">
@@ -36,14 +36,9 @@
                 <string>on</string>
             </attr>
         </edge>
-        <edge to="n87" from="n84">
+        <edge to="n83" from="n83">
             <attr name="label">
-                <string>del:on</string>
-            </attr>
-        </edge>
-        <edge to="n85" from="n85">
-            <attr name="label">
-                <string>not:</string>
+                <string>type:Stone</string>
             </attr>
         </edge>
         <edge to="n83" from="n84">
@@ -53,17 +48,17 @@
         </edge>
         <edge to="n87" from="n87">
             <attr name="label">
-                <string>Stone</string>
+                <string>type:Stone</string>
             </attr>
         </edge>
-        <edge to="n83" from="n83">
+        <edge to="n87" from="n84">
             <attr name="label">
-                <string>Stone</string>
+                <string>del:on</string>
             </attr>
         </edge>
         <edge to="n84" from="n84">
             <attr name="label">
-                <string>Male</string>
+                <string>type:Male</string>
             </attr>
         </edge>
         <edge to="n86" from="n87">
@@ -71,9 +66,14 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n83" from="n86">
+        <edge to="n85" from="n85">
             <attr name="label">
-                <string>next</string>
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n86" from="n86">
+            <attr name="label">
+                <string>type:Stone</string>
             </attr>
         </edge>
     </graph>

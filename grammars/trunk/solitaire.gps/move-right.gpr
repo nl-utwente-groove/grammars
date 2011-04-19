@@ -7,29 +7,12 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>278 181 18 18</string>
-            </attr>
-        </node>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
                 <string>116 188 18 18</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>192 185 18 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>117 113 18 18</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>288 112 18 18</string>
             </attr>
         </node>
         <node id="n3">
@@ -37,19 +20,44 @@
                 <string>201 113 18 18</string>
             </attr>
         </node>
-        <edge to="n5" from="n5">
+        <node id="n4">
+            <attr name="layout">
+                <string>192 185 18 18</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>288 112 18 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>278 181 18 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>117 113 18 18</string>
+            </attr>
+        </node>
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>F</string>
+                <string>type:F</string>
             </attr>
         </edge>
-        <edge to="n1" from="n3">
+        <edge to="n5" from="n0">
             <attr name="label">
-                <string>right</string>
+                <string>del:on</string>
             </attr>
         </edge>
-        <edge to="n4" from="n4">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>P</string>
+                <string>type:P</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n2">
+            <attr name="label">
+                <string>on</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -57,19 +65,9 @@
                 <string>new:on</string>
             </attr>
         </edge>
-        <edge to="n3" from="n5">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>P</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>F</string>
+                <string>type:P</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
@@ -82,29 +80,34 @@
                 <string>on</string>
             </attr>
         </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>type:F</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>type:P</string>
+            </attr>
+        </edge>
         <edge to="n4" from="n4">
             <attr name="label">
                 <string>del:</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n5" from="n5">
             <attr name="label">
-                <string>P</string>
+                <string>type:F</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge to="n3" from="n5">
             <attr name="label">
-                <string>F</string>
+                <string>right</string>
             </attr>
         </edge>
-        <edge to="n5" from="n0">
+        <edge to="n1" from="n3">
             <attr name="label">
-                <string>del:on</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n2">
-            <attr name="label">
-                <string>on</string>
+                <string>right</string>
             </attr>
         </edge>
     </graph>
