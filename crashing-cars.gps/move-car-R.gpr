@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="move-car-R">
-        <node id="n2">
-            <attr name="layout">
-                <string>103 90 14 15</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
                 <string>198 90 14 15</string>
@@ -16,17 +11,32 @@
                 <string>140 21 23 15</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>103 90 14 15</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:RS</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:LCar</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n2">
             <attr name="label">
-                <string>new:free</string>
+                <string>new:flag:free</string>
             </attr>
             <attr name="layout">
                 <string>978 14 103 103 59 114 60 83 103 96 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>r</string>
             </attr>
         </edge>
         <edge to="n2" from="n1">
@@ -34,32 +44,22 @@
                 <string>del:at</string>
             </attr>
         </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:RS</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:free</string>
+                <string>del:flag:free</string>
             </attr>
             <attr name="layout">
                 <string>1056 -15 222 103 261 113 262 82 222 96 12</string>
             </attr>
         </edge>
-        <edge to="n0" from="n1">
+        <edge to="n0" from="n2">
             <attr name="label">
-                <string>new:at</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>LCar</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>RS</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>RS</string>
+                <string>r</string>
             </attr>
         </edge>
     </graph>

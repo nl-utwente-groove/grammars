@@ -6,34 +6,29 @@
                 <string>89 130 18 18</string>
             </attr>
         </node>
-        <node id="n184">
-            <attr name="layout">
-                <string>166 198 18 18</string>
-            </attr>
-        </node>
         <node id="n183">
             <attr name="layout">
                 <string>256 83 18 18</string>
             </attr>
         </node>
+        <node id="n184">
+            <attr name="layout">
+                <string>166 198 18 18</string>
+            </attr>
+        </node>
+        <edge to="n185" from="n185">
+            <attr name="label">
+                <string>type:Boat</string>
+            </attr>
+        </edge>
         <edge to="n184" from="n183">
             <attr name="label">
                 <string>new:on</string>
             </attr>
         </edge>
-        <edge to="n184" from="n184">
-            <attr name="label">
-                <string>bank</string>
-            </attr>
-        </edge>
         <edge to="n184" from="n185">
             <attr name="label">
                 <string>new:moored</string>
-            </attr>
-        </edge>
-        <edge to="n185" from="n185">
-            <attr name="label">
-                <string>boat</string>
             </attr>
         </edge>
         <edge to="n185" from="n183">
@@ -47,6 +42,11 @@
             </attr>
             <attr name="layout">
                 <string>277 17 105 139 106 195 184 207 12</string>
+            </attr>
+        </edge>
+        <edge to="n184" from="n184">
+            <attr name="label">
+                <string>type:Bank</string>
             </attr>
         </edge>
     </graph>

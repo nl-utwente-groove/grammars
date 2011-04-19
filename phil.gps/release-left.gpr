@@ -7,6 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
                 <string>164 169 16 14</string>
@@ -19,7 +22,15 @@
         </node>
         <edge to="n1" from="n1">
             <attr name="label">
-                <string>Fork</string>
+                <string>type:Fork</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:flag:hasRight</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 190 183 244 204 245 154 190 174 12</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -28,11 +39,6 @@
             </attr>
             <attr name="layout">
                 <string>500 0 178 178 94 75 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Phil</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -45,18 +51,15 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:eat</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 164 183 112 202 115 155 164 173 12</string>
+                <string>type:Phil</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>new:hasRight</string>
+                <string>del:flag:eat</string>
             </attr>
             <attr name="layout">
-                <string>500 0 190 183 244 204 245 154 190 174 12</string>
+                <string>500 0 164 183 112 202 115 155 164 173 12</string>
             </attr>
         </edge>
     </graph>

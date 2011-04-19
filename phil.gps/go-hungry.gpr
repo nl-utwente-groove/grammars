@@ -7,6 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
                 <string>90 84 16 14</string>
@@ -14,7 +17,7 @@
         </node>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:think</string>
+                <string>del:flag:think</string>
             </attr>
             <attr name="layout">
                 <string>500 0 104 93 172 118 172 70 104 93 12</string>
@@ -22,15 +25,15 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>new:hungry</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 104 93 43 120 40 74 104 93 12</string>
+                <string>type:Phil</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Phil</string>
+                <string>new:flag:hungry</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 104 93 43 120 40 74 104 93 12</string>
             </attr>
         </edge>
     </graph>

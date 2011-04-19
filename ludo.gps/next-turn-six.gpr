@@ -7,29 +7,12 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>42 116 15 14</string>
-            </attr>
-        </node>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
                 <string>380 49 22 14</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>197 102 26 14</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>120 45 30 14</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>310 189 44 14</string>
             </attr>
         </node>
         <node id="n3">
@@ -37,9 +20,34 @@
                 <string>129 119 22 14</string>
             </attr>
         </node>
-        <edge to="n0" from="n4">
+        <node id="n4">
+            <attr name="layout">
+                <string>197 102 26 14</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>310 189 44 14</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>42 116 15 14</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>120 45 30 14</string>
+            </attr>
+        </node>
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>arg:0</string>
+                <string>type:Die</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n4">
+            <attr name="label">
+                <string>arg:1</string>
             </attr>
         </edge>
         <edge to="n1" from="n4">
@@ -47,17 +55,24 @@
                 <string>int:eq</string>
             </attr>
         </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:Player</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>int:6</string>
             </attr>
         </edge>
-        <edge to="n5" from="n5">
+        <edge to="n3" from="n2">
             <attr name="label">
-                <string>new:turn</string>
-            </attr>
-            <attr name="layout">
-                <string>901 13 140 55 87 68 87 40 140 55 12</string>
+                <string>del:dots</string>
             </attr>
         </edge>
         <edge to="n3" from="n3">
@@ -67,7 +82,18 @@
         </edge>
         <edge to="n5" from="n5">
             <attr name="label">
-                <string>Player</string>
+                <string>new:flag:turn</string>
+            </attr>
+            <attr name="layout">
+                <string>901 13 140 55 87 68 87 40 140 55 12</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>del:flag:done</string>
+            </attr>
+            <attr name="layout">
+                <string>942 -17 140 55 191 73 193 37 140 55 12</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -75,32 +101,9 @@
                 <string>bool:true</string>
             </attr>
         </edge>
-        <edge to="n3" from="n4">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>del:done</string>
-            </attr>
-            <attr name="layout">
-                <string>942 -17 140 55 191 73 193 37 140 55 12</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Die</string>
-            </attr>
-        </edge>
         <edge to="n4" from="n4">
             <attr name="label">
                 <string>prod:</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n2">
-            <attr name="label">
-                <string>del:dots</string>
             </attr>
         </edge>
     </graph>

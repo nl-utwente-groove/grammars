@@ -10,11 +10,6 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
-            <attr name="layout">
-                <string>202 224 42 14</string>
-            </attr>
-        </node>
         <node id="n0">
             <attr name="layout">
                 <string>198 116 37 28</string>
@@ -25,6 +20,16 @@
                 <string>312 118 37 14</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>202 224 42 14</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Process</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n1">
             <attr name="label">
                 <string>new:message</string>
@@ -35,9 +40,9 @@
                 <string>del:message</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>Message</string>
+                <string>type:Process</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -47,17 +52,12 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>passive</string>
+                <string>flag:passive</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>Process</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Process</string>
+                <string>type:Message</string>
             </attr>
         </edge>
     </graph>
