@@ -10,34 +10,39 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <node id="n1">
+            <attr name="layout">
+                <string>366 274 31 31</string>
+            </attr>
+        </node>
         <node id="n0">
             <attr name="layout">
-                <string>180 158 22 14</string>
+                <string>169 149 44 31</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>193 280 37 14</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>372 283 20 14</string>
+                <string>178 271 66 31</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>170 65 42 14</string>
+                <string>154 56 73 31</string>
             </attr>
         </node>
-        <edge to="n0" from="n2">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:number</string>
+                <string>int:</string>
             </attr>
         </edge>
         <edge to="n3" from="n3">
             <attr name="label">
                 <string>type:Process</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n3">
+            <attr name="label">
+                <string>number</string>
             </attr>
         </edge>
         <edge to="n0" from="n3">
@@ -46,16 +51,6 @@
             </attr>
             <attr name="layout">
                 <string>500 0 216 290 240 224 196 168 12</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>type:Numbers</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n3">
-            <attr name="label">
-                <string>number</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -68,9 +63,14 @@
                 <string>new:number</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>attr:</string>
+                <string>type:Numbers</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>del:number</string>
             </attr>
         </edge>
     </graph>
