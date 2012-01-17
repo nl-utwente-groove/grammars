@@ -10,32 +10,24 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0">
-            <attr name="layout">
-                <string>145 235 18 18</string>
-            </attr>
-        </node>
         <node id="n1">
             <attr name="layout">
-                <string>282 240 18 18</string>
+                <string>282 240 57 21</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>145 235 93 51</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>201 136 18 18</string>
+                <string>201 136 62 21</string>
             </attr>
         </node>
-        <edge to="n2" from="n1">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>new:flag:eat</string>
-            </attr>
-            <attr name="layout">
-                <string>936 -5 159 244 92 279 83 225 159 244 12</string>
+                <string>type:Phil</string>
             </attr>
         </edge>
         <edge to="n2" from="n1">
@@ -46,12 +38,19 @@
                 <string>226 11 296 249 291 179 217 145 12</string>
             </attr>
         </edge>
+        <edge to="n2" from="n1">
+            <attr name="label">
+                <string>left</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:flag:hasLeft</string>
+                <string>par:0</string>
             </attr>
-            <attr name="layout">
-                <string>120 5 159 244 232 270 232 223 159 244 12</string>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:flag:eat</string>
             </attr>
         </edge>
         <edge to="n2" from="n0">
@@ -62,9 +61,9 @@
                 <string>330 -18 159 244 152 176 217 145 12</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>type:Phil</string>
+                <string>del:flag:hasLeft</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
