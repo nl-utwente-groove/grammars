@@ -4,34 +4,22 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>266 63 66 106</string>
+                <string>230 101 73 66</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>273 217 46 31</string>
+                <string>241 235 62 21</string>
             </attr>
         </node>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Fork</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>left</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>right</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>flag:hasRight</string>
+                <string>flag:eat</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
@@ -41,12 +29,22 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>flag:eat</string>
+                <string>flag:hasRight</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>left</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>type:Phil</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>right</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -62,6 +60,11 @@
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>flag:think</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Fork</string>
             </attr>
         </edge>
     </graph>
