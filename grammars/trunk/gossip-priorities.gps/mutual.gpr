@@ -4,56 +4,51 @@
         <attr name="priority">
             <string>4</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
         <attr name="remark">
             <string>Reveals mutual secrets between two connected girls</string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n16905">
-            <attr name="layout">
-                <string>185 51 31 14</string>
-            </attr>
-        </node>
-        <node id="n16904">
-            <attr name="layout">
-                <string>288 147 15 14</string>
-            </attr>
-        </node>
-        <node id="n16902">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
             <attr name="layout">
                 <string>182 233 31 14</string>
             </attr>
         </node>
-        <node id="n16903">
+        <node id="n1">
             <attr name="layout">
                 <string>123 145 15 14</string>
             </attr>
         </node>
-        <edge to="n16904" from="n16903">
+        <node id="n2">
+            <attr name="layout">
+                <string>288 147 15 14</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>185 51 31 14</string>
+            </attr>
+        </node>
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>phones</string>
+                <string>type:Secret</string>
             </attr>
         </edge>
-        <edge to="n16902" from="n16903">
+        <edge to="n0" from="n1">
             <attr name="label">
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n16905" from="n16903">
-            <attr name="label">
-                <string>new:knows</string>
-            </attr>
-        </edge>
-        <edge to="n16903" from="n16903">
+        <edge to="n1" from="n1">
             <attr name="label">
                 <string>type:Girl</string>
             </attr>
         </edge>
-        <edge to="n16905" from="n16903">
+        <edge to="n3" from="n1">
             <attr name="label">
                 <string>not:knows</string>
             </attr>
@@ -61,12 +56,17 @@
                 <string>500 0 145 154 136 66 210 60 11</string>
             </attr>
         </edge>
-        <edge to="n16902" from="n16902">
+        <edge to="n3" from="n1">
             <attr name="label">
-                <string>type:Secret</string>
+                <string>new:knows</string>
             </attr>
         </edge>
-        <edge to="n16902" from="n16904">
+        <edge to="n2" from="n1">
+            <attr name="label">
+                <string>phones</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
             <attr name="label">
                 <string>not:knows</string>
             </attr>
@@ -74,24 +74,24 @@
                 <string>500 0 310 156 304 237 207 242 11</string>
             </attr>
         </edge>
-        <edge to="n16904" from="n16904">
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>type:Girl</string>
             </attr>
         </edge>
-        <edge to="n16905" from="n16905">
+        <edge to="n3" from="n2">
             <attr name="label">
-                <string>type:Secret</string>
+                <string>knows</string>
             </attr>
         </edge>
-        <edge to="n16902" from="n16904">
+        <edge to="n0" from="n2">
             <attr name="label">
                 <string>new:knows</string>
             </attr>
         </edge>
-        <edge to="n16905" from="n16904">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>knows</string>
+                <string>type:Secret</string>
             </attr>
         </edge>
     </graph>
