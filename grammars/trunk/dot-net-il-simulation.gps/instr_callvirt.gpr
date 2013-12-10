@@ -1,156 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="instr_callvirt">
-        <node id="n6">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n3">
             <attr name="layout">
-                <string>279 140 63 18</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>204 188 57 18</string>
-            </attr>
-        </node>
-        <node id="n9">
-            <attr name="layout">
-                <string>405 139 58 18</string>
-            </attr>
-        </node>
-        <node id="n0">
-            <attr name="layout">
-                <string>352 48 69 32</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>122 24 44 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>529 139 40 18</string>
-            </attr>
-        </node>
-        <node id="n10">
-            <attr name="layout">
-                <string>31 24 41 18</string>
-            </attr>
-        </node>
-        <node id="n7">
-            <attr name="layout">
-                <string>336 333 32 18</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>125 225 86 47</string>
+                <string>364 288 62 15</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>501 287 32 18</string>
+                <string>513 288 7 15</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n1">
             <attr name="layout">
-                <string>363 280 64 32</string>
+                <string>126 226 84 45</string>
             </attr>
         </node>
-        <edge to="n9" from="n0">
-            <attr name="label">
-                <string>methodName</string>
-            </attr>
+        <node id="n7">
             <attr name="layout">
-                <string>647 -16 421 69 436 69 436 150 11</string>
+                <string>348 334 7 15</string>
             </attr>
-        </edge>
-        <edge to="n5" from="n1">
-            <attr name="label">
-                <string>class</string>
-            </attr>
+        </node>
+        <node id="n10">
             <attr name="layout">
-                <string>967 42 211 249 550 249 550 157 11</string>
+                <string>34 25 34 15</string>
             </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>instance</string>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>534 140 30 15</string>
             </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>MethodFrame</string>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>126 25 36 15</string>
             </attr>
-        </edge>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>297 14 69 30</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>405 140 57 15</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>169 90 45 15</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>298 138 60 15</string>
+            </attr>
+        </node>
         <edge to="n3" from="n3">
             <attr name="label">
                 <string>new:</string>
             </attr>
         </edge>
-        <edge to="n9" from="n9">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n6">
-            <attr name="label">
-                <string>callConv</string>
-            </attr>
-            <attr name="layout">
-                <string>802 16 279 148 230 148 230 188 11</string>
-            </attr>
-        </edge>
-        <edge to="n10" from="n1">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-            <attr name="layout">
-                <string>631 -30 125 249 53 249 53 62 11</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n1">
-            <attr name="label">
-                <string>signature</string>
-            </attr>
-            <attr name="layout">
-                <string>756 31 211 232 314 232 314 158 11</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n4">
-            <attr name="label">
-                <string>del:ip</string>
-            </attr>
-            <attr name="layout">
-                <string>456 -9 166 30 379 30 379 48 11</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>locateArg</string>
-            </attr>
-            <attr name="layout">
-                <string>1023 24 136 272 94 304 158 340 165 272 12</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n1">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-            <attr name="layout">
-                <string>555 17 199 164 199 299 231 299 11</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n0">
-            <attr name="label">
-                <string>typeSpec</string>
-            </attr>
-            <attr name="layout">
-                <string>882 -37 421 59 550 59 550 146 11</string>
+                <string>type:Argument</string>
             </attr>
         </edge>
         <edge to="n8" from="n3">
@@ -163,84 +94,67 @@
                 <string>int:0</string>
             </attr>
         </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:flag:locateArg</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n1">
             <attr name="label">
                 <string>calledFrom</string>
             </attr>
             <attr name="layout">
-                <string>587 -91 178 225 178 63 352 63 11</string>
+                <string>587 -91 178 225 352 63 11</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n1">
+            <attr name="label">
+                <string>has</string>
             </attr>
         </edge>
         <edge to="n9" from="n1">
             <attr name="label">
                 <string>name</string>
             </attr>
-            <attr name="layout">
-                <string>930 41 211 241 436 241 436 157 11</string>
-            </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n5" from="n1">
             <attr name="label">
-                <string>callvirt</string>
+                <string>class</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>Argument</string>
-            </attr>
-        </edge>
-        <edge to="n10" from="n4">
+        <edge to="n3" from="n1">
             <attr name="label">
                 <string>has</string>
             </attr>
-            <attr name="layout">
-                <string>500 0 144 33 92 33 51 33 11</string>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>caller</string>
             </attr>
         </edge>
-        <edge to="n6" from="n0">
+        <edge to="n6" from="n1">
             <attr name="label">
-                <string>methodSignature</string>
-            </attr>
-            <attr name="layout">
-                <string>568 16 352 75 315 75 315 140 11</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>Signature</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Frame</string>
+                <string>signature</string>
             </attr>
         </edge>
         <edge to="n7" from="n1">
             <attr name="label">
                 <string>nextIndex</string>
-            </attr>
-            <attr name="layout">
-                <string>537 39 194 261 194 336 336 336 11</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n10" from="n10">
-            <attr name="label">
-                <string>Stack</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>new:</string>
             </attr>
         </edge>
         <edge to="n7" from="n7">
@@ -248,12 +162,83 @@
                 <string>int:1</string>
             </attr>
         </edge>
-        <edge to="n4" from="n1">
+        <edge to="n10" from="n10">
             <attr name="label">
-                <string>caller</string>
+                <string>type:Stack</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:Class</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>del:ip</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n4">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>callvirt</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n0">
+            <attr name="label">
+                <string>typeSpec</string>
             </attr>
             <attr name="layout">
-                <string>500 0 143 225 143 128 143 62 11</string>
+                <string>882 -37 386 64 550 146 11</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n0">
+            <attr name="label">
+                <string>methodSignature</string>
+            </attr>
+            <attr name="layout">
+                <string>568 16 352 75 315 140 11</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n0">
+            <attr name="label">
+                <string>methodName</string>
+            </attr>
+            <attr name="layout">
+                <string>647 -16 386 64 436 150 11</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>instance</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>type:Signature</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n6">
+            <attr name="label">
+                <string>callConv</string>
             </attr>
         </edge>
     </graph>

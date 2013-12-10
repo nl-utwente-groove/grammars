@@ -7,6 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n2">
             <attr name="layout">
                 <string>217 29 78 32</string>
@@ -22,27 +25,14 @@
                 <string>122 133 39 32</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
             <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-            <attr name="layout">
-                <string>511 -1 166 35 182 79 11</string>
+                <string>type:MethodBody</string>
             </attr>
         </edge>
         <edge to="n1" from="n2">
@@ -50,9 +40,22 @@
                 <string>locals</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>MethodBody</string>
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+            <attr name="layout">
+                <string>511 -1 142 33 141 149 11</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -60,9 +63,9 @@
                 <string>del:</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>Frame</string>
+                <string>type:Local</string>
             </attr>
         </edge>
     </graph>

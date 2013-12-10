@@ -1,26 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="init_locals_none">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n2">
             <attr name="layout">
-                <string>229 125 78 18</string>
+                <string>228 126 79 15</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>412 119 39 32</string>
+                <string>416 127 31 15</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>57 128 86 18</string>
+                <string>58 122 84 30</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>235 214 69 18</string>
+                <string>235 215 69 15</string>
             </attr>
         </node>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+            <attr name="layout">
+                <string>482 3 268 134 412 134 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n2">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
         <edge to="n3" from="n2">
             <attr name="label">
                 <string>instruction</string>
@@ -33,30 +69,22 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Local</string>
+                <string>type:Local</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
             <attr name="label">
-                <string>del:locateLocals</string>
-            </attr>
-            <attr name="layout">
-                <string>494 -4 67 144 47 207 99 205 73 144 12</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n2">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>MethodBody</string>
+                <string>type:MethodFrame</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
             <attr name="label">
-                <string>MethodFrame</string>
+                <string>del:flag:locateLocals</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:flag:execute</string>
             </attr>
         </edge>
         <edge to="n3" from="n1">
@@ -69,28 +97,12 @@
                 <string>executes</string>
             </attr>
             <attr name="layout">
-                <string>407 0 68 136 161 134 260 134 11</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>new:execute</string>
-            </attr>
-            <attr name="layout">
-                <string>618 -13 68 135 49 96 93 84 68 135 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>locals</string>
-            </attr>
-            <attr name="layout">
-                <string>482 3 307 134 373 134 412 134 11</string>
+                <string>407 0 68 136 260 134 11</string>
             </attr>
         </edge>
         <edge to="n3" from="n3">
             <attr name="label">
-                <string>Instruction</string>
+                <string>type:Instruction</string>
             </attr>
         </edge>
     </graph>
