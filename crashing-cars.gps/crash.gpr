@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="crashing-cars">
-        <attr name="enabled">
-            <string>false</string>
+    <graph edgemode="directed" edgeids="false" role="rule" id="crash">
+        <attr name="transitionLabel">
+            <string></string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="remark">
+            <string></string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n3">
             <attr name="layout">
-                <string>196 26 20 30</string>
+                <string>196 31 19 19</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>103 90 14 15</string>
+                <string>93 103 34 30</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>198 90 14 15</string>
+                <string>196 111 17 15</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>102 27 20 30</string>
+                <string>102 32 19 19</string>
             </attr>
         </node>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
         <edge to="n1" from="n3">
             <attr name="label">
                 <string>at</string>
@@ -40,29 +54,14 @@
                 <string>type:RS</string>
             </attr>
         </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>new:flag:free</string>
+            </attr>
+        </edge>
         <edge to="n1" from="n0">
             <attr name="label">
                 <string>r|l</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>Car</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Car</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -70,9 +69,19 @@
                 <string>type:RS</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>new:flag:free</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
             <attr name="label">
                 <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>at</string>
             </attr>
         </edge>
     </graph>
