@@ -1,58 +1,132 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="enter">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
         <attr name="priority">
             <string>15</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0">
+        <node id="n5">
             <attr name="layout">
-                <string>73 46 26 14</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>70 126 30 14</string>
-            </attr>
-        </node>
-        <node id="n6">
-            <attr name="layout">
-                <string>275 114 15 14</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>177 193 26 28</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>181 44 22 28</string>
+                <string>406 83 7 15</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>179 123 22 14</string>
+                <string>176 122 27 15</string>
             </attr>
         </node>
-        <node id="n5">
+        <node id="n1">
             <attr name="layout">
-                <string>399 84 22 14</string>
+                <string>178 50 27 15</string>
             </attr>
         </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>173 199 34 15</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>273 113 19 15</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>65 110 39 45</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>69 45 34 15</string>
+            </attr>
+        </node>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>int:6</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n2">
             <attr name="label">
                 <string>type:Field</string>
             </attr>
         </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Field</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>type:Pawn</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n4">
+            <attr name="label">
+                <string>not:at</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>type:Die</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n6">
+            <attr name="label">
+                <string>dots</string>
+            </attr>
+        </edge>
         <edge to="n3" from="n3">
             <attr name="label">
                 <string>type:Player</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>del:flag:mode</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>new:flag:kick</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n3">
+            <attr name="label">
+                <string>myPawn</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n3">
+            <attr name="label">
+                <string>myPawn</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n3">
+            <attr name="label">
+                <string>start</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
@@ -65,80 +139,9 @@
                 <string>at</string>
             </attr>
         </edge>
-        <edge to="n0" from="n3">
-            <attr name="label">
-                <string>myPawn</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>type:Die</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n4">
-            <attr name="label">
-                <string>not:at</string>
-            </attr>
-        </edge>
         <edge to="n2" from="n0">
             <attr name="label">
                 <string>new:at</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>new:flag:kick</string>
-            </attr>
-            <attr name="layout">
-                <string>760 16 70 143 39 154 40 116 70 128 12</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>int:6</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n3">
-            <attr name="label">
-                <string>myPawn</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>type:Pawn</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Field</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>del:flag:move</string>
-            </attr>
-            <attr name="layout">
-                <string>1048 24 94 146 107 174 69 180 85 146 12</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n6">
-            <attr name="label">
-                <string>dots</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n3">
-            <attr name="label">
-                <string>start</string>
             </attr>
         </edge>
     </graph>
