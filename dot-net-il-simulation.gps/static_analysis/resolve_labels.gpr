@@ -7,6 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n223">
             <attr name="layout">
                 <string>196 73 18 18</string>
@@ -37,52 +40,9 @@
                 <string>327 134 18 18</string>
             </attr>
         </node>
-        <edge to="n224" from="n226">
-            <attr name="label">
-                <string>target</string>
-            </attr>
-        </edge>
-        <edge to="n226" from="n223">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n222" from="n221">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n225" from="n225">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n224" from="n221">
-            <attr name="label">
-                <string>not:=</string>
-            </attr>
-            <attr name="layout">
-                <string>509 -1 128 230 361 238 11</string>
-            </attr>
-        </edge>
-        <edge to="n226" from="n226">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n224" from="n224">
-            <attr name="label">
-                <string>Label</string>
-            </attr>
-        </edge>
-        <edge to="n221" from="n225">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
         <edge to="n223" from="n223">
             <attr name="label">
-                <string>MethodBody</string>
+                <string>type:MethodBody</string>
             </attr>
         </edge>
         <edge to="n225" from="n223">
@@ -90,17 +50,25 @@
                 <string>instruction</string>
             </attr>
         </edge>
+        <edge to="n226" from="n223">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n224" from="n221">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+            <attr name="layout">
+                <string>509 -1 118 230 351 230 11</string>
+            </attr>
+        </edge>
         <edge to="n221" from="n221">
             <attr name="label">
-                <string>Label</string>
+                <string>type:Label</string>
             </attr>
         </edge>
-        <edge to="n221" from="n226">
-            <attr name="label">
-                <string>new:target</string>
-            </attr>
-        </edge>
-        <edge to="n222" from="n224">
+        <edge to="n222" from="n221">
             <attr name="label">
                 <string>name</string>
             </attr>
@@ -108,6 +76,41 @@
         <edge to="n224" from="n224">
             <attr name="label">
                 <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n224" from="n224">
+            <attr name="label">
+                <string>type:Label</string>
+            </attr>
+        </edge>
+        <edge to="n222" from="n224">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n221" from="n225">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n225" from="n225">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n226" from="n226">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n224" from="n226">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge to="n221" from="n226">
+            <attr name="label">
+                <string>new:target</string>
             </attr>
         </edge>
     </graph>

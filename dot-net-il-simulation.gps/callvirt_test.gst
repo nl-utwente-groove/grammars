@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="graph" id="callvirt_test">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n82">
             <attr name="layout">
                 <string>819 1230 69 32</string>
@@ -711,732 +714,14 @@
                 <string>1020 1039 69 32</string>
             </attr>
         </node>
-        <edge to="n59" from="n102">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n133">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n94" from="n25">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
-        <edge to="n140" from="n140">
-            <attr name="label">
-                <string>ldloc</string>
-            </attr>
-        </edge>
-        <edge to="n53" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n88" from="n88">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n96" from="n74">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n120" from="n120">
-            <attr name="label">
-                <string>ansi</string>
-            </attr>
-        </edge>
-        <edge to="n30" from="n6">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n34" from="n34">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n127" from="n127">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n113" from="n113">
-            <attr name="label">
-                <string>ObjectVal</string>
-            </attr>
-        </edge>
-        <edge to="n36" from="n36">
-            <attr name="label">
-                <string>b</string>
-            </attr>
-        </edge>
-        <edge to="n94" from="n25">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n140" from="n140">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n33" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n26" from="n52">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n32" from="n138">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n83" from="n7">
-            <attr name="label">
-                <string>target</string>
-            </attr>
-        </edge>
-        <edge to="n109" from="n109">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n112" from="n60">
-            <attr name="label">
-                <string>method</string>
-            </attr>
-        </edge>
-        <edge to="n51" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n116" from="n92">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n13" from="n13">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>ldloc</string>
-            </attr>
-        </edge>
-        <edge to="n64" from="n101">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n31" from="n103">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n52" from="n11">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
-        <edge to="n135" from="n1">
-            <attr name="label">
-                <string>caller</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n101">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
-        <edge to="n79" from="n112">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>public</string>
-            </attr>
-        </edge>
-        <edge to="n24" from="n24">
-            <attr name="label">
-                <string>void</string>
-            </attr>
-        </edge>
-        <edge to="n141" from="n141">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge to="n27" from="n27">
-            <attr name="label">
-                <string>specialname</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>Program</string>
-            </attr>
-        </edge>
-        <edge to="n30" from="n30">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n130" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n98" from="n67">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n45" from="n45">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n137" from="n137">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n76" from="n11">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>int:5</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n98" from="n89">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n138" from="n138">
-            <attr name="label">
-                <string>Method</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n90">
-            <attr name="label">
-                <string>contains</string>
-            </attr>
-        </edge>
-        <edge to="n24" from="n22">
-            <attr name="label">
-                <string>returnType</string>
-            </attr>
-        </edge>
-        <edge to="n115" from="n129">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n21" from="n21">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n100" from="n56">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n139" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n123" from="n123">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n18" from="n22">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n131" from="n131">
-            <attr name="label">
-                <string>static</string>
-            </attr>
-        </edge>
-        <edge to="n45" from="n49">
-            <attr name="label">
-                <string>locals</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>ret</string>
-            </attr>
-        </edge>
-        <edge to="n128" from="n56">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n80" from="n129">
-            <attr name="label">
-                <string>locals</string>
-            </attr>
-        </edge>
-        <edge to="n123" from="n123">
-            <attr name="label">
-                <string>ldloc</string>
-            </attr>
-        </edge>
-        <edge to="n133" from="n133">
-            <attr name="label">
-                <string>Field</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n56">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n69" from="n69">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n75" from="n132">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 367 628 306 710 320 801 12</string>
-            </attr>
-        </edge>
-        <edge to="n108" from="n129">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n57">
-            <attr name="label">
-                <string>typeSpec</string>
-            </attr>
-        </edge>
-        <edge to="n88" from="n88">
-            <attr name="label">
-                <string>rtspecialname</string>
-            </attr>
-        </edge>
-        <edge to="n76" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n104" from="n15">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n40" from="n40">
-            <attr name="label">
-                <string>Label</string>
-            </attr>
-        </edge>
-        <edge to="n50" from="n50">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n137" from="n48">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n105" from="n105">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n41">
-            <attr name="label">
-                <string>System</string>
-            </attr>
-        </edge>
-        <edge to="n67" from="n67">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n68" from="n68">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n59" from="n59">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n0">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n44" from="n138">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n131" from="n131">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n140" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n28" from="n28">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge to="n137" from="n137">
-            <attr name="label">
-                <string>beforefieldinit</string>
-            </attr>
-        </edge>
-        <edge to="n121" from="n28">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n18" from="n22">
-            <attr name="label">
-                <string>callConv</string>
-            </attr>
-        </edge>
-        <edge to="n80" from="n67">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n20">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n118" from="n38">
-            <attr name="label">
-                <string>callConv</string>
-            </attr>
-        </edge>
-        <edge to="n28" from="n132">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n33" from="n105">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n80" from="n80">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n74">
-            <attr name="label">
-                <string>extends</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n68">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n125" from="n112">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n44" from="n44">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n78" from="n112">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n102" from="n102">
-            <attr name="label">
-                <string>Parameter</string>
-            </attr>
-        </edge>
-        <edge to="n108" from="n108">
-            <attr name="label">
-                <string>entrypoint</string>
-            </attr>
-        </edge>
-        <edge to="n82" from="n84">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
         <edge to="n22" from="n82">
             <attr name="label">
                 <string>methodSignature</string>
             </attr>
         </edge>
-        <edge to="n37" from="n13">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n100" from="n100">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n91" from="n91">
-            <attr name="label">
-                <string>rtspecialname</string>
-            </attr>
-        </edge>
-        <edge to="n61" from="n61">
-            <attr name="label">
-                <string>.assembly</string>
-            </attr>
-        </edge>
-        <edge to="n15" from="n129">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
-        <edge to="n119" from="n92">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n140">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n58" from="n92">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n128" from="n128">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n21" from="n21">
-            <attr name="label">
-                <string>nop</string>
-            </attr>
-        </edge>
-        <edge to="n95" from="n95">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n84" from="n25">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n37">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n91" from="n27">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n110" from="n112">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n126" from="n74">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n91" from="n56">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n84" from="n25">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n39" from="n13">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n117" from="n58">
-            <attr name="label">
-                <string>returnType</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n57" from="n57">
-            <attr name="label">
-                <string>call</string>
-            </attr>
-        </edge>
-        <edge to="n36" from="n99">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n54" from="n54">
-            <attr name="label">
-                <string>V_0</string>
-            </attr>
-        </edge>
-        <edge to="n65" from="n138">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n21" from="n71">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n91" from="n91">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n19" from="n110">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n95" from="n95">
-            <attr name="label">
-                <string>private</string>
-            </attr>
-        </edge>
-        <edge to="n63" from="n74">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n9" from="n9">
-            <attr name="label">
-                <string>Argument</string>
-            </attr>
-        </edge>
-        <edge to="n48" from="n60">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n82">
-            <attr name="label">
-                <string>typeSpec</string>
-            </attr>
-        </edge>
-        <edge to="n51" from="n51">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n62" from="n60">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n60" from="n72">
-            <attr name="label">
-                <string>className</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n49">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n37" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n73" from="n45">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n123" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
         <edge to="n82" from="n82">
             <attr name="label">
-                <string>call</string>
-            </attr>
-        </edge>
-        <edge to="n35" from="n35">
-            <attr name="label">
-                <string>instance</string>
-            </attr>
-        </edge>
-        <edge to="n134" from="n1">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n81" from="n129">
-            <attr name="label">
-                <string>instruction</string>
+                <string>type:Instruction</string>
             </attr>
         </edge>
         <edge to="n93" from="n82">
@@ -1444,179 +729,9 @@
                 <string>methodName</string>
             </attr>
         </edge>
-        <edge to="n49" from="n112">
+        <edge to="n101" from="n82">
             <attr name="label">
-                <string>body</string>
-            </attr>
-        </edge>
-        <edge to="n29" from="n120">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n125" from="n125">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n30" from="n56">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n53" from="n51">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n19" from="n112">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n53" from="n53">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n71" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n46" from="n46">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n72" from="n80">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n86" from="n38">
-            <attr name="label">
-                <string>parameters</string>
-            </attr>
-        </edge>
-        <edge to="n54" from="n54">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n57">
-            <attr name="label">
-                <string>methodName</string>
-            </attr>
-        </edge>
-        <edge to="n14" from="n49">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
-        <edge to="n69" from="n69">
-            <attr name="label">
-                <string>managed</string>
-            </attr>
-        </edge>
-        <edge to="n65" from="n65">
-            <attr name="label">
-                <string>hidebysig</string>
-            </attr>
-        </edge>
-        <edge to="n54" from="n45">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n39" from="n39">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n106" from="n92">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n89">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n60" from="n3">
-            <attr name="label">
-                <string>contains</string>
-            </attr>
-        </edge>
-        <edge to="n65" from="n65">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n40" from="n0">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n66" from="n129">
-            <attr name="label">
-                <string>Init</string>
-            </attr>
-        </edge>
-        <edge to="n104" from="n104">
-            <attr name="label">
-                <string>int:3</string>
-            </attr>
-        </edge>
-        <edge to="n33" from="n33">
-            <attr name="label">
-                <string>stloc</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n20">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>nop</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n48" from="n85">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n89" from="n1">
-            <attr name="label">
-                <string>has</string>
+                <string>typeSpec</string>
             </attr>
         </edge>
         <edge to="n47" from="n82">
@@ -1624,19 +739,24 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n68" from="n68">
+        <edge to="n82" from="n82">
             <attr name="label">
-                <string>ldarg</string>
+                <string>call</string>
             </attr>
         </edge>
-        <edge to="n42" from="n42">
+        <edge to="n41" from="n41">
             <attr name="label">
-                <string>int32</string>
+                <string>type:System</string>
             </attr>
         </edge>
-        <edge to="n85" from="n95">
+        <edge to="n41" from="n41">
             <attr name="label">
-                <string>next</string>
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n131" from="n131">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
             </attr>
         </edge>
         <edge to="n106" from="n131">
@@ -1644,254 +764,14 @@
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n126" from="n126">
+        <edge to="n131" from="n131">
             <attr name="label">
-                <string>Identifier</string>
+                <string>static</string>
             </attr>
         </edge>
-        <edge to="n81" from="n81">
+        <edge to="n74" from="n3">
             <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n63" from="n63">
-            <attr name="label">
-                <string>private</string>
-            </attr>
-        </edge>
-        <edge to="n26" from="n94">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n99" from="n79">
-            <attr name="label">
-                <string>parameters</string>
-            </attr>
-        </edge>
-        <edge to="n82" from="n82">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n94" from="n94">
-            <attr name="label">
-                <string>MaxStack</string>
-            </attr>
-        </edge>
-        <edge to="n45" from="n49">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n56" from="n56">
-            <attr name="label">
-                <string>Method</string>
-            </attr>
-        </edge>
-        <edge to="n55" from="n55">
-            <attr name="label">
-                <string>hidebysig</string>
-            </attr>
-        </edge>
-        <edge to="n101" from="n60">
-            <attr name="label">
-                <string>extends</string>
-            </attr>
-        </edge>
-        <edge to="n134" from="n134">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n97" from="n97">
-            <attr name="label">
-                <string>ASSEMBLY_NODE</string>
-            </attr>
-        </edge>
-        <edge to="n120" from="n120">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n103">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n112" from="n112">
-            <attr name="label">
-                <string>Method</string>
-            </attr>
-        </edge>
-        <edge to="n100" from="n100">
-            <attr name="label">
-                <string>managed</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n93">
-            <attr name="label">
-                <string>.ctor</string>
-            </attr>
-        </edge>
-        <edge to="n31" from="n31">
-            <attr name="label">
-                <string>stloc</string>
-            </attr>
-        </edge>
-        <edge to="n53" from="n53">
-            <attr name="label">
-                <string>ret</string>
-            </attr>
-        </edge>
-        <edge to="n75" from="n75">
-            <attr name="label">
-                <string>ObjectVal</string>
-            </attr>
-        </edge>
-        <edge to="n122" from="n122">
-            <attr name="label">
-                <string>void</string>
-            </attr>
-        </edge>
-        <edge to="n29" from="n29">
-            <attr name="label">
-                <string>beforefieldinit</string>
-            </attr>
-        </edge>
-        <edge to="n79" from="n23">
-            <attr name="label">
-                <string>methodSignature</string>
-            </attr>
-        </edge>
-        <edge to="n125" from="n112">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n68" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n132" from="n10">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n60" from="n105">
-            <attr name="label">
-                <string>typeSpec</string>
-            </attr>
-        </edge>
-        <edge to="n116" from="n116">
-            <attr name="label">
-                <string>hidebysig</string>
-            </attr>
-        </edge>
-        <edge to="n78" from="n78">
-            <attr name="label">
-                <string>a</string>
-            </attr>
-        </edge>
-        <edge to="n16" from="n16">
-            <attr name="label">
-                <string>ldc</string>
-            </attr>
-        </edge>
-        <edge to="n81" from="n81">
-            <attr name="label">
-                <string>stloc</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>MethodFrame</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n89">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n135" from="n135">
-            <attr name="label">
-                <string>executes</string>
-            </attr>
-        </edge>
-        <edge to="n23" from="n23">
-            <attr name="label">
-                <string>callvirt</string>
-            </attr>
-        </edge>
-        <edge to="n11" from="n11">
-            <attr name="label">
-                <string>MethodBody</string>
-            </attr>
-        </edge>
-        <edge to="n77" from="n134">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n140" from="n33">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n123" from="n140">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n30" from="n30">
-            <attr name="label">
-                <string>hidebysig</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n93">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n74" from="n74">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n55" from="n55">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n0">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n56">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n23" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n27" from="n30">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n77" from="n77">
-            <attr name="label">
-                <string>V_1</string>
+                <string>contains</string>
             </attr>
         </edge>
         <edge to="n90" from="n3">
@@ -1899,84 +779,49 @@
                 <string>contains</string>
             </attr>
         </edge>
-        <edge to="n15" from="n108">
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>Program</string>
+            </attr>
+        </edge>
+        <edge to="n97" from="n3">
+            <attr name="label">
+                <string>contains</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n3">
+            <attr name="label">
+                <string>contains</string>
+            </attr>
+        </edge>
+        <edge to="n113" from="n113">
+            <attr name="label">
+                <string>type:ObjectVal</string>
+            </attr>
+        </edge>
+        <edge to="n42" from="n42">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n84">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n84" from="n84">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n82" from="n84">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n103" from="n103">
+        <edge to="n84" from="n84">
             <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n100" from="n128">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n61" from="n97">
-            <attr name="label">
-                <string>assemblyHead</string>
-            </attr>
-        </edge>
-        <edge to="n63" from="n63">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n7">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n139" from="n139">
-            <attr name="label">
-                <string>ldc</string>
-            </attr>
-        </edge>
-        <edge to="n131" from="n92">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n124" from="n106">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n31" from="n31">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n127" from="n133">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n22" from="n56">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n110" from="n55">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n55" from="n125">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n47" from="n47">
-            <attr name="label">
-                <string>ret</string>
+                <string>ldarg</string>
             </attr>
         </edge>
         <edge to="n72" from="n72">
@@ -1984,49 +829,184 @@
                 <string>class</string>
             </attr>
         </edge>
-        <edge to="n0" from="n7">
+        <edge to="n60" from="n72">
+            <attr name="label">
+                <string>className</string>
+            </attr>
+        </edge>
+        <edge to="n91" from="n27">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n34" from="n141">
+        <edge to="n27" from="n27">
             <attr name="label">
-                <string>name</string>
+                <string>specialname</string>
             </attr>
         </edge>
-        <edge to="n49" from="n49">
+        <edge to="n27" from="n27">
             <attr name="label">
-                <string>MethodBody</string>
+                <string>type:MethodAttribute</string>
             </attr>
         </edge>
-        <edge to="n52" from="n11">
+        <edge to="n58" from="n58">
+            <attr name="label">
+                <string>type:Signature</string>
+            </attr>
+        </edge>
+        <edge to="n117" from="n58">
+            <attr name="label">
+                <string>returnType</string>
+            </attr>
+        </edge>
+        <edge to="n123" from="n123">
+            <attr name="label">
+                <string>ldloc</string>
+            </attr>
+        </edge>
+        <edge to="n43" from="n123">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n123">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n123" from="n123">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n18" from="n22">
+            <attr name="label">
+                <string>callConv</string>
+            </attr>
+        </edge>
+        <edge to="n18" from="n22">
             <attr name="label">
                 <string>first</string>
             </attr>
         </edge>
-        <edge to="n67" from="n129">
+        <edge to="n22" from="n22">
             <attr name="label">
-                <string>locals</string>
+                <string>type:Signature</string>
             </attr>
         </edge>
-        <edge to="n7" from="n7">
+        <edge to="n24" from="n22">
             <attr name="label">
-                <string>br.s</string>
+                <string>returnType</string>
             </attr>
         </edge>
-        <edge to="n135" from="n135">
+        <edge to="n137" from="n137">
             <attr name="label">
-                <string>ProgramFrame</string>
+                <string>beforefieldinit</string>
             </attr>
         </edge>
-        <edge to="n34" from="n13">
+        <edge to="n137" from="n137">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n40" from="n40">
+            <attr name="label">
+                <string>type:Label</string>
+            </attr>
+        </edge>
+        <edge to="n70" from="n40">
             <attr name="label">
                 <string>name</string>
             </attr>
         </edge>
-        <edge to="n42" from="n20">
+        <edge to="n95" from="n60">
             <attr name="label">
-                <string>type</string>
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n48" from="n60">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n138" from="n60">
+            <attr name="label">
+                <string>method</string>
+            </attr>
+        </edge>
+        <edge to="n141" from="n60">
+            <attr name="label">
+                <string>field</string>
+            </attr>
+        </edge>
+        <edge to="n85" from="n60">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n137" from="n60">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n112" from="n60">
+            <attr name="label">
+                <string>method</string>
+            </attr>
+        </edge>
+        <edge to="n101" from="n60">
+            <attr name="label">
+                <string>extends</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n60">
+            <attr name="label">
+                <string>type:Class</string>
+            </attr>
+        </edge>
+        <edge to="n95" from="n60">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n141" from="n60">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n62" from="n60">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n118" from="n118">
+            <attr name="label">
+                <string>instance</string>
+            </attr>
+        </edge>
+        <edge to="n74" from="n74">
+            <attr name="label">
+                <string>type:Class</string>
+            </attr>
+        </edge>
+        <edge to="n63" from="n74">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n101" from="n74">
+            <attr name="label">
+                <string>extends</string>
+            </attr>
+        </edge>
+        <edge to="n63" from="n74">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n126" from="n74">
+            <attr name="label">
+                <string>name</string>
             </attr>
         </edge>
         <edge to="n92" from="n74">
@@ -2034,27 +1014,277 @@
                 <string>method</string>
             </attr>
         </edge>
-        <edge to="n12" from="n12">
+        <edge to="n120" from="n74">
             <attr name="label">
-                <string>int:0</string>
+                <string>attribute</string>
             </attr>
         </edge>
-        <edge to="n130" from="n130">
+        <edge to="n29" from="n74">
             <attr name="label">
-                <string>ldarg</string>
+                <string>attribute</string>
             </attr>
         </edge>
-        <edge to="n67" from="n129">
+        <edge to="n96" from="n74">
             <attr name="label">
-                <string>first</string>
+                <string>attribute</string>
             </attr>
         </edge>
-        <edge to="n79" from="n79">
+        <edge to="n56" from="n74">
             <attr name="label">
-                <string>Signature</string>
+                <string>method</string>
+            </attr>
+        </edge>
+        <edge to="n35" from="n35">
+            <attr name="label">
+                <string>instance</string>
+            </attr>
+        </edge>
+        <edge to="n85" from="n85">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n85" from="n85">
+            <attr name="label">
+                <string>auto</string>
+            </attr>
+        </edge>
+        <edge to="n48" from="n85">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n86" from="n86">
+            <attr name="label">
+                <string>type:Parameter</string>
+            </attr>
+        </edge>
+        <edge to="n109" from="n86">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n42" from="n86">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n77" from="n77">
+            <attr name="label">
+                <string>V_1</string>
+            </attr>
+        </edge>
+        <edge to="n77" from="n77">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n50" from="n88">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n88" from="n88">
+            <attr name="label">
+                <string>rtspecialname</string>
+            </attr>
+        </edge>
+        <edge to="n88" from="n88">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n66" from="n66">
+            <attr name="label">
+                <string>init</string>
+            </attr>
+        </edge>
+        <edge to="n128" from="n128">
+            <attr name="label">
+                <string>type:ImplAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n100" from="n128">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n128" from="n128">
+            <attr name="label">
+                <string>cil</string>
+            </attr>
+        </edge>
+        <edge to="n114" from="n61">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n61" from="n61">
+            <attr name="label">
+                <string>.assembly</string>
+            </attr>
+        </edge>
+        <edge to="n24" from="n24">
+            <attr name="label">
+                <string>void</string>
+            </attr>
+        </edge>
+        <edge to="n63" from="n63">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n96" from="n63">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n63" from="n63">
+            <attr name="label">
+                <string>private</string>
             </attr>
         </edge>
         <edge to="n7" from="n31">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n31" from="n31">
+            <attr name="label">
+                <string>stloc</string>
+            </attr>
+        </edge>
+        <edge to="n31" from="n31">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n31">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n7">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>br.s</string>
+            </attr>
+        </edge>
+        <edge to="n83" from="n7">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n34">
+            <attr name="label">
+                <string>locX</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n34">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n89" from="n1">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n1">
+            <attr name="label">
+                <string>ip</string>
+            </attr>
+        </edge>
+        <edge to="n135" from="n1">
+            <attr name="label">
+                <string>caller</string>
+            </attr>
+        </edge>
+        <edge to="n134" from="n1">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n107" from="n1">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>flag:execute</string>
+            </attr>
+        </edge>
+        <edge to="n129" from="n1">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n104" from="n104">
+            <attr name="label">
+                <string>int:3</string>
+            </attr>
+        </edge>
+        <edge to="n119" from="n119">
+            <attr name="label">
+                <string>Main</string>
+            </attr>
+        </edge>
+        <edge to="n119" from="n119">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n140">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n123" from="n140">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n140" from="n140">
+            <attr name="label">
+                <string>ldloc</string>
+            </attr>
+        </edge>
+        <edge to="n140" from="n140">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>nop</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n103" from="n8">
             <attr name="label">
                 <string>next</string>
             </attr>
@@ -2064,189 +1294,9 @@
                 <string>value</string>
             </attr>
         </edge>
-        <edge to="n109" from="n86">
+        <edge to="n14" from="n14">
             <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n82" from="n25">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n81" from="n16">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n136" from="n79">
-            <attr name="label">
-                <string>returnType</string>
-            </attr>
-        </edge>
-        <edge to="n50" from="n138">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n133" from="n75">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n78" from="n23">
-            <attr name="label">
-                <string>methodName</string>
-            </attr>
-        </edge>
-        <edge to="n86" from="n86">
-            <attr name="label">
-                <string>Parameter</string>
-            </attr>
-        </edge>
-        <edge to="n62" from="n62">
-            <attr name="label">
-                <string>Calc</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n134">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n105" from="n105">
-            <attr name="label">
-                <string>newobj</string>
-            </attr>
-        </edge>
-        <edge to="n50" from="n50">
-            <attr name="label">
-                <string>cil</string>
-            </attr>
-        </edge>
-        <edge to="n95" from="n60">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n123">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n125" from="n125">
-            <attr name="label">
-                <string>public</string>
-            </attr>
-        </edge>
-        <edge to="n132" from="n132">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge to="n22" from="n57">
-            <attr name="label">
-                <string>methodSignature</string>
-            </attr>
-        </edge>
-        <edge to="n85" from="n85">
-            <attr name="label">
-                <string>auto</string>
-            </attr>
-        </edge>
-        <edge to="n63" from="n74">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n43">
-            <attr name="label">
-                <string>ldc</string>
-            </attr>
-        </edge>
-        <edge to="n84" from="n84">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n25" from="n25">
-            <attr name="label">
-                <string>MethodBody</string>
-            </attr>
-        </edge>
-        <edge to="n128" from="n91">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n28">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n90">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n11" from="n138">
-            <attr name="label">
-                <string>body</string>
-            </attr>
-        </edge>
-        <edge to="n109" from="n20">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n77" from="n77">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n16" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n113" from="n121">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n99" from="n79">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n32" from="n138">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n109" from="n109">
-            <attr name="label">
-                <string>x</string>
-            </attr>
-        </edge>
-        <edge to="n25" from="n56">
-            <attr name="label">
-                <string>body</string>
-            </attr>
-        </edge>
-        <edge to="n19" from="n19">
-            <attr name="label">
-                <string>managed</string>
-            </attr>
-        </edge>
-        <edge to="n69" from="n50">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n74" from="n3">
-            <attr name="label">
-                <string>contains</string>
+                <string>type:MaxStack</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
@@ -2254,159 +1304,39 @@
                 <string>ret</string>
             </attr>
         </edge>
-        <edge to="n119" from="n119">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>Identifier</string>
+                <string>type:Instruction</string>
             </attr>
         </edge>
-        <edge to="n38" from="n138">
+        <edge to="n69" from="n69">
             <attr name="label">
-                <string>has</string>
+                <string>managed</string>
             </attr>
         </edge>
-        <edge to="n56" from="n74">
+        <edge to="n69" from="n69">
             <attr name="label">
-                <string>method</string>
+                <string>type:ImplAttribute</string>
             </attr>
         </edge>
-        <edge to="n118" from="n38">
+        <edge to="n101" from="n101">
             <attr name="label">
-                <string>first</string>
+                <string>type:Class</string>
             </attr>
         </edge>
-        <edge to="n128" from="n128">
-            <attr name="label">
-                <string>cil</string>
-            </attr>
-        </edge>
-        <edge to="n120" from="n74">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n37" from="n37">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n54" from="n67">
+        <edge to="n64" from="n101">
             <attr name="label">
                 <string>name</string>
             </attr>
         </edge>
-        <edge to="n57" from="n11">
+        <edge to="n15" from="n15">
             <attr name="label">
-                <string>instruction</string>
+                <string>type:MaxStack</string>
             </attr>
         </edge>
-        <edge to="n54" from="n89">
+        <edge to="n104" from="n15">
             <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n31" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n97" from="n3">
-            <attr name="label">
-                <string>contains</string>
-            </attr>
-        </edge>
-        <edge to="n57" from="n76">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n66" from="n49">
-            <attr name="label">
-                <string>Init</string>
-            </attr>
-        </edge>
-        <edge to="n55" from="n112">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n17" from="n17">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n13" from="n13">
-            <attr name="label">
-                <string>stfld</string>
-            </attr>
-        </edge>
-        <edge to="n96" from="n63">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n130" from="n130">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n92" from="n92">
-            <attr name="label">
-                <string>Method</string>
-            </attr>
-        </edge>
-        <edge to="n129" from="n129">
-            <attr name="label">
-                <string>MethodBody</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n9">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n76" from="n76">
-            <attr name="label">
-                <string>ldarg</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n81">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n51" from="n51">
-            <attr name="label">
-                <string>pop</string>
-            </attr>
-        </edge>
-        <edge to="n139" from="n139">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n66" from="n66">
-            <attr name="label">
-                <string>init</string>
-            </attr>
-        </edge>
-        <edge to="n44" from="n65">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n32" from="n32">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n70" from="n70">
-            <attr name="label">
-                <string>IL_0005</string>
-            </attr>
-        </edge>
-        <edge to="n116" from="n17">
-            <attr name="label">
-                <string>next</string>
+                <string>value</string>
             </attr>
         </edge>
         <edge to="n70" from="n83">
@@ -2414,484 +1344,29 @@
                 <string>name</string>
             </attr>
         </edge>
-        <edge to="n116" from="n116">
+        <edge to="n83" from="n83">
             <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n42" from="n86">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n64" from="n64">
-            <attr name="label">
-                <string>Object</string>
-            </attr>
-        </edge>
-        <edge to="n16" from="n16">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n84" from="n84">
-            <attr name="label">
-                <string>ldarg</string>
-            </attr>
-        </edge>
-        <edge to="n14" from="n14">
-            <attr name="label">
-                <string>MaxStack</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n43">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n96" from="n96">
-            <attr name="label">
-                <string>auto</string>
-            </attr>
-        </edge>
-        <edge to="n68" from="n21">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n130" from="n68">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n85" from="n85">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n27" from="n27">
-            <attr name="label">
-                <string>MethodAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n138">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n33" from="n33">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n136" from="n136">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n86" from="n38">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n98" from="n98">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n87" from="n102">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>execute</string>
-            </attr>
-        </edge>
-        <edge to="n29" from="n29">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n84">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n50" from="n88">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n124" from="n124">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n15" from="n15">
-            <attr name="label">
-                <string>MaxStack</string>
-            </attr>
-        </edge>
-        <edge to="n131" from="n116">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n59" from="n59">
-            <attr name="label">
-                <string>c</string>
-            </attr>
-        </edge>
-        <edge to="n110" from="n110">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n75" from="n9">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n135" from="n135">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n127" from="n141">
-            <attr name="label">
-                <string>type</string>
-            </attr>
-        </edge>
-        <edge to="n114" from="n114">
-            <attr name="label">
-                <string>calc_newobj</string>
-            </attr>
-        </edge>
-        <edge to="n23" from="n43">
-            <attr name="label">
-                <string>next</string>
+                <string>type:Label</string>
             </attr>
         </edge>
         <edge to="n47" from="n47">
             <attr name="label">
-                <string>Instruction</string>
+                <string>type:Instruction</string>
             </attr>
         </edge>
-        <edge to="n51" from="n23">
+        <edge to="n47" from="n47">
+            <attr name="label">
+                <string>ret</string>
+            </attr>
+        </edge>
+        <edge to="n137" from="n48">
             <attr name="label">
                 <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n73" from="n73">
-            <attr name="label">
-                <string>int32</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n135">
-            <attr name="label">
-                <string>executes</string>
-            </attr>
-        </edge>
-        <edge to="n70" from="n40">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n22" from="n22">
-            <attr name="label">
-                <string>Signature</string>
-            </attr>
-        </edge>
-        <edge to="n65" from="n32">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n29" from="n74">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n88" from="n44">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n10" from="n10">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge to="n115" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n129" from="n1">
-            <attr name="label">
-                <string>executes</string>
-            </attr>
-        </edge>
-        <edge to="n85" from="n60">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n70" from="n70">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n71" from="n71">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n95" from="n60">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n37" from="n37">
-            <attr name="label">
-                <string>nop</string>
-            </attr>
-        </edge>
-        <edge to="n103" from="n8">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n76" from="n76">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n123">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n126" from="n126">
-            <attr name="label">
-                <string>Test</string>
-            </attr>
-        </edge>
-        <edge to="n34" from="n34">
-            <attr name="label">
-                <string>locX</string>
-            </attr>
-        </edge>
-        <edge to="n89" from="n89">
-            <attr name="label">
-                <string>Local</string>
-            </attr>
-        </edge>
-        <edge to="n17" from="n17">
-            <attr name="label">
-                <string>private</string>
-            </attr>
-        </edge>
-        <edge to="n17" from="n92">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n141" from="n60">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n58" from="n58">
-            <attr name="label">
-                <string>Signature</string>
-            </attr>
-        </edge>
-        <edge to="n120" from="n96">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n56">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n14" from="n49">
-            <attr name="label">
-                <string>first</string>
             </attr>
         </edge>
         <edge to="n48" from="n48">
             <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n60" from="n75">
-            <attr name="label">
-                <string>instanceOf</string>
-            </attr>
-        </edge>
-        <edge to="n57" from="n57">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n138" from="n60">
-            <attr name="label">
-                <string>method</string>
-            </attr>
-        </edge>
-        <edge to="n35" from="n79">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n93" from="n105">
-            <attr name="label">
-                <string>methodName</string>
-            </attr>
-        </edge>
-        <edge to="n17" from="n92">
-            <attr name="label">
-                <string>first</string>
-            </attr>
-        </edge>
-        <edge to="n43" from="n43">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n117" from="n117">
-            <attr name="label">
-                <string>void</string>
-            </attr>
-        </edge>
-        <edge to="n71" from="n57">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n122" from="n38">
-            <attr name="label">
-                <string>returnType</string>
-            </attr>
-        </edge>
-        <edge to="n47" from="n25">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n129" from="n92">
-            <attr name="label">
-                <string>body</string>
-            </attr>
-        </edge>
-        <edge to="n103" from="n49">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n78" from="n78">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n111">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge to="n96" from="n96">
-            <attr name="label">
-                <string>ClassAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n21" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n139">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n19" from="n19">
-            <attr name="label">
-                <string>ImplAttribute</string>
-            </attr>
-        </edge>
-        <edge to="n34" from="n133">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n105" from="n129">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n26" from="n26">
-            <attr name="label">
-                <string>int:8</string>
-            </attr>
-        </edge>
-        <edge to="n41" from="n41">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n111" from="n33">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n121" from="n107">
-            <attr name="label">
-                <string>top</string>
-            </attr>
-        </edge>
-        <edge to="n23" from="n23">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n77" from="n80">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n99" from="n99">
-            <attr name="label">
-                <string>Parameter</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n76">
-            <attr name="label">
-                <string>index</string>
-            </attr>
-        </edge>
-        <edge to="n69" from="n138">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n18" from="n18">
-            <attr name="label">
-                <string>instance</string>
+                <string>type:ClassAttribute</string>
             </attr>
         </edge>
         <edge to="n48" from="n48">
@@ -2899,34 +1374,39 @@
                 <string>ansi</string>
             </attr>
         </edge>
-        <edge to="n46" from="n99">
+        <edge to="n105" from="n139">
             <attr name="label">
-                <string>type</string>
+                <string>next</string>
             </attr>
         </edge>
-        <edge to="n111" from="n16">
+        <edge to="n139" from="n139">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n139">
             <attr name="label">
                 <string>value</string>
             </attr>
         </edge>
-        <edge to="n115" from="n115">
+        <edge to="n139" from="n139">
             <attr name="label">
-                <string>Instruction</string>
+                <string>ldc</string>
             </attr>
         </edge>
-        <edge to="n38" from="n38">
+        <edge to="n41" from="n90">
             <attr name="label">
-                <string>Signature</string>
+                <string>name</string>
             </attr>
         </edge>
-        <edge to="n60" from="n13">
+        <edge to="n90" from="n90">
             <attr name="label">
-                <string>typeSpec</string>
+                <string>type:Namespace</string>
             </attr>
         </edge>
-        <edge to="n52" from="n52">
+        <edge to="n101" from="n90">
             <attr name="label">
-                <string>MaxStack</string>
+                <string>contains</string>
             </attr>
         </edge>
         <edge to="n124" from="n124">
@@ -2934,72 +1414,17 @@
                 <string>managed</string>
             </attr>
         </edge>
-        <edge to="n114" from="n61">
+        <edge to="n124" from="n124">
             <attr name="label">
-                <string>name</string>
+                <string>type:ImplAttribute</string>
             </attr>
         </edge>
-        <edge to="n32" from="n32">
+        <edge to="n134" from="n134">
             <attr name="label">
-                <string>public</string>
+                <string>type:Local</string>
             </attr>
         </edge>
-        <edge to="n35" from="n79">
-            <attr name="label">
-                <string>callConv</string>
-            </attr>
-        </edge>
-        <edge to="n64" from="n64">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n75" from="n134">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-        </edge>
-        <edge to="n114" from="n114">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n110" from="n110">
-            <attr name="label">
-                <string>cil</string>
-            </attr>
-        </edge>
-        <edge to="n107" from="n107">
-            <attr name="label">
-                <string>Stack</string>
-            </attr>
-        </edge>
-        <edge to="n44" from="n44">
-            <attr name="label">
-                <string>specialname</string>
-            </attr>
-        </edge>
-        <edge to="n13" from="n11">
-            <attr name="label">
-                <string>instruction</string>
-            </attr>
-        </edge>
-        <edge to="n38" from="n105">
-            <attr name="label">
-                <string>methodSignature</string>
-            </attr>
-        </edge>
-        <edge to="n20" from="n20">
-            <attr name="label">
-                <string>Argument</string>
-            </attr>
-        </edge>
-        <edge to="n124" from="n92">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n12" from="n31">
+        <edge to="n111" from="n134">
             <attr name="label">
                 <string>index</string>
             </attr>
@@ -3009,34 +1434,34 @@
                 <string>type</string>
             </attr>
         </edge>
-        <edge to="n62" from="n62">
+        <edge to="n77" from="n134">
             <attr name="label">
-                <string>Identifier</string>
+                <string>name</string>
             </attr>
         </edge>
-        <edge to="n83" from="n83">
+        <edge to="n75" from="n134">
             <attr name="label">
-                <string>Label</string>
+                <string>value</string>
             </attr>
         </edge>
-        <edge to="n139" from="n81">
+        <edge to="n12" from="n9">
             <attr name="label">
-                <string>next</string>
+                <string>index</string>
             </attr>
         </edge>
-        <edge to="n103" from="n103">
+        <edge to="n9" from="n9">
             <attr name="label">
-                <string>ldarg</string>
+                <string>type:Argument</string>
             </attr>
         </edge>
-        <edge to="n102" from="n99">
+        <edge to="n75" from="n9">
             <attr name="label">
-                <string>next</string>
+                <string>value</string>
             </attr>
         </edge>
-        <edge to="n36" from="n36">
+        <edge to="n71" from="n71">
             <attr name="label">
-                <string>Identifier</string>
+                <string>type:Instruction</string>
             </attr>
         </edge>
         <edge to="n71" from="n71">
@@ -3044,14 +1469,84 @@
                 <string>nop</string>
             </attr>
         </edge>
-        <edge to="n105" from="n139">
+        <edge to="n21" from="n71">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n118" from="n118">
+        <edge to="n65" from="n65">
             <attr name="label">
-                <string>instance</string>
+                <string>hidebysig</string>
+            </attr>
+        </edge>
+        <edge to="n65" from="n65">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n44" from="n65">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n54" from="n45">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n73" from="n45">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n45" from="n45">
+            <attr name="label">
+                <string>type:Local</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n10">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n132" from="n10">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n82" from="n25">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n47" from="n25">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n84" from="n25">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n94" from="n25">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n25" from="n25">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n84" from="n25">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n94" from="n25">
+            <attr name="label">
+                <string>first</string>
             </attr>
         </edge>
         <edge to="n106" from="n106">
@@ -3059,59 +1554,159 @@
                 <string>cil</string>
             </attr>
         </edge>
-        <edge to="n108" from="n129">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
         <edge to="n106" from="n106">
             <attr name="label">
-                <string>ImplAttribute</string>
+                <string>type:ImplAttribute</string>
             </attr>
         </edge>
-        <edge to="n23" from="n1">
-            <attr name="label">
-                <string>ip</string>
-            </attr>
-        </edge>
-        <edge to="n137" from="n60">
-            <attr name="label">
-                <string>attribute</string>
-            </attr>
-        </edge>
-        <edge to="n115" from="n115">
-            <attr name="label">
-                <string>nop</string>
-            </attr>
-        </edge>
-        <edge to="n119" from="n119">
-            <attr name="label">
-                <string>Main</string>
-            </attr>
-        </edge>
-        <edge to="n13" from="n130">
+        <edge to="n124" from="n106">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n16" from="n115">
+        <edge to="n101" from="n57">
+            <attr name="label">
+                <string>typeSpec</string>
+            </attr>
+        </edge>
+        <edge to="n57" from="n57">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n57" from="n57">
+            <attr name="label">
+                <string>call</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n57">
+            <attr name="label">
+                <string>methodName</string>
+            </attr>
+        </edge>
+        <edge to="n22" from="n57">
+            <attr name="label">
+                <string>methodSignature</string>
+            </attr>
+        </edge>
+        <edge to="n71" from="n57">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n121" from="n121">
+        <edge to="n32" from="n32">
             <attr name="label">
-                <string>Cell</string>
+                <string>public</string>
             </attr>
         </edge>
-        <edge to="n107" from="n1">
+        <edge to="n65" from="n32">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n32" from="n32">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n92">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n58" from="n92">
             <attr name="label">
                 <string>has</string>
             </attr>
         </edge>
-        <edge to="n87" from="n87">
+        <edge to="n92" from="n92">
             <attr name="label">
-                <string>int32</string>
+                <string>type:Method</string>
+            </attr>
+        </edge>
+        <edge to="n106" from="n92">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n124" from="n92">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n131" from="n92">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n92">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n119" from="n92">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n116" from="n92">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n129" from="n92">
+            <attr name="label">
+                <string>body</string>
+            </attr>
+        </edge>
+        <edge to="n69" from="n50">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n50" from="n50">
+            <attr name="label">
+                <string>type:ImplAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n50" from="n50">
+            <attr name="label">
+                <string>cil</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n56">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n56">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n91" from="n56">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n100" from="n56">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n56">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n25" from="n56">
+            <attr name="label">
+                <string>body</string>
+            </attr>
+        </edge>
+        <edge to="n128" from="n56">
+            <attr name="label">
+                <string>attribute</string>
             </attr>
         </edge>
         <edge to="n27" from="n56">
@@ -3119,24 +1714,1034 @@
                 <string>attribute</string>
             </attr>
         </edge>
-        <edge to="n90" from="n90">
+        <edge to="n56" from="n56">
             <attr name="label">
-                <string>Namespace</string>
+                <string>type:Method</string>
             </attr>
         </edge>
-        <edge to="n111" from="n130">
+        <edge to="n30" from="n56">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n22" from="n56">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n75">
+            <attr name="label">
+                <string>instanceOf</string>
+            </attr>
+        </edge>
+        <edge to="n133" from="n75">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n75" from="n75">
+            <attr name="label">
+                <string>type:ObjectVal</string>
+            </attr>
+        </edge>
+        <edge to="n46" from="n46">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n49">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n14" from="n49">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n31" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n103" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n49" from="n49">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n45" from="n49">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n49">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n14" from="n49">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n66" from="n49">
+            <attr name="label">
+                <string>Init</string>
+            </attr>
+        </edge>
+        <edge to="n45" from="n49">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>public</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n30" from="n6">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n55" from="n55">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n110" from="n55">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n55" from="n55">
+            <attr name="label">
+                <string>hidebysig</string>
+            </attr>
+        </edge>
+        <edge to="n36" from="n36">
+            <attr name="label">
+                <string>b</string>
+            </attr>
+        </edge>
+        <edge to="n36" from="n36">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n98" from="n89">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n89">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n89" from="n89">
+            <attr name="label">
+                <string>type:Local</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n89">
             <attr name="label">
                 <string>index</string>
             </attr>
         </edge>
-        <edge to="n102" from="n79">
+        <edge to="n54" from="n89">
             <attr name="label">
-                <string>parameters</string>
+                <string>name</string>
             </attr>
         </edge>
-        <edge to="n60" from="n60">
+        <edge to="n94" from="n94">
             <attr name="label">
-                <string>Class</string>
+                <string>type:MaxStack</string>
+            </attr>
+        </edge>
+        <edge to="n26" from="n94">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n140" from="n33">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n33" from="n33">
+            <attr name="label">
+                <string>stloc</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n33">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n33" from="n33">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n15" from="n129">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n67" from="n129">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n66" from="n129">
+            <attr name="label">
+                <string>Init</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n33" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n139" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n105" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n81" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n108" from="n129">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n115" from="n129">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n51" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n123" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n140" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n115" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n129" from="n129">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n53" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n108" from="n129">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n43" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n16" from="n129">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n67" from="n129">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+        </edge>
+        <edge to="n80" from="n129">
+            <attr name="label">
+                <string>locals</string>
+            </attr>
+        </edge>
+        <edge to="n39" from="n39">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n67" from="n67">
+            <attr name="label">
+                <string>type:Local</string>
+            </attr>
+        </edge>
+        <edge to="n98" from="n67">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n80" from="n67">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n54" from="n67">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>int:5</string>
+            </attr>
+        </edge>
+        <edge to="n16" from="n115">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n115" from="n115">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n115" from="n115">
+            <attr name="label">
+                <string>nop</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n12">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge to="n105" from="n105">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n105">
+            <attr name="label">
+                <string>typeSpec</string>
+            </attr>
+        </edge>
+        <edge to="n38" from="n105">
+            <attr name="label">
+                <string>methodSignature</string>
+            </attr>
+        </edge>
+        <edge to="n105" from="n105">
+            <attr name="label">
+                <string>newobj</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n105">
+            <attr name="label">
+                <string>methodName</string>
+            </attr>
+        </edge>
+        <edge to="n33" from="n105">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n125" from="n125">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n55" from="n125">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n125" from="n125">
+            <attr name="label">
+                <string>public</string>
+            </attr>
+        </edge>
+        <edge to="n122" from="n122">
+            <attr name="label">
+                <string>void</string>
+            </attr>
+        </edge>
+        <edge to="n102" from="n99">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n46" from="n99">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n99" from="n99">
+            <attr name="label">
+                <string>type:Parameter</string>
+            </attr>
+        </edge>
+        <edge to="n36" from="n99">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n16">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n81" from="n16">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n16" from="n16">
+            <attr name="label">
+                <string>ldc</string>
+            </attr>
+        </edge>
+        <edge to="n16" from="n16">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n28">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n28" from="n28">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n121" from="n28">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n39" from="n13">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n13">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n13">
+            <attr name="label">
+                <string>stfld</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n13">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n60" from="n13">
+            <attr name="label">
+                <string>typeSpec</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n13">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n31" from="n103">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n103">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n103" from="n103">
+            <attr name="label">
+                <string>ldarg</string>
+            </attr>
+        </edge>
+        <edge to="n103" from="n103">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n95" from="n95">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n95" from="n95">
+            <attr name="label">
+                <string>private</string>
+            </attr>
+        </edge>
+        <edge to="n85" from="n95">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n72" from="n80">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n77" from="n80">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n80" from="n80">
+            <attr name="label">
+                <string>type:Local</string>
+            </attr>
+        </edge>
+        <edge to="n29" from="n120">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n120" from="n120">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n120" from="n120">
+            <attr name="label">
+                <string>ansi</string>
+            </attr>
+        </edge>
+        <edge to="n30" from="n30">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n27" from="n30">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n30" from="n30">
+            <attr name="label">
+                <string>hidebysig</string>
+            </attr>
+        </edge>
+        <edge to="n62" from="n62">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n62" from="n62">
+            <attr name="label">
+                <string>Calc</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n135">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n135" from="n135">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n135" from="n135">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n135" from="n135">
+            <attr name="label">
+                <string>type:ProgramFrame</string>
+            </attr>
+        </edge>
+        <edge to="n26" from="n26">
+            <attr name="label">
+                <string>int:8</string>
+            </attr>
+        </edge>
+        <edge to="n51" from="n51">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n53" from="n51">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n51" from="n51">
+            <attr name="label">
+                <string>pop</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n133">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n133" from="n133">
+            <attr name="label">
+                <string>type:Field</string>
+            </attr>
+        </edge>
+        <edge to="n127" from="n133">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n133">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n109" from="n109">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n109" from="n109">
+            <attr name="label">
+                <string>x</string>
+            </attr>
+        </edge>
+        <edge to="n70" from="n70">
+            <attr name="label">
+                <string>IL_0005</string>
+            </attr>
+        </edge>
+        <edge to="n70" from="n70">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n98" from="n98">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n43" from="n43">
+            <attr name="label">
+                <string>ldc</string>
+            </attr>
+        </edge>
+        <edge to="n43" from="n43">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n43">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n43">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n100" from="n100">
+            <attr name="label">
+                <string>managed</string>
+            </attr>
+        </edge>
+        <edge to="n100" from="n100">
+            <attr name="label">
+                <string>type:ImplAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n42" from="n20">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n20" from="n20">
+            <attr name="label">
+                <string>type:Argument</string>
+            </attr>
+        </edge>
+        <edge to="n109" from="n20">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n20">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n20">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n18" from="n18">
+            <attr name="label">
+                <string>instance</string>
+            </attr>
+        </edge>
+        <edge to="n15" from="n108">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n108" from="n108">
+            <attr name="label">
+                <string>entrypoint</string>
+            </attr>
+        </edge>
+        <edge to="n116" from="n116">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n116" from="n116">
+            <attr name="label">
+                <string>hidebysig</string>
+            </attr>
+        </edge>
+        <edge to="n131" from="n116">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n112" from="n112">
+            <attr name="label">
+                <string>type:Method</string>
+            </attr>
+        </edge>
+        <edge to="n125" from="n112">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n19" from="n112">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n110" from="n112">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n78" from="n112">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n125" from="n112">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n49" from="n112">
+            <attr name="label">
+                <string>body</string>
+            </attr>
+        </edge>
+        <edge to="n79" from="n112">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n55" from="n112">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n17">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n116" from="n17">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n17" from="n17">
+            <attr name="label">
+                <string>private</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>ldloc</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n0">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n40" from="n0">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n0">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n88" from="n44">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n44" from="n44">
+            <attr name="label">
+                <string>specialname</string>
+            </attr>
+        </edge>
+        <edge to="n44" from="n44">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n136" from="n136">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n114" from="n114">
+            <attr name="label">
+                <string>calc_newobj</string>
+            </attr>
+        </edge>
+        <edge to="n114" from="n114">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n107" from="n107">
+            <attr name="label">
+                <string>type:Stack</string>
+            </attr>
+        </edge>
+        <edge to="n121" from="n107">
+            <attr name="label">
+                <string>top</string>
+            </attr>
+        </edge>
+        <edge to="n110" from="n110">
+            <attr name="label">
+                <string>type:ImplAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n19" from="n110">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n110" from="n110">
+            <attr name="label">
+                <string>cil</string>
+            </attr>
+        </edge>
+        <edge to="n57" from="n76">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n76" from="n76">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n76">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n76" from="n76">
+            <attr name="label">
+                <string>ldarg</string>
+            </attr>
+        </edge>
+        <edge to="n52" from="n52">
+            <attr name="label">
+                <string>type:MaxStack</string>
+            </attr>
+        </edge>
+        <edge to="n26" from="n52">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n54" from="n54">
+            <attr name="label">
+                <string>V_0</string>
+            </attr>
+        </edge>
+        <edge to="n54" from="n54">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n127" from="n141">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n141" from="n141">
+            <attr name="label">
+                <string>type:Field</string>
+            </attr>
+        </edge>
+        <edge to="n34" from="n141">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n53" from="n53">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n53" from="n53">
+            <attr name="label">
+                <string>ret</string>
+            </attr>
+        </edge>
+        <edge to="n59" from="n59">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n59" from="n59">
+            <attr name="label">
+                <string>c</string>
+            </attr>
+        </edge>
+        <edge to="n96" from="n96">
+            <attr name="label">
+                <string>auto</string>
+            </attr>
+        </edge>
+        <edge to="n120" from="n96">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n96" from="n96">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n126" from="n126">
+            <attr name="label">
+                <string>Test</string>
+            </attr>
+        </edge>
+        <edge to="n126" from="n126">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>ret</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n32" from="n138">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n11" from="n138">
+            <attr name="label">
+                <string>body</string>
+            </attr>
+        </edge>
+        <edge to="n50" from="n138">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n38" from="n138">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n65" from="n138">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n138" from="n138">
+            <attr name="label">
+                <string>type:Method</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n138">
+            <attr name="label">
+                <string>name</string>
             </attr>
         </edge>
         <edge to="n88" from="n138">
@@ -3144,14 +2749,412 @@
                 <string>attribute</string>
             </attr>
         </edge>
+        <edge to="n44" from="n138">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n32" from="n138">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n69" from="n138">
+            <attr name="label">
+                <string>attribute</string>
+            </attr>
+        </edge>
+        <edge to="n78" from="n78">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n78" from="n78">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
         <edge to="n60" from="n23">
             <attr name="label">
                 <string>typeSpec</string>
             </attr>
         </edge>
-        <edge to="n141" from="n60">
+        <edge to="n23" from="n23">
             <attr name="label">
-                <string>field</string>
+                <string>callvirt</string>
+            </attr>
+        </edge>
+        <edge to="n78" from="n23">
+            <attr name="label">
+                <string>methodName</string>
+            </attr>
+        </edge>
+        <edge to="n51" from="n23">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n23" from="n23">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n79" from="n23">
+            <attr name="label">
+                <string>methodSignature</string>
+            </attr>
+        </edge>
+        <edge to="n121" from="n121">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n113" from="n121">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+        </edge>
+        <edge to="n29" from="n29">
+            <attr name="label">
+                <string>type:ClassAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n29" from="n29">
+            <attr name="label">
+                <string>beforefieldinit</string>
+            </attr>
+        </edge>
+        <edge to="n81" from="n81">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n81" from="n81">
+            <attr name="label">
+                <string>stloc</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n81">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n139" from="n81">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n87" from="n87">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n73" from="n73">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n111">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge to="n127" from="n127">
+            <attr name="label">
+                <string>type:int32</string>
+            </attr>
+        </edge>
+        <edge to="n19" from="n19">
+            <attr name="label">
+                <string>managed</string>
+            </attr>
+        </edge>
+        <edge to="n19" from="n19">
+            <attr name="label">
+                <string>type:ImplAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n64" from="n64">
+            <attr name="label">
+                <string>type:Object</string>
+            </attr>
+        </edge>
+        <edge to="n64" from="n64">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n132" from="n132">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n28" from="n132">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n75" from="n132">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 374 619 306 710 316 774 12</string>
+            </attr>
+        </edge>
+        <edge to="n128" from="n91">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n91" from="n91">
+            <attr name="label">
+                <string>type:MethodAttribute</string>
+            </attr>
+        </edge>
+        <edge to="n91" from="n91">
+            <attr name="label">
+                <string>rtspecialname</string>
+            </attr>
+        </edge>
+        <edge to="n68" from="n68">
+            <attr name="label">
+                <string>ldarg</string>
+            </attr>
+        </edge>
+        <edge to="n12" from="n68">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n130" from="n68">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n68" from="n68">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n118" from="n38">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n118" from="n38">
+            <attr name="label">
+                <string>callConv</string>
+            </attr>
+        </edge>
+        <edge to="n86" from="n38">
+            <attr name="label">
+                <string>parameters</string>
+            </attr>
+        </edge>
+        <edge to="n38" from="n38">
+            <attr name="label">
+                <string>type:Signature</string>
+            </attr>
+        </edge>
+        <edge to="n86" from="n38">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n122" from="n38">
+            <attr name="label">
+                <string>returnType</string>
+            </attr>
+        </edge>
+        <edge to="n68" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n76" from="n11">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n76" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n130" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n52" from="n11">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n21" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n52" from="n11">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n57" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n71" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n11">
+            <attr name="label">
+                <string>instruction</string>
+            </attr>
+        </edge>
+        <edge to="n11" from="n11">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n87" from="n102">
+            <attr name="label">
+                <string>type</string>
+            </attr>
+        </edge>
+        <edge to="n102" from="n102">
+            <attr name="label">
+                <string>type:Parameter</string>
+            </attr>
+        </edge>
+        <edge to="n59" from="n102">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n99" from="n79">
+            <attr name="label">
+                <string>parameters</string>
+            </attr>
+        </edge>
+        <edge to="n136" from="n79">
+            <attr name="label">
+                <string>returnType</string>
+            </attr>
+        </edge>
+        <edge to="n79" from="n79">
+            <attr name="label">
+                <string>type:Signature</string>
+            </attr>
+        </edge>
+        <edge to="n35" from="n79">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n102" from="n79">
+            <attr name="label">
+                <string>parameters</string>
+            </attr>
+        </edge>
+        <edge to="n99" from="n79">
+            <attr name="label">
+                <string>first</string>
+            </attr>
+        </edge>
+        <edge to="n35" from="n79">
+            <attr name="label">
+                <string>callConv</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n93">
+            <attr name="label">
+                <string>.ctor</string>
+            </attr>
+        </edge>
+        <edge to="n93" from="n93">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n130" from="n130">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n13" from="n130">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n130" from="n130">
+            <attr name="label">
+                <string>ldarg</string>
+            </attr>
+        </edge>
+        <edge to="n111" from="n130">
+            <attr name="label">
+                <string>index</string>
+            </attr>
+        </edge>
+        <edge to="n117" from="n117">
+            <attr name="label">
+                <string>void</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n37">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n37">
+            <attr name="label">
+                <string>nop</string>
+            </attr>
+        </edge>
+        <edge to="n37" from="n37">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n97" from="n97">
+            <attr name="label">
+                <string>type:ASSEMBLY_NODE</string>
+            </attr>
+        </edge>
+        <edge to="n61" from="n97">
+            <attr name="label">
+                <string>assemblyHead</string>
+            </attr>
+        </edge>
+        <edge to="n21" from="n21">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n68" from="n21">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n21" from="n21">
+            <attr name="label">
+                <string>nop</string>
             </attr>
         </edge>
     </graph>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="methodframe">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n6">
             <attr name="layout">
                 <string>477 127 18 18</string>
@@ -46,49 +49,24 @@
                 <string>131 133 18 18</string>
             </attr>
         </node>
-        <edge to="n7" from="n7">
+        <edge to="n6" from="n6">
             <attr name="label">
-                <string>MethodBody</string>
+                <string>not:</string>
             </attr>
         </edge>
-        <edge to="n5" from="n5">
+        <edge to="n6" from="n6">
             <attr name="label">
-                <string>MethodFrame</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n7">
-            <attr name="label">
-                <string>directive</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>Stack</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n8">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>MethodFrame</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n8">
-            <attr name="label">
-                <string>executes</string>
+                <string>entrypoint</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
             <attr name="label">
                 <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Stack</string>
             </attr>
         </edge>
         <edge to="n0" from="n2">
@@ -98,15 +76,90 @@
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Cell</string>
+                <string>type:Cell</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n4" from="n4">
             <attr name="label">
-                <string>Stack</string>
+                <string>type:Stack</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>top</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:Frame</string>
             </attr>
         </edge>
         <edge to="n4" from="n5">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>type:MethodBody</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n7">
+            <attr name="label">
+                <string>directive</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n1">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>new:</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n8">
+            <attr name="label">
+                <string>executes</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>flag:initLocals</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n8">
             <attr name="label">
                 <string>has</string>
             </attr>
@@ -116,59 +169,9 @@
                 <string>executes</string>
             </attr>
         </edge>
-        <edge to="n0" from="n4">
+        <edge to="n3" from="n3">
             <attr name="label">
-                <string>top</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n1">
-            <attr name="label">
-                <string>executes</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>initLocals</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>new:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>MethodFrame</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n6">
-            <attr name="label">
-                <string>entrypoint</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>Frame</string>
+                <string>type:Frame</string>
             </attr>
         </edge>
     </graph>

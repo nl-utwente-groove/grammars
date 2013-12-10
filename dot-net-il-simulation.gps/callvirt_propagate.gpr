@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="callvirt_propagate">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n2">
             <attr name="layout">
                 <string>337 129 63 18</string>
@@ -31,61 +34,14 @@
                 <string>206 197 40 18</string>
             </attr>
         </node>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Signature</string>
+            </attr>
+        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Method</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n1">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-            <attr name="layout">
-                <string>615 29 388 233 443 195 443 101 11</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n4">
-            <attr name="label">
-                <string>del:lookup</string>
-            </attr>
-            <attr name="layout">
-                <string>403 52 180 99 112 99 112 265 11</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>MethodFrame</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n5">
-            <attr name="label">
-                <string>method</string>
-            </attr>
-            <attr name="layout">
-                <string>493 9 133 274 362 274 362 251 11</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n5">
-            <attr name="label">
-                <string>extends</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n4">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-            <attr name="layout">
-                <string>491 -3 202 93 240 93 365 93 11</string>
+                <string>type:Identifier</string>
             </attr>
         </edge>
         <edge to="n4" from="n4">
@@ -96,6 +52,14 @@
                 <string>975 0 219 89 191 21 150 43 211 89 12</string>
             </attr>
         </edge>
+        <edge to="n2" from="n4">
+            <attr name="label">
+                <string>signature</string>
+            </attr>
+            <attr name="layout">
+                <string>341 -5 223 98 366 103 366 130 11</string>
+            </attr>
+        </edge>
         <edge to="n3" from="n4">
             <attr name="label">
                 <string>new:lookup</string>
@@ -104,27 +68,61 @@
                 <string>500 0 223 98 221 169 226 206 11</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n5" from="n4">
             <attr name="label">
-                <string>Class</string>
+                <string>del:lookup</string>
+            </attr>
+            <attr name="layout">
+                <string>403 52 180 99 112 99 112 265 11</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+            <attr name="layout">
+                <string>491 -3 202 93 240 93 437 92 11</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>type:MethodFrame</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n5">
+            <attr name="label">
+                <string>extends</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n5">
+            <attr name="label">
+                <string>method</string>
+            </attr>
+            <attr name="layout">
+                <string>493 9 113 274 362 274 362 251 11</string>
             </attr>
         </edge>
         <edge to="n5" from="n5">
             <attr name="label">
-                <string>Class</string>
+                <string>type:Class</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>Signature</string>
+                <string>not:</string>
             </attr>
         </edge>
-        <edge to="n2" from="n4">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>signature</string>
+                <string>type:Method</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>name</string>
             </attr>
             <attr name="layout">
-                <string>341 -5 266 103 366 103 366 130 11</string>
+                <string>615 29 363 249 443 195 437 92 11</string>
             </attr>
         </edge>
         <edge to="n2" from="n1">
@@ -132,7 +130,12 @@
                 <string>has</string>
             </attr>
             <attr name="layout">
-                <string>500 0 369 233 369 171 369 147 11</string>
+                <string>500 0 369 233 369 171 368 138 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>type:Class</string>
             </attr>
         </edge>
     </graph>

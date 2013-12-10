@@ -7,6 +7,9 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n2">
             <attr name="layout">
                 <string>272 265 58 18</string>
@@ -67,6 +70,122 @@
                 <string>476 267 76 18</string>
             </attr>
         </node>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>type:System</string>
+            </attr>
+        </edge>
+        <edge to="n9" from="n9">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n6">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n6">
+            <attr name="label">
+                <string>next</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Identifier</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:Object</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n4">
+            <attr name="label">
+                <string>type:ObjectVal</string>
+            </attr>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>type:Class</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n5">
+            <attr name="label">
+                <string>name</string>
+            </attr>
+        </edge>
+        <edge to="n6" from="n7">
+            <attr name="label">
+                <string>new:top</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>type:Stack</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n7">
+            <attr name="label">
+                <string>top</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n11">
+            <attr name="label">
+                <string>del:ip</string>
+            </attr>
+            <attr name="layout">
+                <string>487 -11 194 129 397 127 397 173 11</string>
+            </attr>
+        </edge>
+        <edge to="n10" from="n11">
+            <attr name="label">
+                <string>new:ip</string>
+            </attr>
+        </edge>
+        <edge to="n11" from="n11">
+            <attr name="label">
+                <string>type:Frame</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n11">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Cell</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>value</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 78 188 79 223 79 264 11</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>type:Instruction</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>call</string>
+            </attr>
+        </edge>
         <edge to="n2" from="n3">
             <attr name="label">
                 <string>methodName</string>
@@ -75,65 +194,9 @@
                 <string>710 20 369 203 305 203 305 265 11</string>
             </attr>
         </edge>
-        <edge to="n7" from="n11">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n8">
-            <attr name="label">
-                <string>Namespace</string>
-            </attr>
-        </edge>
-        <edge to="n9" from="n9">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n1">
-            <attr name="label">
-                <string>value</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 79 204 79 223 79 249 11</string>
-            </attr>
-        </edge>
-        <edge to="n11" from="n11">
-            <attr name="label">
-                <string>Frame</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n5">
-            <attr name="label">
-                <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n11">
-            <attr name="label">
-                <string>del:ip</string>
-            </attr>
-            <attr name="layout">
-                <string>487 -11 216 127 397 127 397 173 11</string>
-            </attr>
-        </edge>
         <edge to="n10" from="n3">
             <attr name="label">
                 <string>next</string>
-            </attr>
-        </edge>
-        <edge to="n6" from="n7">
-            <attr name="label">
-                <string>new:top</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>call</string>
             </attr>
         </edge>
         <edge to="n5" from="n3">
@@ -141,32 +204,12 @@
                 <string>typeSpec</string>
             </attr>
             <attr name="layout">
-                <string>309 -29 390 205 390 226 390 266 11</string>
+                <string>309 -29 403 189 390 226 390 266 11</string>
             </attr>
         </edge>
-        <edge to="n6" from="n6">
+        <edge to="n8" from="n8">
             <attr name="label">
-                <string>Cell</string>
-            </attr>
-        </edge>
-        <edge to="n10" from="n11">
-            <attr name="label">
-                <string>new:ip</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n9" from="n9">
-            <attr name="label">
-                <string>System</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n6">
-            <attr name="label">
-                <string>next</string>
+                <string>type:Namespace</string>
             </attr>
         </edge>
         <edge to="n5" from="n8">
@@ -174,49 +217,9 @@
                 <string>contains</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>Instruction</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n7">
-            <attr name="label">
-                <string>top</string>
-            </attr>
-        </edge>
-        <edge to="n4" from="n4">
-            <attr name="label">
-                <string>ObjectVal</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>Identifier</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>Object</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>Class</string>
-            </attr>
-        </edge>
         <edge to="n9" from="n8">
             <attr name="label">
                 <string>name</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n7">
-            <attr name="label">
-                <string>Stack</string>
             </attr>
         </edge>
     </graph>
