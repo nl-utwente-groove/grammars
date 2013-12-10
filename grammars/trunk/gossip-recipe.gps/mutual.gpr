@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="mutual">
-        <attr name="priority">
-            <string>4</string>
-        </attr>
         <attr name="remark">
             <string>Reveals mutual secrets between two connected girls</string>
         </attr>
@@ -38,9 +35,14 @@
                 <string>type:Secret</string>
             </attr>
         </edge>
-        <edge to="n0" from="n1">
+        <edge to="n2" from="n1">
             <attr name="label">
-                <string>knows</string>
+                <string>phones</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n1">
+            <attr name="label">
+                <string>new:knows</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -53,25 +55,17 @@
                 <string>not:knows</string>
             </attr>
             <attr name="layout">
-                <string>500 0 145 154 136 66 210 60 11</string>
+                <string>500 0 130 152 136 66 210 60 11</string>
             </attr>
         </edge>
-        <edge to="n3" from="n1">
+        <edge to="n0" from="n1">
             <attr name="label">
-                <string>new:knows</string>
+                <string>knows</string>
             </attr>
         </edge>
-        <edge to="n2" from="n1">
+        <edge to="n3" from="n2">
             <attr name="label">
-                <string>phones</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>not:knows</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 310 156 304 237 207 242 11</string>
+                <string>knows</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
@@ -79,9 +73,12 @@
                 <string>type:Girl</string>
             </attr>
         </edge>
-        <edge to="n3" from="n2">
+        <edge to="n0" from="n2">
             <attr name="label">
-                <string>knows</string>
+                <string>not:knows</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 295 154 304 237 207 242 11</string>
             </attr>
         </edge>
         <edge to="n0" from="n2">

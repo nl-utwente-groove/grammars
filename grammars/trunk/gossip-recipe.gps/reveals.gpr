@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="reveals">
-        <attr name="priority">
-            <string>3</string>
-        </attr>
         <attr name="remark">
             <string>Reveals a secret in one direction</string>
         </attr>
@@ -33,6 +30,11 @@
                 <string>type:Secret</string>
             </attr>
         </edge>
+        <edge to="n2" from="n1">
+            <attr name="label">
+                <string>phones</string>
+            </attr>
+        </edge>
         <edge to="n1" from="n1">
             <attr name="label">
                 <string>type:Girl</string>
@@ -43,9 +45,9 @@
                 <string>knows</string>
             </attr>
         </edge>
-        <edge to="n2" from="n1">
+        <edge to="n2" from="n2">
             <attr name="label">
-                <string>phones</string>
+                <string>type:Girl</string>
             </attr>
         </edge>
         <edge to="n0" from="n2">
@@ -53,12 +55,7 @@
                 <string>not:knows</string>
             </attr>
             <attr name="layout">
-                <string>500 0 294 92 288 173 191 178 11</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>type:Girl</string>
+                <string>500 0 279 90 288 173 191 178 11</string>
             </attr>
         </edge>
         <edge to="n0" from="n2">
