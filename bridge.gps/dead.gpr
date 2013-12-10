@@ -1,83 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="dead">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
         <attr name="priority">
             <string>101</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n5555">
-            <attr name="layout">
-                <string>122 399 30 15</string>
-            </attr>
-        </node>
-        <node id="n5554">
-            <attr name="layout">
-                <string>285 367 20 15</string>
-            </attr>
-        </node>
-        <node id="n5553">
-            <attr name="layout">
-                <string>172 315 28 15</string>
-            </attr>
-        </node>
         <node id="n5557">
             <attr name="layout">
-                <string>277 273 24 15</string>
+                <string>86 107 94 30</string>
             </attr>
         </node>
-        <node id="n5556">
+        <node id="n0">
             <attr name="layout">
-                <string>114 206 48 15</string>
+                <string>69 49 323 15</string>
             </attr>
         </node>
-        <edge to="n5556" from="n5553">
+        <edge to="n5557" from="n5557">
             <attr name="label">
-                <string>int:gt</string>
-            </attr>
-        </edge>
-        <edge to="n5555" from="n5553">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge to="n5553" from="n5553">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge to="n5554" from="n5557">
-            <attr name="label">
-                <string>elapsed</string>
+                <string>type:Time</string>
             </attr>
         </edge>
         <edge to="n5557" from="n5557">
             <attr name="label">
-                <string>time</string>
+                <string>test:int:gt(int:self.elapsed, int:30)</string>
             </attr>
         </edge>
-        <edge to="n5556" from="n5556">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>bool:true</string>
+                <string>rem:</string>
             </attr>
         </edge>
-        <edge to="n5555" from="n5555">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>int:30</string>
-            </attr>
-        </edge>
-        <edge to="n5554" from="n5553">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge to="n5554" from="n5554">
-            <attr name="label">
-                <string>attr:</string>
+                <string>rem:The game is lost when more than 30 seconds have passed</string>
             </attr>
         </edge>
     </graph>
