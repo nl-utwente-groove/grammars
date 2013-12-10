@@ -1,95 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="movePacman">
-        <node id="n0">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n5">
             <attr name="layout">
-                <string>305 193 8 16</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>146 62 26 16</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>307 293 8 16</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>156 198 49 16</string>
+                <string>389 292 8 15</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>414 204 61 32</string>
+                <string>426 212 36 15</string>
             </attr>
         </node>
-        <node id="n5">
+        <node id="n1">
             <attr name="layout">
-                <string>389 292 8 16</string>
+                <string>157 198 47 15</string>
             </attr>
         </node>
-        <edge to="n1" from="n3">
-            <attr name="label">
-                <string>dummy</string>
+        <node id="n4">
+            <attr name="layout">
+                <string>307 293 8 15</string>
             </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>type:P</string>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>139 47 69 45</string>
             </attr>
-        </edge>
-        <edge to="n4" from="n0">
-            <attr name="label">
-                <string>m</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>305 193 8 15</string>
             </attr>
-        </edge>
-        <edge to="n4" from="n1">
-            <attr name="label">
-                <string>new:at</string>
-            </attr>
-        </edge>
+        </node>
         <edge to="n5" from="n5">
             <attr name="label">
                 <string>type:P</string>
             </attr>
         </edge>
-        <edge to="n3" from="n3">
+        <edge to="n4" from="n5">
             <attr name="label">
-                <string>del:flag:pacTurn</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 164 73 236 96 236 50 164 73 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n1">
-            <attr name="label">
-                <string>del:at</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>new:flag:ghostTurn</string>
-            </attr>
-            <attr name="layout">
-                <string>500 0 164 73 236 96 236 50 164 73 12</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n2">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>type:Turn</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Pacman</string>
+                <string>m</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
@@ -102,12 +69,57 @@
                 <string>not:type:Ghost</string>
             </attr>
         </edge>
+        <edge to="n5" from="n2">
+            <attr name="label">
+                <string>at</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Pacman</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>del:at</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n1">
+            <attr name="label">
+                <string>new:at</string>
+            </attr>
+        </edge>
         <edge to="n4" from="n4">
             <attr name="label">
                 <string>type:P</string>
             </attr>
         </edge>
-        <edge to="n4" from="n5">
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>type:Turn</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>del:flag:pacTurn</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>new:flag:ghostTurn</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n3">
+            <attr name="label">
+                <string>dummy</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>type:P</string>
+            </attr>
+        </edge>
+        <edge to="n4" from="n0">
             <attr name="label">
                 <string>m</string>
             </attr>

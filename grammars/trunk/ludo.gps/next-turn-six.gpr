@@ -1,99 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="next-turn-six">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
         <attr name="priority">
             <string>5</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
         </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0">
+        <node id="n5">
             <attr name="layout">
-                <string>380 49 22 14</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>129 119 22 14</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>197 102 26 14</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>310 189 44 14</string>
+                <string>116 29 37 45</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>42 116 15 14</string>
+                <string>40 115 19 15</string>
             </attr>
         </node>
-        <node id="n5">
+        <node id="n1">
             <attr name="layout">
-                <string>120 45 30 14</string>
+                <string>320 188 23 15</string>
             </attr>
         </node>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>type:Die</string>
+        <node id="n4">
+            <attr name="layout">
+                <string>200 99 19 19</string>
             </attr>
-        </edge>
-        <edge to="n3" from="n4">
-            <attr name="label">
-                <string>arg:1</string>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>131 118 17 15</string>
             </attr>
-        </edge>
-        <edge to="n1" from="n4">
-            <attr name="label">
-                <string>int:eq</string>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>387 48 7 15</string>
             </attr>
-        </edge>
+        </node>
         <edge to="n5" from="n5">
             <attr name="label">
                 <string>type:Player</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n4">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>int:6</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n2">
-            <attr name="label">
-                <string>del:dots</string>
-            </attr>
-        </edge>
-        <edge to="n3" from="n3">
-            <attr name="label">
-                <string>attr:</string>
-            </attr>
-        </edge>
-        <edge to="n5" from="n5">
-            <attr name="label">
-                <string>new:flag:turn</string>
-            </attr>
-            <attr name="layout">
-                <string>901 13 140 55 87 68 87 40 140 55 12</string>
             </attr>
         </edge>
         <edge to="n5" from="n5">
             <attr name="label">
                 <string>del:flag:done</string>
             </attr>
-            <attr name="layout">
-                <string>942 -17 140 55 191 73 193 37 140 55 12</string>
+        </edge>
+        <edge to="n5" from="n5">
+            <attr name="label">
+                <string>new:flag:turn</string>
+            </attr>
+        </edge>
+        <edge to="n2" from="n2">
+            <attr name="label">
+                <string>type:Die</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n2">
+            <attr name="label">
+                <string>del:dots</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -104,6 +82,31 @@
         <edge to="n4" from="n4">
             <attr name="label">
                 <string>prod:</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n4">
+            <attr name="label">
+                <string>int:eq</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n4">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n4">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge to="n3" from="n3">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>int:6</string>
             </attr>
         </edge>
     </graph>

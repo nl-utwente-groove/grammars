@@ -1,30 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph edgemode="directed" edgeids="false" role="rule" id="cannot-move">
+        <attr name="transitionLabel">
+            <string></string>
+        </attr>
+        <attr name="enabled">
+            <string>true</string>
+        </attr>
+        <attr name="priority">
+            <string>0</string>
+        </attr>
+        <attr name="printFormat">
+            <string></string>
+        </attr>
+        <attr name="remark">
+            <string></string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>130 111 30 14</string>
+                <string>125 95 40 45</string>
             </attr>
         </node>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>del:flag:move</string>
+                <string>type:Player</string>
             </attr>
-            <attr name="layout">
-                <string>1123 17 130 126 95 136 92 99 130 113 12</string>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>del:flag:move</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>new:flag:done</string>
-            </attr>
-            <attr name="layout">
-                <string>1045 -20 170 125 203 134 203 98 170 112 12</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>type:Player</string>
             </attr>
         </edge>
     </graph>
