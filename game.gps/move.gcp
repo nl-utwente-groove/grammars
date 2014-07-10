@@ -1,0 +1,5 @@
+recipe move(out int count) priority 1 {
+	throw(out count);
+	#step;
+	empty;
+}
