@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="turn-defined">
-        <attr name="actionRole">
-            <string>invariant</string>
-        </attr>
-        <attr name="remark">
-            <string>Specifies that it should always be someone's turn</string>
-        </attr>
+    <graph edgemode="directed" edgeids="false" role="type" id="boards.type">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>106 70 19 19</string>
+                <string>249 110 41 30</string>
             </attr>
         </node>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>flag:turn</string>
+                <string>type:Pos</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>type:Player</string>
+                <string>next</string>
             </attr>
         </edge>
     </graph>

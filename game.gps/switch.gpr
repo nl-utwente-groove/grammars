@@ -4,6 +4,9 @@
         <attr name="priority">
             <string>1</string>
         </attr>
+        <attr name="remark">
+            <string>Change turns</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -22,14 +25,14 @@
                 <string>142 156 54 30</string>
             </attr>
         </node>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>type:Player</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n0">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">

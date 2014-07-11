@@ -4,6 +4,9 @@
         <attr name="actionRole">
             <string>forbidden</string>
         </attr>
+        <attr name="remark">
+            <string>Specifies that one player is on a position owned by the other</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -27,14 +30,14 @@
                 <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n0" from="n1">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
         <edge to="n1" from="n1">
             <attr name="label">
                 <string>type:Player</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>on</string>
             </attr>
         </edge>
         <edge to="n2" from="n1">
