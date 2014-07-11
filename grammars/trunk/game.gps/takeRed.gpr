@@ -4,6 +4,9 @@
         <attr name="priority">
             <string>2</string>
         </attr>
+        <attr name="remark">
+            <string>Red player takes possession of a position</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -27,14 +30,9 @@
                 <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n0" from="n0">
+        <edge to="n1" from="n0">
             <attr name="label">
-                <string>type:Player</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>flag:turn</string>
+                <string>on</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
@@ -42,14 +40,19 @@
                 <string>cnew:owns</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>on</string>
+                <string>type:Player</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>flag:red</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>flag:turn</string>
             </attr>
         </edge>
     </graph>

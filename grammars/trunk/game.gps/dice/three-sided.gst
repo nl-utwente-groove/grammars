@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="empty">
-        <attr name="remark">
-            <string>Tests if the player whose turn it is is on a position he does not own</string>
-        </attr>
+    <graph edgemode="directed" edgeids="false" role="graph" id="dice.three-sided">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>84 71 37 30</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>94 171 22 15</string>
+                <string>66 45 57 75</string>
             </attr>
         </node>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>flag:turn</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n0">
-            <attr name="label">
-                <string>on</string>
+                <string>type:Die</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>type:Player</string>
+                <string>let:eyes = 1</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>not:owns</string>
+                <string>let:eyes = 2</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>type:Pos</string>
+                <string>let:eyes = 3</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>let:throw = 0</string>
             </attr>
         </edge>
     </graph>

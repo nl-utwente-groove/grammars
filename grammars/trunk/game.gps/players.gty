@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="throw">
+    <graph edgemode="directed" edgeids="false" role="type" id="players">
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n2">
+        <node id="n0">
             <attr name="layout">
-                <string>235 51 14 30</string>
+                <string>249 110 41 30</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>353 126 17 30</string>
+                <string>98 92 37 60</string>
             </attr>
         </node>
-        <node id="n0">
-            <attr name="layout">
-                <string>160 126 19 30</string>
-            </attr>
-        </node>
-        <edge to="n2" from="n2">
+        <edge to="n0" from="n0">
             <attr name="label">
-                <string>int:</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>par:0</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>int:</string>
+                <string>import:</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
-                <string>type:Die</string>
+                <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>new:throw</string>
+                <string>type:Player</string>
             </attr>
         </edge>
-        <edge to="n2" from="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>del:throw</string>
+                <string>flag:blue</string>
             </attr>
         </edge>
-        <edge to="n1" from="n0">
+        <edge to="n1" from="n1">
             <attr name="label">
-                <string>eyes</string>
+                <string>flag:red</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>flag:turn</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n1">
+            <attr name="label">
+                <string>owns</string>
             </attr>
         </edge>
     </graph>

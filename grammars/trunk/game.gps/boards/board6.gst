@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="graph" id="start">
+    <graph edgemode="directed" edgeids="false" role="graph" id="boards.board6">
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -24,29 +24,14 @@
                 <string>478 71 22 15</string>
             </attr>
         </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>216 162 37 30</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>213 53 37 45</string>
-            </attr>
-        </node>
-        <node id="n0">
-            <attr name="layout">
-                <string>66 45 57 75</string>
-            </attr>
-        </node>
         <node id="n7">
             <attr name="layout">
-                <string>358 171 22 15</string>
+                <string>328 171 82 15</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>355 69 22 15</string>
+                <string>326 69 80 15</string>
             </attr>
         </node>
         <edge to="n6" from="n6">
@@ -74,12 +59,12 @@
                 <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n5" from="n4">
+        <edge to="n3" from="n4">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n3" from="n4">
+        <edge to="n5" from="n4">
             <attr name="label">
                 <string>next</string>
             </attr>
@@ -89,99 +74,24 @@
                 <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n6" from="n3">
-            <attr name="label">
-                <string>next</string>
-            </attr>
-        </edge>
         <edge to="n5" from="n3">
             <attr name="label">
                 <string>next</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n6" from="n3">
             <attr name="label">
-                <string>color:0,0,255</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>type:Player</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>flag:blue</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n2">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge to="n7" from="n2">
-            <attr name="label">
-                <string>owns</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>color:255,0,0</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Player</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>flag:red</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>flag:turn</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n1">
-            <attr name="label">
-                <string>on</string>
-            </attr>
-        </edge>
-        <edge to="n8" from="n1">
-            <attr name="label">
-                <string>owns</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>type:Die</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>let:eyes = 1</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>let:eyes = 2</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>let:eyes = 3</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>let:throw = 0</string>
+                <string>next</string>
             </attr>
         </edge>
         <edge to="n7" from="n7">
             <attr name="label">
                 <string>color:0,0,255</string>
+            </attr>
+        </edge>
+        <edge to="n7" from="n7">
+            <attr name="label">
+                <string>id:startBlue</string>
             </attr>
         </edge>
         <edge to="n7" from="n7">
@@ -197,6 +107,11 @@
         <edge to="n8" from="n8">
             <attr name="label">
                 <string>color:255,0,0</string>
+            </attr>
+        </edge>
+        <edge to="n8" from="n8">
+            <attr name="label">
+                <string>id:startRed</string>
             </attr>
         </edge>
         <edge to="n8" from="n8">

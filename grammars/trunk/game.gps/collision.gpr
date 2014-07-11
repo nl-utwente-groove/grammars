@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="type" id="type">
+    <graph edgemode="directed" edgeids="false" role="rule" id="collision">
+        <attr name="actionRole">
+            <string>forbidden</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <attr name="remark">
+            <string>Expresses that a position has more than one owner</string>
+        </attr>
         <node id="n2">
             <attr name="layout">
-                <string>91 20 58 45</string>
+                <string>160 189 37 15</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>98 92 37 60</string>
+                <string>41 192 37 15</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>249 110 41 30</string>
+                <string>106 76 22 15</string>
             </attr>
         </node>
         <edge to="n2" from="n2">
             <attr name="label">
-                <string>type:Die</string>
+                <string>type:Player</string>
             </attr>
         </edge>
-        <edge to="n2" from="n2">
+        <edge to="n0" from="n2">
             <attr name="label">
-                <string>int:eyes</string>
-            </attr>
-        </edge>
-        <edge to="n2" from="n2">
-            <attr name="label">
-                <string>int:throw</string>
+                <string>on</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
@@ -39,39 +40,19 @@
                 <string>type:Player</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>flag:blue</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>flag:red</string>
-            </attr>
-        </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>flag:turn</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n1">
             <attr name="label">
                 <string>on</string>
             </attr>
         </edge>
-        <edge to="n0" from="n1">
+        <edge to="n2" from="n1">
             <attr name="label">
-                <string>owns</string>
+                <string>!=</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>type:Pos</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>next</string>
             </attr>
         </edge>
     </graph>

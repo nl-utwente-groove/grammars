@@ -4,6 +4,9 @@
         <attr name="actionRole">
             <string>forbidden</string>
         </attr>
+        <attr name="remark">
+            <string>Expresses that a position has more than one owner</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -27,11 +30,6 @@
                 <string>type:Pos</string>
             </attr>
         </edge>
-        <edge to="n1" from="n1">
-            <attr name="label">
-                <string>type:Player</string>
-            </attr>
-        </edge>
         <edge to="n0" from="n1">
             <attr name="label">
                 <string>owns</string>
@@ -40,6 +38,11 @@
         <edge to="n2" from="n1">
             <attr name="label">
                 <string>!=</string>
+            </attr>
+        </edge>
+        <edge to="n1" from="n1">
+            <attr name="label">
+                <string>type:Player</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
