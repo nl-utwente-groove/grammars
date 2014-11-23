@@ -7,5 +7,5 @@ recipe move(out int count) priority 1 {
 	// step as long as the die throw specifies
 	alap { decrement; step; }
 	// the move is only valid if we are now on an empty position
-	empty;
+	available;
 }

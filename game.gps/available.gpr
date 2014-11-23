@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph edgemode="directed" edgeids="false" role="rule" id="empty">
+    <graph edgemode="directed" edgeids="false" role="rule" id="available">
         <attr name="remark">
             <string>Tests if the player whose turn it is is on a position he does not own</string>
         </attr>
@@ -17,14 +17,9 @@
                 <string>94 171 22 15</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>flag:turn</string>
-            </attr>
-        </edge>
         <edge to="n1" from="n0">
             <attr name="label">
-                <string>on</string>
+                <string>not:owns</string>
             </attr>
         </edge>
         <edge to="n0" from="n0">
@@ -34,7 +29,12 @@
         </edge>
         <edge to="n1" from="n0">
             <attr name="label">
-                <string>not:owns</string>
+                <string>on</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>flag:turn</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">
