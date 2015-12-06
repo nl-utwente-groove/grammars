@@ -4,14 +4,11 @@
         <attr name="priority">
             <string>1</string>
         </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <attr name="remark">
             <string>Breaks the connection</string>
-        </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <attr name="$version">
-            <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
@@ -38,7 +35,7 @@
                 <string>del:phones</string>
             </attr>
             <attr name="layout">
-                <string>500 0 316 122 239 79 163 121 12</string>
+                <string>500 0 303 119 239 79 150 118 12</string>
             </attr>
         </edge>
         <edge to="n1" from="n1">

@@ -4,28 +4,28 @@
         <attr name="priority">
             <string>3</string>
         </attr>
+        <attr name="actionRole">
+            <string>transformer</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
         <attr name="remark">
             <string>Reveals a secret in one direction</string>
         </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
-        <attr name="$version">
-            <string>curly</string>
-        </attr>
         <node id="n0">
             <attr name="layout">
-                <string>166 169 31 14</string>
+                <string>162 168 39 15</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>107 81 15 14</string>
+                <string>105 80 19 15</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>272 83 15 14</string>
+                <string>270 82 19 15</string>
             </attr>
         </node>
         <edge to="n0" from="n0">
@@ -52,18 +52,15 @@
             <attr name="label">
                 <string>not:knows</string>
             </attr>
-            <attr name="layout">
-                <string>500 0 294 92 288 173 191 178 11</string>
+        </edge>
+        <edge to="n0" from="n2">
+            <attr name="label">
+                <string>new:knows</string>
             </attr>
         </edge>
         <edge to="n2" from="n2">
             <attr name="label">
                 <string>type:Girl</string>
-            </attr>
-        </edge>
-        <edge to="n0" from="n2">
-            <attr name="label">
-                <string>new:knows</string>
             </attr>
         </edge>
     </graph>

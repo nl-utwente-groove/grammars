@@ -4,24 +4,16 @@
         <attr name="$version">
             <string>curly</string>
         </attr>
-        <node id="n0">
-            <attr name="layout">
-                <string>159 52 39 31</string>
-            </attr>
-        </node>
         <node id="n1">
             <attr name="layout">
-                <string>153 128 59 31</string>
+                <string>162 193 39 15</string>
             </attr>
         </node>
-        <edge to="n0" from="n0">
-            <attr name="label">
-                <string>phones</string>
-            </attr>
+        <node id="n0">
             <attr name="layout">
-                <string>500 0 179 68 236 87 236 49 179 68 11</string>
+                <string>169 60 19 15</string>
             </attr>
-        </edge>
+        </node>
         <edge to="n1" from="n1">
             <attr name="label">
                 <string>type:Secret</string>
@@ -30,6 +22,14 @@
         <edge to="n0" from="n0">
             <attr name="label">
                 <string>type:Girl</string>
+            </attr>
+        </edge>
+        <edge to="n0" from="n0">
+            <attr name="label">
+                <string>phones</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 178 67 233 67 178 67 11</string>
             </attr>
         </edge>
         <edge to="n1" from="n0">
